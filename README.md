@@ -39,63 +39,37 @@
 
 <br>
 
-<table width="92%" cellpadding="8" cellspacing="0">
+<table width="94%" cellpadding="14" cellspacing="12">
 
 <tr>
 
 <td align="center" width="33%">
 
 <img src="https://img.shields.io/badge/PICT%20PUNE-E0218A?style=for-the-badge">
-
-<br><br>
-
-<b>B.Tech ENTC</b>
-
 <br>
-2024 - 2028
-
-<br><br>
-
-<b>CGPA 8.6 / 10</b>
-
+<b>B.Tech ENTC</b> · 2024 – 2028
 <br>
-HSC 89.83% · SSC 96.40%
+CGPA 8.6/10 · HSC 89.83% · SSC 96.40%
 
 </td>
 
 <td align="center" width="34%">
 
 <img src="https://img.shields.io/badge/MINDSTRIX-FF4F9A?style=for-the-badge">
-
-<br><br>
-
-<b>AI/ML Research & Development Intern</b>
-
-<br><br>
-
-Mar 2026 - Present
-
 <br>
-Pune, India
+<b>AI/ML Research & Development Intern</b>
+<br>
+Mar 2026 – Present · Pune, India
 
 </td>
 
 <td align="center" width="33%">
 
 <img src="https://img.shields.io/badge/FOCUS-C71585?style=for-the-badge">
-
-<br><br>
-
+<br>
 <b>Software Engineering</b>
-
 <br>
-AI / ML
-
-<br>
-Computer Vision
-
-<br>
-DSA & Algorithms
+AI/ML · Computer Vision · DSA & Algorithms
 
 </td>
 
@@ -118,7 +92,7 @@ DSA & Algorithms
 
 <br>
 
-<table width="92%" cellpadding="10" cellspacing="0">
+<table width="94%" cellpadding="14" cellspacing="0">
 
 <tr>
 
@@ -142,7 +116,7 @@ I enjoy building practical solutions that use technology to solve real-world pro
 
 My engineering philosophy is simple:
 
-<br><br>
+<br>
 
 <font color="#E0218A" size="4">
 <b>BUILD · EXPERIMENT · DEBUG · IMPROVE</b>
@@ -168,7 +142,7 @@ My engineering philosophy is simple:
 
 <br>
 
-<table width="92%" cellpadding="10" cellspacing="0">
+<table width="94%" cellpadding="14" cellspacing="0">
 
 <tr>
 
@@ -184,7 +158,7 @@ Taking an idea from a problem statement to a working prototype,
 testing it under real constraints, learning from feedback,
 and continuously making the system better.
 
-<br><br>
+<br>
 
 <font color="#E0218A">
 <b>REAL SYSTEMS OVER JUST THEORY</b>
@@ -211,32 +185,20 @@ and continuously making the system better.
 
 <br>
 
-<table width="92%" cellpadding="10" cellspacing="8">
+<table width="94%" cellpadding="14" cellspacing="12">
 
 <tr>
 
 <td width="50%" align="center">
 
 <img src="https://img.shields.io/badge/WINNER-E0218A?style=for-the-badge">
-
-<br><br>
-
-<b>TECHFIESTA 2026</b>
-
 <br>
-
-Agriculture Domain
-
-<br><br>
-
-<b>600+ teams nationwide</b>
-
+<b>TECHFIESTA 2026</b> · Agriculture Domain
 <br>
-
+<font color="#E0218A"><b>600+ teams nationwide</b></font>
+<br>
 Built <b>KrishiSahAI</b>
-
 <br>
-
 AI-powered agricultural advisory platform
 
 </td>
@@ -244,25 +206,15 @@ AI-powered agricultural advisory platform
 <td width="50%" align="center">
 
 <img src="https://img.shields.io/badge/RUNNER--UP-C71585?style=for-the-badge">
-
-<br><br>
-
+<br>
 <b>PUNE AGRI INTERNATIONAL HACKATHON</b>
-
-<br><br>
-
-<b>₹15L Development Grant</b>
-
 <br>
-
+<font color="#E0218A"><b>₹15L Development Grant</b></font>
+<br>
 Built <b>KRISHI-PRABANDH</b>
-
 <br>
-
 AI governance using OCR and satellite NDVI validation
-
-<br><br>
-
+<br>
 Presented to senior government officials
 
 </td>
@@ -286,7 +238,7 @@ Presented to senior government officials
 
 <br>
 
-<table width="92%" cellpadding="10" cellspacing="0">
+<table width="94%" cellpadding="14" cellspacing="0">
 
 <tr>
 
@@ -294,7 +246,7 @@ Presented to senior government officials
 
 <img src="https://img.shields.io/badge/TECHFIESTA_2026_WINNER-E0218A?style=for-the-badge">
 
-<br><br>
+<br>
 
 <h2>
 <a href="https://github.com/Shambhavi500/KrishiSahAI">
@@ -303,9 +255,7 @@ KrishiSahAI
 </h2>
 
 <b>AI AGRICULTURAL ADVISORY PLATFORM</b>
-
-<br><br>
-
+<br>
 Crop recommendations · Soil telemetry · Rural decision support
 
 <br><br>
@@ -341,7 +291,7 @@ Crop recommendations · Soil telemetry · Rural decision support
 
 <br>
 
-<table width="92%" cellpadding="10" cellspacing="8">
+<table width="94%" cellpadding="14" cellspacing="12">
 
 <tr>
 
@@ -349,7 +299,7 @@ Crop recommendations · Soil telemetry · Rural decision support
 
 <img src="https://img.shields.io/badge/GOV--TECH-C71585?style=for-the-badge">
 
-<br><br>
+<br>
 
 <h3>
 <a href="https://github.com/Shambhavi500/KRISHI-PRABANDH">
@@ -358,9 +308,7 @@ KRISHI-PRABANDH
 </h3>
 
 <b>AI AGRICULTURAL GOVERNANCE</b>
-
-<br><br>
-
+<br>
 OCR fraud detection · Land records · Satellite NDVI validation
 
 <br><br>
@@ -373,7 +321,7 @@ OCR fraud detection · Land records · Satellite NDVI validation
 
 <img src="https://img.shields.io/badge/QUANT_RL-E0218A?style=for-the-badge">
 
-<br><br>
+<br>
 
 <h3>
 <a href="https://github.com/Shambhavi500/AlphaTrader-RL">
@@ -382,11 +330,8 @@ AlphaTrader-RL
 </h3>
 
 <b>REINFORCEMENT LEARNING</b>
-
-<br><br>
-
-Trading environment using 5+ years of NSE data
-with a 50-dimensional observation space.
+<br>
+Trading environment using 5+ years of NSE data with a 50-dimensional observation space.
 
 <br><br>
 
@@ -402,7 +347,7 @@ with a 50-dimensional observation space.
 
 <img src="https://img.shields.io/badge/MULTI--AGENT-FF4F9A?style=for-the-badge">
 
-<br><br>
+<br>
 
 <h3>
 <a href="https://github.com/Shambhavi500/Ovio">
@@ -411,11 +356,8 @@ Ovio
 </h3>
 
 <b>AI EDITING WORKFLOW ENGINE</b>
-
-<br><br>
-
-DaVinci Resolve assistant for automated
-timeline operations and editing workflows.
+<br>
+DaVinci Resolve assistant for automated timeline operations and editing workflows.
 
 <br><br>
 
@@ -427,7 +369,7 @@ timeline operations and editing workflows.
 
 <img src="https://img.shields.io/badge/FINTECH-C71585?style=for-the-badge">
 
-<br><br>
+<br>
 
 <h3>
 <a href="https://github.com/Shambhavi500/Aira">
@@ -436,11 +378,8 @@ Aira
 </h3>
 
 <b>AUTONOMOUS REVENUE RECOVERY</b>
-
-<br><br>
-
-Autonomous system for financial reconciliation
-and revenue recovery workflows.
+<br>
+Autonomous system for financial reconciliation and revenue recovery workflows.
 
 <br><br>
 
@@ -456,7 +395,7 @@ and revenue recovery workflows.
 
 <img src="https://img.shields.io/badge/EARTH_OBSERVATION-E0218A?style=for-the-badge">
 
-<br><br>
+<br>
 
 <h3>
 <a href="https://github.com/Shambhavi500/NDVI_satellite">
@@ -465,11 +404,8 @@ NDVI_satellite
 </h3>
 
 <b>SATELLITE INTELLIGENCE</b>
-
-<br><br>
-
-Vegetation index analysis using satellite
-spectral bands and Google Earth Engine.
+<br>
+Vegetation index analysis using satellite spectral bands and Google Earth Engine.
 
 <br><br>
 
@@ -481,14 +417,11 @@ spectral bands and Google Earth Engine.
 
 <img src="https://img.shields.io/badge/EXPLORE_MORE-FF4F9A?style=for-the-badge">
 
-<br><br>
+<br>
 
 <h3>MORE IN THE CODEBASE</h3>
 
-<br>
-
-Experiments across software engineering,
-AI/ML, algorithms and systems.
+Experiments across software engineering, AI/ML, algorithms and systems.
 
 <br><br>
 
@@ -517,37 +450,23 @@ AI/ML, algorithms and systems.
 
 <br>
 
-<table width="92%" cellpadding="10" cellspacing="0">
+<table width="94%" cellpadding="16" cellspacing="0">
 
 <tr>
 
-<td width="20%" align="center">
+<td align="center">
 
-<img src="https://img.shields.io/badge/MAR_2026-E0218A?style=for-the-badge">
-
-<br><br>
-
-<b>PRESENT</b>
-
-</td>
-
-<td width="80%" align="center">
-
-<h3>
-Mindstrix Technologies LLP
-</h3>
-
-<b>AI/ML Research & Development Intern</b>
+<img src="https://img.shields.io/badge/MAR_2026%20--%20PRESENT-E0218A?style=for-the-badge">
 
 <br>
 
-Pune, India
+<h3>Mindstrix Technologies LLP</h3>
+
+<b>AI/ML Research & Development Intern</b> · Pune, India
 
 <br><br>
 
-Working across AI/ML and software development,
-with exposure to data processing, model development,
-system integration and application engineering.
+Working across AI/ML and software development, with exposure to data processing, model development, system integration and application engineering.
 
 </td>
 
@@ -570,20 +489,16 @@ system integration and application engineering.
 
 <br>
 
-<table width="92%" cellpadding="10" cellspacing="8">
+<table width="94%" cellpadding="14" cellspacing="12">
 
 <tr>
 
 <td width="33%" align="center">
 
 <img src="https://img.shields.io/badge/LANGUAGES-E0218A?style=for-the-badge">
-
-<br><br>
-
-C++ · Python · Java
-
 <br>
-
+C++ · Python · Java
+<br>
 JavaScript · TypeScript · C
 
 </td>
@@ -591,40 +506,20 @@ JavaScript · TypeScript · C
 <td width="33%" align="center">
 
 <img src="https://img.shields.io/badge/AI_%2F_ML-FF4F9A?style=for-the-badge">
-
-<br><br>
-
-Machine Learning
-
 <br>
-
-Computer Vision
-
+Machine Learning · Computer Vision
 <br>
-
-Reinforcement Learning
-
-<br>
-
-Multi-Agent Systems
+Reinforcement Learning · Multi-Agent Systems
 
 </td>
 
 <td width="33%" align="center">
 
 <img src="https://img.shields.io/badge/ENGINEERING-C71585?style=for-the-badge">
-
-<br><br>
-
+<br>
 Git · GitHub · Docker
-
 <br>
-
-Android · REST APIs
-
-<br>
-
-GIS · System Development
+Android · REST APIs · GIS · System Development
 
 </td>
 
@@ -657,7 +552,7 @@ width="92%">
 
 <br><br>
 
-<table width="92%" cellspacing="8">
+<table width="92%" cellspacing="10">
 
 <tr>
 
@@ -715,7 +610,7 @@ alt="Top languages">
 
 <br>
 
-<table width="92%" cellpadding="12">
+<table width="94%" cellpadding="16">
 
 <tr>
 
@@ -735,7 +630,7 @@ Currently strengthening my software, AI/ML and DSA fundamentals,
 gaining industry experience through internships, and building
 technically strong projects with real-world impact.
 
-<br><br>
+<br>
 
 <font color="#E0218A">
 <b>BUILDING TODAY FOR THE ENGINEER I WANT TO BECOME.</b>
