@@ -3,29 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shambhavi Patil (@Shambhavi500) - Barbie Haute Couture GitHub Profile Live Preview</title>
+  <title>Shambhavi Patil (@Shambhavi500) - Barbiecore Luxury GitHub Profile Live Preview</title>
   <style>
     body {
       background-color: #FAFAFC; /* Luxury Studio Base */
-      color: #111116;
+      color: #2D2D2D;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       margin: 0;
       padding: 30px 20px 80px 20px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      transition: background-color 0.2s ease, color 0.2s ease;
+      transition: background-color 0.25s ease, color 0.25s ease;
     }
     .debug-panel {
       max-width: 940px;
       width: 100%;
       background: #FFFFFF;
       border: 1px solid rgba(224, 33, 138, 0.25);
-      border-radius: 12px;
+      border-radius: 16px;
       padding: 16px 20px;
       margin-bottom: 30px;
       box-sizing: border-box;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+      box-shadow: 0 8px 24px rgba(224, 33, 138, 0.08);
     }
     .debug-title {
       font-size: 13px;
@@ -47,18 +47,18 @@
     .debug-item {
       background: #FFF5F8;
       padding: 10px 14px;
-      border-radius: 8px;
-      border: 1px solid rgba(224, 33, 138, 0.15);
+      border-radius: 10px;
+      border: 1px solid rgba(224, 33, 138, 0.18);
     }
     .debug-label {
-      color: #7A7A8E;
+      color: #6B7280;
       font-size: 10px;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.06em;
       margin-bottom: 4px;
     }
     .debug-val {
-      color: #111116;
+      color: #2D2D2D;
       font-weight: 700;
       font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
     }
@@ -72,25 +72,35 @@
       display: block;
       margin: 0 auto;
     }
-    table {
+    table.data-table {
       width: 100%;
       border-collapse: collapse;
       margin: 24px 0;
       background: #FFFFFF;
-      border-radius: 8px;
+      border-radius: 12px;
       overflow: hidden;
-      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+      box-shadow: 0 4px 16px rgba(224, 33, 138, 0.06);
     }
-    th, td {
-      border: 1px solid #E2E8F0;
+    table.data-table th, table.data-table td {
+      border: 1px solid rgba(224, 33, 138, 0.15);
       padding: 12px 16px;
       font-size: 13px;
       text-align: left;
     }
-    th {
+    table.data-table th {
       background-color: #FFF5F8;
       color: #E0218A;
       font-weight: 700;
+    }
+    table.project-grid {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 12px;
+      margin: 20px 0;
+    }
+    table.project-grid td {
+      border: none;
+      padding: 0;
     }
     a {
       color: #E0218A;
@@ -110,35 +120,43 @@
       border: 1px solid rgba(224, 33, 138, 0.2);
     }
     h3 {
-      color: #111116;
-      border-bottom: 2px solid #FCE7F3;
+      color: #2D2D2D;
+      border-bottom: 2px solid #FFD1DC;
       padding-bottom: 8px;
       margin-top: 32px;
       font-size: 16px;
+    }
+    .action-bar {
+      margin: 16px 0 24px 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
     }
     .theme-toggle {
       position: fixed;
       top: 15px;
       right: 15px;
-      padding: 8px 16px;
-      background: #E0218A;
+      padding: 8px 18px;
+      background: linear-gradient(135deg, #E0218A, #C71585);
       color: white;
       border: none;
       border-radius: 20px;
       cursor: pointer;
       font-weight: 700;
+      font-size: 12px;
+      letter-spacing: 0.05em;
       z-index: 100;
       box-shadow: 0 4px 14px rgba(224, 33, 138, 0.35);
-      transition: transform 0.1s ease;
+      transition: transform 0.15s ease;
     }
     .theme-toggle:hover {
-      transform: scale(1.04);
-      background: #C71585;
+      transform: scale(1.05);
     }
   </style>
 </head>
 <body>
-  <button class="theme-toggle" onclick="toggleTheme()">Toggle Dark/Light Mode</button>
+  <button class="theme-toggle" onclick="toggleTheme()">✦ Toggle Theme Mode</button>
 
   <!-- Live Dynamic Data Architecture Debug Panel -->
   <div class="debug-panel">
@@ -165,7 +183,7 @@
       </div>
       <div class="debug-item">
         <div class="debug-label">Real Contributions</div>
-        <div class="debug-val">115 Contributions (52 Weeks)</div>
+        <div class="debug-val">117 Contributions (52 Weeks)</div>
       </div>
       <div class="debug-item">
         <div class="debug-label">Public Repositories</div>
@@ -175,73 +193,152 @@
   </div>
 
   <div class="markdown-body" id="content">
-    <!-- Embedded Content In Strict Required Hierarchy -->
     <div style="text-align: center;">
+
       <!-- 01. HERO -->
-      <a href="https://github.com/Shambhavi500"><img src="./assets/hero.svg" alt="Hero"></a>
-      <br><img src="./assets/divider.svg" alt="Divider"><br>
+      <img src="./assets/hero.svg" alt="Shambhavi Patil - Hero Banner" width="100%">
+
+      <!-- INTERACTIVE BARBIECORE ACTION BAR -->
+      <div class="action-bar">
+        <a href="#curated-projects"><img src="https://img.shields.io/badge/%E2%9C%A8_EXPLORE_PROJECTS-E0218A?style=for-the-badge&logoColor=white" alt="Explore Top Projects" /></a>
+        <a href="https://www.linkedin.com/in/shambhavi-patil05/"><img src="https://img.shields.io/badge/%F0%9F%92%BC_CONNECT_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" /></a>
+        <a href="#hackathon-wins"><img src="https://img.shields.io/badge/%F0%9F%8F%86_HACKATHON_WINS-C71585?style=for-the-badge&logoColor=white" alt="Hackathon Honors" /></a>
+        <a href="mailto:shambhavipatil5631@gmail.com"><img src="https://img.shields.io/badge/%F0%9F%93%AC_SEND_EMAIL-2D2D2D?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Shambhavi" /></a>
+        <a href="https://github.com/Shambhavi500?tab=repositories"><img src="https://img.shields.io/badge/%E2%9A%A1_ALL_REPOSITORIES-FFD1DC?style=for-the-badge&labelColor=E0218A&color=FFD1DC" alt="All Repositories" /></a>
+      </div>
+
+      <br><img src="./assets/divider.svg" alt="Divider" width="100%"><br>
 
       <!-- 02. IDENTITY -->
-      <a href="https://github.com/Shambhavi500"><img src="./assets/identity.svg" alt="Identity"></a>
-      <br><img src="./assets/divider.svg" alt="Divider"><br>
+      <img src="./assets/identity.svg" alt="Identity & Strategic Pillars" width="100%">
+      <br><img src="./assets/divider.svg" alt="Divider" width="100%"><br>
 
       <!-- 03. PROMINENT ACHIEVEMENTS -->
-      <a href="https://github.com/Shambhavi500"><img src="./assets/achievements.svg" alt="Achievements"></a>
-      <br><img src="./assets/divider.svg" alt="Divider"><br>
+      <div id="hackathon-wins">
+        <img src="./assets/achievements.svg" alt="Achievements & Honors" width="100%">
+      </div>
+      <br><img src="./assets/divider.svg" alt="Divider" width="100%"><br>
 
       <!-- 04. INTERNSHIP & ACADEMICS -->
-      <a href="https://www.linkedin.com/in/shambhavi-patil05/"><img src="./assets/experience.svg" alt="Experience"></a>
-      <br><img src="./assets/divider.svg" alt="Divider"><br>
+      <a href="https://www.linkedin.com/in/shambhavi-patil05/">
+        <img src="./assets/experience.svg" alt="Experience - Mindstrix & PICT ENTC" width="100%">
+      </a>
+      <br><img src="./assets/divider.svg" alt="Divider" width="100%"><br>
 
-      <!-- 05. FLAGSHIP PROJECTS -->
-      <a href="https://github.com/Shambhavi500?tab=repositories"><img src="./assets/projects.svg" alt="Projects"></a>
+      <!-- 05. FLAGSHIP PROJECTS BANNER -->
+      <div id="curated-projects">
+        <img src="./assets/projects.svg" alt="Projects Header" width="100%">
+      </div>
+      <br>
+
+      <!-- INDIVIDUAL CLICKABLE 1-TO-1 PROJECT CARDS -->
+      <table class="project-grid">
+        <tr>
+          <td width="50%" align="center" valign="top">
+            <a href="https://github.com/Shambhavi500/KrishiSahAI">
+              <img src="./assets/project-01.svg" alt="KrishiSahAI - AGRITECH / AI ADVISORY" width="100%" />
+            </a>
+          </td>
+          <td width="50%" align="center" valign="top">
+            <a href="https://github.com/Shambhavi500/Ovio">
+              <img src="./assets/project-02.svg" alt="Ovio - AI / MULTI-AGENT" width="100%" />
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td width="50%" align="center" valign="top">
+            <a href="https://github.com/Shambhavi500/Aira">
+              <img src="./assets/project-03.svg" alt="Aira - FINTECH / AUTONOMOUS OS" width="100%" />
+            </a>
+          </td>
+          <td width="50%" align="center" valign="top">
+            <a href="https://github.com/Shambhavi500/AlphaTrader-RL">
+              <img src="./assets/project-04.svg" alt="AlphaTrader-RL - QUANT / REINFORCEMENT LEARNING" width="100%" />
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td width="50%" align="center" valign="top">
+            <a href="https://github.com/Shambhavi500/KRISHI-PRABANDH">
+              <img src="./assets/project-05.svg" alt="KRISHI-PRABANDH - GOV-TECH / AGRONOMY" width="100%" />
+            </a>
+          </td>
+          <td width="50%" align="center" valign="top">
+            <a href="https://github.com/Shambhavi500/NDVI_satellite">
+              <img src="./assets/project-06.svg" alt="NDVI_satellite - EARTH OBSERVATION / GIS" width="100%" />
+            </a>
+          </td>
+        </tr>
+      </table>
+
     </div>
 
-    <h3>✦ Dynamically Ranked Atelier Projects</h3>
-    <table>
+    <h3>✦ Curated Atelier Architectures</h3>
+    <table class="data-table">
       <thead>
         <tr><th>Project</th><th>Domain / Category</th><th>Primary Architecture</th><th>Description &amp; Recognition</th></tr>
       </thead>
       <tbody>
-        <tr><td><a href="https://github.com/Shambhavi500/KrishiSahAI"><b>KrishiSahAI</b></a></td><td><code>AGRITECH / AI ADVISORY</code></td><td><b>Python</b></td><td>AI-driven agricultural decision &amp; crop advisory platform recognizing farmer accessibility <code>1ST PLACE · TECHFIESTA '26</code></td></tr>
-        <tr><td><a href="https://github.com/Shambhavi500/Ovio"><b>Ovio</b></a></td><td><code>AI / MULTI-AGENT</code></td><td><b>Python</b></td><td>Autonomous DaVinci Resolve video editing assistant powered by multi-agent orchestration <code>AUTONOMOUS WORKFLOW</code></td></tr>
-        <tr><td><a href="https://github.com/Shambhavi500/Aira"><b>Aira</b></a></td><td><code>FINTECH / AUTONOMOUS</code></td><td><b>TypeScript</b></td><td>Autonomous Revenue Recovery Operating System engineered for the Indian fintech ecosystem <code>SYSTEM ARCHITECTURE</code></td></tr>
-        <tr><td><a href="https://github.com/Shambhavi500/AlphaTrader-RL"><b>AlphaTrader-RL</b></a></td><td><code>QUANT / RL</code></td><td><b>Python</b></td><td>Automated trading execution platform with custom Gymnasium simulation environments <code>FLAGSHIP RL RESEARCH</code></td></tr>
-        <tr><td><a href="https://github.com/Shambhavi500/KRISHI-PRABANDH"><b>KRISHI-PRABANDH</b></a></td><td><code>AI GOVERNANCE / FRAUD</code></td><td><b>TypeScript</b></td><td>AI governance with OCR fraud detection &amp; satellite NDVI validation presented to Maharashtra CM <code>NATIONAL RUNNER-UP · ₹15L GRANT</code></td></tr>
-        <tr><td><a href="https://github.com/Shambhavi500/NDVI_satellite"><b>NDVI_satellite</b></a></td><td><code>EARTH OBSERVATION / GIS</code></td><td><b>JavaScript</b></td><td>Normalized Difference Vegetation Index calculation from multi-spectral satellite imagery <code>SPECTRAL REMOTE SENSING</code></td></tr>
+        <tr><td><a href="https://github.com/Shambhavi500/KrishiSahAI"><b>KrishiSahAI</b></a></td><td><code>AGRITECH / AI ADVISORY</code></td><td><b>Python</b></td><td>Flagship AI agriculture platform for crop recommendations, soil telemetry &amp; rural decision support. <code>1ST PLACE · TECHFIESTA '26</code></td></tr>
+        <tr><td><a href="https://github.com/Shambhavi500/Ovio"><b>Ovio</b></a></td><td><code>AI / MULTI-AGENT</code></td><td><b>Python</b></td><td>Cinema-grade AI DaVinci Resolve editing assistant &amp; multi-agent workflow engine. <code>AUTONOMOUS WORKFLOW</code></td></tr>
+        <tr><td><a href="https://github.com/Shambhavi500/Aira"><b>Aira</b></a></td><td><code>FINTECH / AUTONOMOUS OS</code></td><td><b>TypeScript</b></td><td>Autonomous Revenue Recovery Operating System for Indian fintech ecosystem &amp; payment pipelines. <code>SYSTEM ARCHITECTURE</code></td></tr>
+        <tr><td><a href="https://github.com/Shambhavi500/AlphaTrader-RL"><b>AlphaTrader-RL</b></a></td><td><code>QUANT / REINFORCEMENT LEARNING</code></td><td><b>Python</b></td><td>Gymnasium RL trading environment on 5+ yrs NSE data with 50-dim observation space and Docker. <code>FLAGSHIP RL RESEARCH</code></td></tr>
+        <tr><td><a href="https://github.com/Shambhavi500/KRISHI-PRABANDH"><b>KRISHI-PRABANDH</b></a></td><td><code>GOV-TECH / AGRONOMY</code></td><td><b>Multi-stack</b></td><td>AI governance layer with OCR fraud detection &amp; satellite NDVI spectral validation. <code>NATIONAL RUNNER-UP · ₹15L GRANT</code></td></tr>
+        <tr><td><a href="https://github.com/Shambhavi500/NDVI_satellite"><b>NDVI_satellite</b></a></td><td><code>EARTH OBSERVATION / GIS</code></td><td><b>JavaScript</b></td><td>Vegetation index analysis using satellite spectral bands and Google Earth Engine. <code>SPECTRAL REMOTE SENSING</code></td></tr>
       </tbody>
     </table>
 
     <div style="text-align: center;">
-      <br><img src="./assets/divider.svg" alt="Divider"><br>
+      <br><img src="./assets/divider.svg" alt="Divider" width="100%"><br>
 
       <!-- 06. DASHBOARD -->
-      <a href="https://github.com/Shambhavi500?tab=repositories"><img src="./assets/dashboard.svg" alt="Dashboard"></a>
-      <br><img src="./assets/divider.svg" alt="Divider"><br>
+      <a href="https://github.com/Shambhavi500?tab=repositories">
+        <img src="./assets/dashboard.svg" alt="Dashboard" width="100%">
+      </a>
+      <br><img src="./assets/divider.svg" alt="Divider" width="100%"><br>
 
       <!-- 07. TECH WARDROBE -->
-      <a href="https://github.com/Shambhavi500?tab=repositories"><img src="./assets/tech-wardrobe.svg" alt="Tech Wardrobe"></a>
-      <br><img src="./assets/divider.svg" alt="Divider"><br>
+      <a href="https://github.com/Shambhavi500?tab=repositories">
+        <img src="./assets/tech-wardrobe.svg" alt="Tech Wardrobe" width="100%">
+      </a>
+      <br><img src="./assets/divider.svg" alt="Divider" width="100%"><br>
 
       <!-- 08. DEVELOPER RUNWAY -->
-      <a href="https://github.com/Shambhavi500"><img src="./assets/runway.svg" alt="Runway"></a>
-      <br><img src="./assets/divider.svg" alt="Divider"><br>
+      <img src="./assets/runway.svg" alt="Runway" width="100%">
+      <br><img src="./assets/divider.svg" alt="Divider" width="100%"><br>
 
       <!-- 09. FOOTER -->
-      <a href="mailto:shambhavipatil5631@gmail.com"><img src="./assets/footer.svg" alt="Footer"></a>
+      <a href="mailto:shambhavipatil5631@gmail.com">
+        <img src="./assets/footer.svg" alt="Footer" width="100%">
+      </a>
+
+      <br><br>
+      <a href="https://github.com/Shambhavi500"><img src="https://img.shields.io/badge/GitHub-Shambhavi500-E0218A?style=for-the-badge&logo=github&logoColor=white" style="display:inline; margin: 0 4px;" /></a>
+      <a href="https://www.linkedin.com/in/shambhavi-patil05/"><img src="https://img.shields.io/badge/LinkedIn-Shambhavi_Patil-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="display:inline; margin: 0 4px;" /></a>
+      <a href="mailto:shambhavipatil5631@gmail.com"><img src="https://img.shields.io/badge/Email-shambhavipatil5631%40gmail.com-2D2D2D?style=for-the-badge&logo=gmail&logoColor=white" style="display:inline; margin: 0 4px;" /></a>
+      <a href="https://github.com/Shambhavi500"><img src="https://img.shields.io/badge/Status-AI%2FML_R%26D_Intern_%40Mindstrix-E0218A?style=for-the-badge" style="display:inline; margin: 0 4px;" /></a>
+      <a href="https://github.com/Shambhavi500"><img src="https://img.shields.io/badge/PICT_ENTC-CGPA_8.6-C71585?style=for-the-badge" style="display:inline; margin: 0 4px;" /></a>
+      <br><br>
+
+      <sub style="color: #6B7280;">Curated with intention &amp; precision in the <b>Atelier No. 500</b>. Where Autonomous Intelligence Meets Haute Couture Engineering.</sub>
     </div>
   </div>
 
   <script>
     function toggleTheme() {
       const b = document.body;
-      const m = document.getElementById('content');
-      if (b.style.backgroundColor === 'rgb(255, 255, 255)' || b.style.backgroundColor === 'white') {
-        b.style.backgroundColor = '#0d1117';
-        b.style.color = '#c9d1d9';
+      const debugPanel = document.querySelector('.debug-panel');
+      const dataTable = document.querySelector('.data-table');
+      if (b.style.backgroundColor === 'rgb(15, 13, 21)' || b.style.backgroundColor === '#0f0d15') {
+        b.style.backgroundColor = '#FAFAFC';
+        b.style.color = '#2D2D2D';
+        if (debugPanel) debugPanel.style.background = '#FFFFFF';
+        if (dataTable) dataTable.style.background = '#FFFFFF';
       } else {
-        b.style.backgroundColor = '#ffffff';
-        b.style.color = '#24292f';
+        b.style.backgroundColor = '#0F0D15';
+        b.style.color = '#F3F4F6';
+        if (debugPanel) debugPanel.style.background = '#1E1728';
+        if (dataTable) dataTable.style.background = '#1E1728';
       }
     }
   </script>

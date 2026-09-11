@@ -4,7 +4,7 @@
       <!-- Embedded Styles in XML CDATA -->
       <style type="text/css"><![CDATA[
         .display-title {
-          font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          font-family: 'Montserrat', 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
           font-weight: 800;
           letter-spacing: -0.02em;
         }
@@ -14,12 +14,11 @@
           letter-spacing: 0.08em;
         }
         .editorial-script {
-          font-family: 'Playfair Display', 'Dancing Script', 'Brush Script MT', Georgia, cursive;
-          font-style: italic;
+          font-family: 'Pacifico', 'Cinzel', 'Playfair Display', 'Brush Script MT', cursive, sans-serif;
           letter-spacing: 0.02em;
         }
         .editorial-sans {
-          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          font-family: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
           font-weight: 500;
         }
         .code-mono {
@@ -45,45 +44,38 @@
         }
       ]]></style>
 
-      <!-- Signature Barbie Gradient (Hot Pink to Barbie Pink to Magenta) -->
+      <!-- Signature Barbie Gradient: Hot Pink -> Barbie Pink -> Retro Magenta -->
       <linearGradient id="ach_barbieGrad" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#FF2D87" />
         <stop offset="50%" stop-color="#E0218A" />
-        <stop offset="100%" stop-color="#C2185B" />
+        <stop offset="100%" stop-color="#C71585" />
+      </linearGradient>
+
+      <!-- Dreamhouse Blush Satin Gradient -->
+      <linearGradient id="ach_blushGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FFFFFF" />
+        <stop offset="60%" stop-color="#FFF0F5" />
+        <stop offset="100%" stop-color="#FFD1DC" />
+      </linearGradient>
+
+      <!-- Malibu Cyan Accent Gradient -->
+      <linearGradient id="ach_cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#00B4D8" />
+        <stop offset="100%" stop-color="#0077B6" />
       </linearGradient>
 
       <!-- Card Glass Backdrop Gradient -->
       <linearGradient id="ach_cardGlass" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#151122" stop-opacity="0.94" />
-        <stop offset="100%" stop-color="#0E0B16" stop-opacity="0.97" />
-      </linearGradient>
-
-      <!-- Rose Satin Monogram Gradient -->
-      <linearGradient id="ach_roseSatin" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#2D1124" />
-        <stop offset="100%" stop-color="#1A0D18" />
-      </linearGradient>
-
-      <!-- Light Rose Ambient Surface Gradient -->
-      <linearGradient id="ach_lightSurfaceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" />
-        <stop offset="100%" stop-color="#FFF5F8" />
+        <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.98" />
+        <stop offset="100%" stop-color="#FFF8FA" stop-opacity="0.95" />
       </linearGradient>
 
       <!-- Delicate Pink Hairline Gradient -->
       <linearGradient id="ach_borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FF2D87" stop-opacity="0.45" />
-        <stop offset="40%" stop-color="#FF85C0" stop-opacity="0.20" />
-        <stop offset="70%" stop-color="#CBD5E1" stop-opacity="0.30" />
-        <stop offset="100%" stop-color="#E0218A" stop-opacity="0.35" />
-      </linearGradient>
-
-      <!-- Platinum / Chrome Luxury Accent Gradient -->
-      <linearGradient id="ach_chromeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" />
-        <stop offset="35%" stop-color="#F1F5F9" />
-        <stop offset="70%" stop-color="#CBD5E1" />
-        <stop offset="100%" stop-color="#E2E8F0" />
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.40" />
+        <stop offset="45%" stop-color="#FFD1DC" stop-opacity="0.25" />
+        <stop offset="75%" stop-color="#00B4D8" stop-opacity="0.20" />
+        <stop offset="100%" stop-color="#C71585" stop-opacity="0.35" />
       </linearGradient>
 
       <!-- Winner Gold Accent Gradient -->
@@ -93,16 +85,17 @@
         <stop offset="100%" stop-color="#D97706" />
       </linearGradient>
 
-      <!-- Soft Ambient Radial Aura (Haute Dark Mode) -->
-      <radialGradient id="ach_radialAura" cx="80%" cy="10%" r="70%">
-        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.14" />
-        <stop offset="40%" stop-color="#FF2D87" stop-opacity="0.06" />
-        <stop offset="100%" stop-color="#0D0B14" stop-opacity="0" />
+      <!-- Soft Ambient Radial Aura -->
+      <radialGradient id="ach_radialAura" cx="85%" cy="15%" r="75%">
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.12" />
+        <stop offset="35%" stop-color="#FFD1DC" stop-opacity="0.08" />
+        <stop offset="70%" stop-color="#00B4D8" stop-opacity="0.03" />
+        <stop offset="100%" stop-color="#FAFAFC" stop-opacity="0" />
       </radialGradient>
 
-      <!-- Card Soft Shadow Filter -->
-      <filter id="ach_cardShadow" x="-5%" y="-5%" width="110%" height="115%">
-        <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#E0218A" flood-opacity="0.06" />
+      <!-- Glam Drop Shadow Filter -->
+      <filter id="ach_cardShadow" x="-10%" y="-10%" width="120%" height="125%">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#E0218A" flood-opacity="0.14" />
       </filter>
 
       <!-- Subtle Plaque Glow Filter -->
@@ -110,31 +103,26 @@
         <feGaussianBlur stdDeviation="4" result="blur" />
         <feComposite in="SourceGraphic" in2="blur" operator="over" />
       </filter>
-
-      <filter id="ach_glowFilter" x="-20%" y="-20%" width="140%" height="140%">
-        <feGaussianBlur stdDeviation="6" result="blur" />
-        <feComposite in="SourceGraphic" in2="blur" operator="over" />
-      </filter>
     </defs>
   
     
     <!-- Light Studio Canvas Base -->
-    <rect width="940" height="370" rx="16" fill="#FAFAFC" />
-    <rect width="940" height="370" rx="16" fill="url(#ach_radialAura)" />
+    <rect width="940" height="370" rx="24" fill="#FAFAFC" />
+    <rect width="940" height="370" rx="24" fill="url(#ach_radialAura)" />
 
-    <!-- Outer Structural Frame with Soft Shadow -->
-    <rect x="16" y="16" width="908" height="338" rx="14"
-          fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.18)" stroke-width="1" filter="url(#ach_cardShadow)" />
+    <!-- Outer Structural Frame with Soft Glam Shadow -->
+    <rect x="16" y="16" width="908" height="338" rx="24"
+          fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="1" filter="url(#ach_cardShadow)" />
 
     <!-- Section Header Tag -->
     <g transform="translate(40, 42)">
-      <text x="0" y="0" class="code-mono" font-size="10.5" font-weight="700" fill="#E0218A" letter-spacing="0.14em">
+      <text x="0" y="0" class="code-mono" font-size="10.5" font-weight="700" fill="#C71585" letter-spacing="0.14em">
         THE WINS // HACKATHONS &amp; ENGINEERING HONORS
       </text>
     </g>
 
     <g transform="translate(900, 42)">
-      <text x="0" y="0" text-anchor="end" class="code-mono" font-size="9" fill="#7A7A8E" letter-spacing="0.1em">
+      <text x="0" y="0" text-anchor="end" class="code-mono" font-size="9" fill="#6B7280" letter-spacing="0.1em">
         OFFICIALLY ACCREDITED · <tspan fill="#00E676" font-weight="700">● VERIFIED MILESTONES</tspan>
       </text>
     </g>
@@ -146,15 +134,15 @@
     
         <!-- Plaque Card 01 -->
         <g transform="translate(40, 72)">
-          <!-- Card Base -->
-          <rect x="0" y="0" width="203" height="270" rx="14"
-                fill="#FFFFFF" stroke="#FF2D87" stroke-width="1.5" />
+          <!-- Card Base with 20px Radius -->
+          <rect x="0" y="0" width="203" height="270" rx="20"
+                fill="#FFFFFF" stroke="#E0218A" stroke-width="1.5" />
 
           <!-- Top Accent Ribbon -->
           <rect x="0" y="0" width="203" height="4" rx="2" fill="url(#ach_barbieGrad)" />
 
           <!-- Plaque Number '01' -->
-          <text x="18" y="32" class="display-title" font-size="16" font-weight="800" fill="#FF2D87">
+          <text x="18" y="32" class="display-title" font-size="16" font-weight="800" fill="#E0218A">
             01
           </text>
 
@@ -167,17 +155,17 @@
           <line x1="18" y1="44" x2="185" y2="44" stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
 
           <!-- Event Name -->
-          <text x="18" y="70" class="display-title" font-size="13" font-weight="800" fill="#111116" letter-spacing="0.02em">
+          <text x="18" y="70" class="display-title" font-size="13" font-weight="800" fill="#2D2D2D" letter-spacing="0.02em">
             TECHFIESTA &apos;26
           </text>
 
           <!-- Place / Ranking -->
-          <text x="18" y="92" class="code-mono" font-size="10.5" font-weight="800" fill="#FF2D87" letter-spacing="0.05em">
+          <text x="18" y="92" class="code-mono" font-size="10.5" font-weight="800" fill="#E0218A" letter-spacing="0.05em">
             1ST PLACE
           </text>
 
           <!-- Domain -->
-          <text x="18" y="112" class="code-mono" font-size="8.5" font-weight="600" fill="#7A7A8E" letter-spacing="0.06em">
+          <text x="18" y="112" class="code-mono" font-size="8.5" font-weight="600" fill="#6B7280" letter-spacing="0.06em">
             AGRICULTURE DOMAIN
           </text>
 
@@ -185,22 +173,22 @@
           <line x1="18" y1="130" x2="185" y2="130" stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
 
           <!-- Associated Project -->
-          <text x="18" y="156" class="code-mono" font-size="8.5" fill="#7A7A8E" letter-spacing="0.06em">
+          <text x="18" y="156" class="code-mono" font-size="8.5" fill="#6B7280" letter-spacing="0.06em">
             PROJECT
           </text>
-          <text x="18" y="174" class="editorial-sans" font-size="13" font-weight="700" fill="#111116">
+          <text x="18" y="174" class="editorial-sans" font-size="13" font-weight="700" fill="#2D2D2D">
             KrishiSahAI
           </text>
 
           <!-- Competition Scale / Metric -->
-          <text x="18" y="200" class="code-mono" font-size="11" font-weight="700" fill="#4A4A58">
+          <text x="18" y="200" class="code-mono" font-size="11" font-weight="700" fill="#2D2D2D">
             600+ teams
           </text>
 
           <!-- Badge Pill -->
           <g transform="translate(18, 222)">
             <rect x="0" y="0" width="167" height="26" rx="13"
-                  fill="#FF2D87" stroke="#FF2D87" stroke-width="0.8" />
+                  fill="url(#ach_barbieGrad)" stroke="#E0218A" stroke-width="0.8" />
             <text x="83.5" y="17" text-anchor="middle"
                   class="code-mono" font-size="9" font-weight="800" fill="#FFFFFF" letter-spacing="0.1em">
               [WINNER]
@@ -210,15 +198,15 @@
       
         <!-- Plaque Card 02 -->
         <g transform="translate(259, 72)">
-          <!-- Card Base -->
-          <rect x="0" y="0" width="203" height="270" rx="14"
-                fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.18)" stroke-width="1" />
+          <!-- Card Base with 20px Radius -->
+          <rect x="0" y="0" width="203" height="270" rx="20"
+                fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="1" />
 
           <!-- Top Accent Ribbon -->
-          <rect x="0" y="0" width="203" height="4" rx="2" fill="rgba(224, 33, 138, 0.18)" />
+          <rect x="0" y="0" width="203" height="4" rx="2" fill="rgba(224, 33, 138, 0.22)" />
 
           <!-- Plaque Number '01' -->
-          <text x="18" y="32" class="display-title" font-size="16" font-weight="800" fill="#E0218A">
+          <text x="18" y="32" class="display-title" font-size="16" font-weight="800" fill="#C71585">
             02
           </text>
 
@@ -231,17 +219,17 @@
           <line x1="18" y1="44" x2="185" y2="44" stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
 
           <!-- Event Name -->
-          <text x="18" y="70" class="display-title" font-size="13" font-weight="800" fill="#111116" letter-spacing="0.02em">
-            PUNE AGRI HACKATHON
+          <text x="18" y="70" class="display-title" font-size="13" font-weight="800" fill="#2D2D2D" letter-spacing="0.02em">
+            PUNE AGRI INTL HACKATHON
           </text>
 
           <!-- Place / Ranking -->
-          <text x="18" y="92" class="code-mono" font-size="10.5" font-weight="800" fill="#E0218A" letter-spacing="0.05em">
+          <text x="18" y="92" class="code-mono" font-size="10.5" font-weight="800" fill="#C71585" letter-spacing="0.05em">
             NATIONAL RUNNER-UP
           </text>
 
           <!-- Domain -->
-          <text x="18" y="112" class="code-mono" font-size="8.5" font-weight="600" fill="#7A7A8E" letter-spacing="0.06em">
+          <text x="18" y="112" class="code-mono" font-size="8.5" font-weight="600" fill="#6B7280" letter-spacing="0.06em">
             PRECISION AGRITECH
           </text>
 
@@ -249,24 +237,24 @@
           <line x1="18" y1="130" x2="185" y2="130" stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
 
           <!-- Associated Project -->
-          <text x="18" y="156" class="code-mono" font-size="8.5" fill="#7A7A8E" letter-spacing="0.06em">
+          <text x="18" y="156" class="code-mono" font-size="8.5" fill="#6B7280" letter-spacing="0.06em">
             PROJECT
           </text>
-          <text x="18" y="174" class="editorial-sans" font-size="13" font-weight="700" fill="#111116">
+          <text x="18" y="174" class="editorial-sans" font-size="13" font-weight="700" fill="#2D2D2D">
             Krishi Prabandh &amp; NDVI
           </text>
 
           <!-- Competition Scale / Metric -->
-          <text x="18" y="200" class="code-mono" font-size="11" font-weight="700" fill="#4A4A58">
+          <text x="18" y="200" class="code-mono" font-size="11" font-weight="700" fill="#2D2D2D">
             ₹15L grant
           </text>
 
           <!-- Badge Pill -->
           <g transform="translate(18, 222)">
             <rect x="0" y="0" width="167" height="26" rx="13"
-                  fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.18)" stroke-width="0.8" />
+                  fill="#FFD1DC" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
             <text x="83.5" y="17" text-anchor="middle"
-                  class="code-mono" font-size="9" font-weight="800" fill="#E0218A" letter-spacing="0.1em">
+                  class="code-mono" font-size="9" font-weight="800" fill="#C71585" letter-spacing="0.1em">
               [RUNNER-UP]
             </text>
           </g>
@@ -274,15 +262,15 @@
       
         <!-- Plaque Card 03 -->
         <g transform="translate(478, 72)">
-          <!-- Card Base -->
-          <rect x="0" y="0" width="203" height="270" rx="14"
-                fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.18)" stroke-width="1" />
+          <!-- Card Base with 20px Radius -->
+          <rect x="0" y="0" width="203" height="270" rx="20"
+                fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="1" />
 
           <!-- Top Accent Ribbon -->
-          <rect x="0" y="0" width="203" height="4" rx="2" fill="rgba(224, 33, 138, 0.18)" />
+          <rect x="0" y="0" width="203" height="4" rx="2" fill="rgba(224, 33, 138, 0.22)" />
 
           <!-- Plaque Number '01' -->
-          <text x="18" y="32" class="display-title" font-size="16" font-weight="800" fill="#111116">
+          <text x="18" y="32" class="display-title" font-size="16" font-weight="800" fill="#2D2D2D">
             03
           </text>
 
@@ -295,17 +283,17 @@
           <line x1="18" y1="44" x2="185" y2="44" stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
 
           <!-- Event Name -->
-          <text x="18" y="70" class="display-title" font-size="13" font-weight="800" fill="#111116" letter-spacing="0.02em">
+          <text x="18" y="70" class="display-title" font-size="13" font-weight="800" fill="#2D2D2D" letter-spacing="0.02em">
             MULTI-AGENT ARCHITECT
           </text>
 
           <!-- Place / Ranking -->
-          <text x="18" y="92" class="code-mono" font-size="10.5" font-weight="800" fill="#111116" letter-spacing="0.05em">
+          <text x="18" y="92" class="code-mono" font-size="10.5" font-weight="800" fill="#2D2D2D" letter-spacing="0.05em">
             FLAGSHIP AGENT
           </text>
 
           <!-- Domain -->
-          <text x="18" y="112" class="code-mono" font-size="8.5" font-weight="600" fill="#7A7A8E" letter-spacing="0.06em">
+          <text x="18" y="112" class="code-mono" font-size="8.5" font-weight="600" fill="#6B7280" letter-spacing="0.06em">
             AUTONOMOUS WORKFLOWS
           </text>
 
@@ -313,22 +301,22 @@
           <line x1="18" y1="130" x2="185" y2="130" stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
 
           <!-- Associated Project -->
-          <text x="18" y="156" class="code-mono" font-size="8.5" fill="#7A7A8E" letter-spacing="0.06em">
+          <text x="18" y="156" class="code-mono" font-size="8.5" fill="#6B7280" letter-spacing="0.06em">
             PROJECT
           </text>
-          <text x="18" y="174" class="editorial-sans" font-size="13" font-weight="700" fill="#111116">
+          <text x="18" y="174" class="editorial-sans" font-size="13" font-weight="700" fill="#2D2D2D">
             Ovio (DaVinci Resolve)
           </text>
 
           <!-- Competition Scale / Metric -->
-          <text x="18" y="200" class="code-mono" font-size="11" font-weight="700" fill="#4A4A58">
+          <text x="18" y="200" class="code-mono" font-size="11" font-weight="700" fill="#2D2D2D">
             Agentic OS
           </text>
 
           <!-- Badge Pill -->
           <g transform="translate(18, 222)">
             <rect x="0" y="0" width="167" height="26" rx="13"
-                  fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.18)" stroke-width="0.8" />
+                  fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
             <text x="83.5" y="17" text-anchor="middle"
                   class="code-mono" font-size="9" font-weight="800" fill="#E0218A" letter-spacing="0.1em">
               [ARCHITECT]
@@ -338,15 +326,15 @@
       
         <!-- Plaque Card 04 -->
         <g transform="translate(697, 72)">
-          <!-- Card Base -->
-          <rect x="0" y="0" width="203" height="270" rx="14"
-                fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.18)" stroke-width="1" />
+          <!-- Card Base with 20px Radius -->
+          <rect x="0" y="0" width="203" height="270" rx="20"
+                fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="1" />
 
           <!-- Top Accent Ribbon -->
-          <rect x="0" y="0" width="203" height="4" rx="2" fill="rgba(224, 33, 138, 0.18)" />
+          <rect x="0" y="0" width="203" height="4" rx="2" fill="rgba(224, 33, 138, 0.22)" />
 
           <!-- Plaque Number '01' -->
-          <text x="18" y="32" class="display-title" font-size="16" font-weight="800" fill="#111116">
+          <text x="18" y="32" class="display-title" font-size="16" font-weight="800" fill="#2D2D2D">
             04
           </text>
 
@@ -359,17 +347,17 @@
           <line x1="18" y1="44" x2="185" y2="44" stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
 
           <!-- Event Name -->
-          <text x="18" y="70" class="display-title" font-size="13" font-weight="800" fill="#111116" letter-spacing="0.02em">
+          <text x="18" y="70" class="display-title" font-size="13" font-weight="800" fill="#2D2D2D" letter-spacing="0.02em">
             QUANTITATIVE RL LAB
           </text>
 
           <!-- Place / Ranking -->
-          <text x="18" y="92" class="code-mono" font-size="10.5" font-weight="800" fill="#111116" letter-spacing="0.05em">
+          <text x="18" y="92" class="code-mono" font-size="10.5" font-weight="800" fill="#2D2D2D" letter-spacing="0.05em">
             SYSTEMS ENGINE
           </text>
 
           <!-- Domain -->
-          <text x="18" y="112" class="code-mono" font-size="8.5" font-weight="600" fill="#7A7A8E" letter-spacing="0.06em">
+          <text x="18" y="112" class="code-mono" font-size="8.5" font-weight="600" fill="#6B7280" letter-spacing="0.06em">
             ALGORITHMIC TRADING
           </text>
 
@@ -377,22 +365,22 @@
           <line x1="18" y1="130" x2="185" y2="130" stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
 
           <!-- Associated Project -->
-          <text x="18" y="156" class="code-mono" font-size="8.5" fill="#7A7A8E" letter-spacing="0.06em">
+          <text x="18" y="156" class="code-mono" font-size="8.5" fill="#6B7280" letter-spacing="0.06em">
             PROJECT
           </text>
-          <text x="18" y="174" class="editorial-sans" font-size="13" font-weight="700" fill="#111116">
+          <text x="18" y="174" class="editorial-sans" font-size="13" font-weight="700" fill="#2D2D2D">
             AlphaTrader-RL &amp; AIRA
           </text>
 
           <!-- Competition Scale / Metric -->
-          <text x="18" y="200" class="code-mono" font-size="11" font-weight="700" fill="#4A4A58">
+          <text x="18" y="200" class="code-mono" font-size="11" font-weight="700" fill="#2D2D2D">
             5+ Yrs NSE
           </text>
 
           <!-- Badge Pill -->
           <g transform="translate(18, 222)">
             <rect x="0" y="0" width="167" height="26" rx="13"
-                  fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.18)" stroke-width="0.8" />
+                  fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
             <text x="83.5" y="17" text-anchor="middle"
                   class="code-mono" font-size="9" font-weight="800" fill="#E0218A" letter-spacing="0.1em">
               [ALGO LAB]
@@ -411,10 +399,10 @@
         Q 887.36 42.64 884 40
         Q 887.36 37.36 890 34
         Z"
-        fill="#FF2D87"
-        opacity="0.85"
+        fill="#E0218A"
+        opacity="0.88"
       />
-      <circle cx="890" cy="40" r="1.6800000000000002" fill="#FFFFFF" />
+      <circle cx="890" cy="40" r="1.68" fill="#FFFFFF" />
     </g>
   
     
@@ -426,10 +414,10 @@
         Q 497.8 44.2 495 42
         Q 497.8 39.8 500 37
         Z"
-        fill="#FF85C0"
-        opacity="0.85"
+        fill="#FFD1DC"
+        opacity="0.88"
       />
-      <circle cx="500" cy="42" r="1.4000000000000001" fill="#FFFFFF" />
+      <circle cx="500" cy="42" r="1.4" fill="#FFFFFF" />
     </g>
   
   </svg>

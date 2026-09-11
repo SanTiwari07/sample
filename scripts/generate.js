@@ -7,7 +7,7 @@ import { generateIdentitySvg } from '../src/generators/identity.js';
 import { generateAchievementsSvg } from '../src/generators/achievements.js';
 import { generateExperienceSvg } from '../src/generators/experience.js';
 import { generateDashboardSvg } from '../src/generators/dashboard.js';
-import { generateProjectsSvg } from '../src/generators/projects.js';
+import { generateProjectsSvg, generateProjectCardSvg } from '../src/generators/projects.js';
 import { generateTechWardrobeSvg } from '../src/generators/tech-wardrobe.js';
 import { generateRunwaySvg } from '../src/generators/runway.js';
 import { generateFooterSvg } from '../src/generators/footer.js';
@@ -22,7 +22,7 @@ const DATA_FILE = path.join(ROOT_DIR, 'src', 'data', 'profile-data.json');
 
 export async function generateAll() {
   console.log('═══════════════════════════════════════════════════════════════');
-  console.log('✦  ATELIER NO. 500 // BARBIE HAUTE COUTURE PROFILE GENERATOR ✦');
+  console.log('✦  ATELIER NO. 500 // BARBIECORE HAUTE COUTURE GENERATOR     ✦');
   console.log('═══════════════════════════════════════════════════════════════');
 
   if (!fs.existsSync(DATA_FILE)) {
@@ -48,6 +48,16 @@ export async function generateAll() {
     { filename: 'footer.svg', generator: () => generateFooterSvg(profileData) },
     { filename: 'divider.svg', generator: () => generateDividerSvg() }
   ];
+
+  // Add individual project cards
+  const topProjects = (profileData.projects || []).slice(0, 6);
+  topProjects.forEach((p, idx) => {
+    const id = p.id || String(idx + 1).padStart(2, '0');
+    tasks.push({
+      filename: `project-${id}.svg`,
+      generator: () => generateProjectCardSvg(p, idx)
+    });
+  });
 
   console.log('\n[+] Generating Haute Couture SVG Assets...');
   for (const task of tasks) {

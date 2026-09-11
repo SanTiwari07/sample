@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 340" width="100%" height="340" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 380" width="100%" height="380" fill="none">
     
     <defs>
       <!-- Embedded Styles in XML CDATA -->
       <style type="text/css"><![CDATA[
         .display-title {
-          font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          font-family: 'Montserrat', 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
           font-weight: 800;
           letter-spacing: -0.02em;
         }
@@ -14,12 +14,11 @@
           letter-spacing: 0.08em;
         }
         .editorial-script {
-          font-family: 'Playfair Display', 'Dancing Script', 'Brush Script MT', Georgia, cursive;
-          font-style: italic;
+          font-family: 'Pacifico', 'Cinzel', 'Playfair Display', 'Brush Script MT', cursive, sans-serif;
           letter-spacing: 0.02em;
         }
         .editorial-sans {
-          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          font-family: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
           font-weight: 500;
         }
         .code-mono {
@@ -45,45 +44,38 @@
         }
       ]]></style>
 
-      <!-- Signature Barbie Gradient (Hot Pink to Barbie Pink to Magenta) -->
+      <!-- Signature Barbie Gradient: Hot Pink -> Barbie Pink -> Retro Magenta -->
       <linearGradient id="hero_barbieGrad" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#FF2D87" />
         <stop offset="50%" stop-color="#E0218A" />
-        <stop offset="100%" stop-color="#C2185B" />
+        <stop offset="100%" stop-color="#C71585" />
+      </linearGradient>
+
+      <!-- Dreamhouse Blush Satin Gradient -->
+      <linearGradient id="hero_blushGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FFFFFF" />
+        <stop offset="60%" stop-color="#FFF0F5" />
+        <stop offset="100%" stop-color="#FFD1DC" />
+      </linearGradient>
+
+      <!-- Malibu Cyan Accent Gradient -->
+      <linearGradient id="hero_cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#00B4D8" />
+        <stop offset="100%" stop-color="#0077B6" />
       </linearGradient>
 
       <!-- Card Glass Backdrop Gradient -->
       <linearGradient id="hero_cardGlass" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#151122" stop-opacity="0.94" />
-        <stop offset="100%" stop-color="#0E0B16" stop-opacity="0.97" />
-      </linearGradient>
-
-      <!-- Rose Satin Monogram Gradient -->
-      <linearGradient id="hero_roseSatin" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#2D1124" />
-        <stop offset="100%" stop-color="#1A0D18" />
-      </linearGradient>
-
-      <!-- Light Rose Ambient Surface Gradient -->
-      <linearGradient id="hero_lightSurfaceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" />
-        <stop offset="100%" stop-color="#FFF5F8" />
+        <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.98" />
+        <stop offset="100%" stop-color="#FFF8FA" stop-opacity="0.95" />
       </linearGradient>
 
       <!-- Delicate Pink Hairline Gradient -->
       <linearGradient id="hero_borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FF2D87" stop-opacity="0.45" />
-        <stop offset="40%" stop-color="#FF85C0" stop-opacity="0.20" />
-        <stop offset="70%" stop-color="#CBD5E1" stop-opacity="0.30" />
-        <stop offset="100%" stop-color="#E0218A" stop-opacity="0.35" />
-      </linearGradient>
-
-      <!-- Platinum / Chrome Luxury Accent Gradient -->
-      <linearGradient id="hero_chromeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" />
-        <stop offset="35%" stop-color="#F1F5F9" />
-        <stop offset="70%" stop-color="#CBD5E1" />
-        <stop offset="100%" stop-color="#E2E8F0" />
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.40" />
+        <stop offset="45%" stop-color="#FFD1DC" stop-opacity="0.25" />
+        <stop offset="75%" stop-color="#00B4D8" stop-opacity="0.20" />
+        <stop offset="100%" stop-color="#C71585" stop-opacity="0.35" />
       </linearGradient>
 
       <!-- Winner Gold Accent Gradient -->
@@ -93,16 +85,17 @@
         <stop offset="100%" stop-color="#D97706" />
       </linearGradient>
 
-      <!-- Soft Ambient Radial Aura (Haute Dark Mode) -->
-      <radialGradient id="hero_radialAura" cx="80%" cy="10%" r="70%">
-        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.14" />
-        <stop offset="40%" stop-color="#FF2D87" stop-opacity="0.06" />
-        <stop offset="100%" stop-color="#0D0B14" stop-opacity="0" />
+      <!-- Soft Ambient Radial Aura -->
+      <radialGradient id="hero_radialAura" cx="85%" cy="15%" r="75%">
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.12" />
+        <stop offset="35%" stop-color="#FFD1DC" stop-opacity="0.08" />
+        <stop offset="70%" stop-color="#00B4D8" stop-opacity="0.03" />
+        <stop offset="100%" stop-color="#FAFAFC" stop-opacity="0" />
       </radialGradient>
 
-      <!-- Card Soft Shadow Filter -->
-      <filter id="hero_cardShadow" x="-5%" y="-5%" width="110%" height="115%">
-        <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#E0218A" flood-opacity="0.06" />
+      <!-- Glam Drop Shadow Filter -->
+      <filter id="hero_cardShadow" x="-10%" y="-10%" width="120%" height="125%">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#E0218A" flood-opacity="0.14" />
       </filter>
 
       <!-- Subtle Plaque Glow Filter -->
@@ -110,34 +103,23 @@
         <feGaussianBlur stdDeviation="4" result="blur" />
         <feComposite in="SourceGraphic" in2="blur" operator="over" />
       </filter>
-
-      <filter id="hero_glowFilter" x="-20%" y="-20%" width="140%" height="140%">
-        <feGaussianBlur stdDeviation="6" result="blur" />
-        <feComposite in="SourceGraphic" in2="blur" operator="over" />
-      </filter>
     </defs>
   
     
-    <!-- Light Studio Canvas Base -->
-    <rect width="940" height="340" rx="16" fill="#FAFAFC" />
-    <rect width="940" height="340" rx="16" fill="url(#hero_radialAura)" />
+    <!-- Light Studio Canvas Base with 24px Glam Radius -->
+    <rect width="940" height="380" rx="24" fill="#FAFAFC" />
+    <rect width="940" height="380" rx="24" fill="url(#hero_radialAura)" />
 
-    <!-- Architectural Background Hairline Grid -->
-    <g stroke="rgba(224, 33, 138, 0.05)" stroke-width="0.8">
-      <line x1="56" y1="0" x2="56" y2="340" />
-      <line x1="884" y1="0" x2="884" y2="340" />
-      <line x1="0" y1="46" x2="940" y2="46" />
-      <line x1="0" y1="284" x2="940" y2="284" />
-      <circle cx="760" cy="170" r="140" stroke="rgba(255, 45, 135, 0.04)" fill="none" />
-    </g>
+    <!-- Outer Structural Frame with Soft Glam Shadow (24px Radius) -->
+    <rect x="16" y="16" width="908" height="348" rx="24"
+          fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="1.2" filter="url(#hero_cardShadow)" />
 
-    <!-- Main Pure White Surface Card with Soft Shadow -->
-    <rect x="16" y="16" width="908" height="308" rx="14"
-          fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.18)" stroke-width="1" filter="url(#hero_cardShadow)" />
+    <!-- Hairline Gradient Accent along Top Edge -->
+    <rect x="16" y="16" width="908" height="4" rx="2" fill="url(#hero_barbieGrad)" />
 
-    <!-- Abstract Barbie Silhouette / Ponytail Flowing Vector Graphic (Ambient Composition) -->
+    <!-- Abstract Barbie Silhouette Vector Graphic -->
     
-    <g transform="translate(650, 20) scale(1.05)" opacity="0.065" fill="#E0218A">
+    <g transform="translate(685, 25) scale(0.85)" opacity="0.09" fill="#E0218A">
       <path d="
         M 10 90
         C 15 65, 30 45, 55 35
@@ -174,173 +156,137 @@
     </g>
   
 
-    <!-- Corner Editorial Framing Accents -->
-    <g stroke="#FF2D87" stroke-width="1.5" stroke-opacity="0.45" fill="none">
-      <path d="M 26 38 L 26 26 L 38 26" />
-      <path d="M 902 26 L 914 26 L 914 38" />
-      <path d="M 26 302 L 26 314 L 38 314" />
-      <path d="M 902 314 L 914 314 L 914 302" />
-    </g>
-
-    <!-- Header Brand Bar -->
-    <g transform="translate(46, 42)">
-      <!-- Brand Pill -->
-      <rect x="0" y="0" width="232" height="24" rx="12" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.18)" stroke-width="0.8" />
-      <circle cx="12" cy="12" r="3.5" fill="#FF2D87">
-        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <text x="24" y="15.5" class="code-mono" font-size="9" font-weight="700" fill="#E0218A" letter-spacing="0.12em">
-        ATELIER NO. 500 · AI/ML &amp; SYSTEMS
+    <!-- Editorial Brand Ribbon (Top Left) -->
+    <g transform="translate(48, 48)">
+      <rect x="0" y="0" width="144" height="26" rx="13"
+            fill="#FFF5F8" stroke="#E0218A" stroke-width="0.8" />
+      <text x="72" y="17" text-anchor="middle"
+            class="code-mono" font-size="9" font-weight="700" fill="#E0218A" letter-spacing="0.16em">
+        ATELIER NO. 500
       </text>
     </g>
 
-    <!-- Right Telemetry Badge -->
-    <g transform="translate(894, 42)">
-      <text x="0" y="15.5" text-anchor="end" class="code-mono" font-size="9.5" fill="#7A7A8E" letter-spacing="0.14em">
-        @Shambhavi500 // PICT ENTC
+    <!-- Top Right Location & Discipline Telemetry Tag -->
+    <g transform="translate(892, 48)">
+      <text x="0" y="17" text-anchor="end" class="code-mono" font-size="9" font-weight="600" fill="#6B7280" letter-spacing="0.1em">
+        PUNE, INDIA // PICT ENTC CLASS OF &apos;28
       </text>
     </g>
 
-    <!-- Flowing Decorative Accent Ribbon -->
-    <path d="M 46 80 C 120 74, 200 86, 280 80" stroke="url(#hero_barbieGrad)" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+    <!-- Centerpiece Typography: Barbiecore Haute Couture -->
+    <g transform="translate(48, 124)">
+      <!-- Name in High-Fashion Display Sans with Hot Pink Pop -->
+      <text x="0" y="0" class="display-title" font-size="44" font-weight="800" fill="#2D2D2D">
+        SHAMBHAVI <tspan fill="url(#hero_barbieGrad)">PATIL</tspan>
+      </text>
 
-    <!-- Main Editorial Heading: Hi, I'm Shambhavi. -->
-    <g transform="translate(46, 126)">
-      <text x="0" y="0" class="display-title" font-size="42" fill="#111116">
-        Hi, I&apos;m <tspan fill="#FF2D87">Shambhavi</tspan><tspan fill="#111116">.</tspan>
+      <!-- Refined Script Accent Above Headline -->
+      <text x="2" y="32" class="editorial-script" font-size="21" fill="#C71585">
+        ai/ml engineer &amp; systems architect
+      </text>
+
+      <!-- Strategic Editorial Positioning Statement -->
+      <text x="2" y="66" class="editorial-sans" font-size="14.5" fill="#2D2D2D" font-weight="600">
+        Architecting Autonomous Multi-Agent AI, Gymnasium RL Engines &amp; High-Impact Satellite AgriTech
       </text>
     </g>
 
-    <!-- Subtitle: Disciplines & Domains -->
-    <g transform="translate(46, 160)">
-      <text x="0" y="0" class="code-mono" font-size="12" font-weight="700" fill="#E0218A" letter-spacing="0.08em">
-        AI/ML • SOFTWARE ENGINEERING • ELECTRONICS &amp; TELECOMMUNICATION
-      </text>
-    </g>
-
-    <!-- Mission Statement -->
-    <g transform="translate(46, 192)">
-      <text x="0" y="0" class="editorial-sans" font-size="15" fill="#4A4A58">
-        Building intelligent systems with real-world impact.
-      </text>
-    </g>
-
-    <!-- Interactive Navigation / Action Pills -->
-    <g transform="translate(46, 218)">
-      <!-- GitHub Button -->
+    <!-- Status & Credential Badges Strip (Pure Telemetry / High Informational Density) -->
+    <g transform="translate(48, 240)">
+      <!-- Badge 1: Live Internship Role -->
       <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="104" height="28" rx="14" fill="#111116" />
-        <text x="52" y="18" text-anchor="middle" class="code-mono" font-size="10" font-weight="700" fill="#FFFFFF" letter-spacing="0.05em">
-          GITHUB &#8599;
+        <rect x="0" y="0" width="220" height="34" rx="17"
+              fill="#FFF5F8" stroke="#E0218A" stroke-width="1" />
+        <circle cx="16" cy="17" r="4" fill="#00E676" />
+        <text x="28" y="21.5" class="code-mono" font-size="9" font-weight="700" fill="#2D2D2D" letter-spacing="0.04em">
+          AI/ML R&amp;D INTERN @ MINDSTRIX
         </text>
       </g>
 
-      <!-- LinkedIn Button -->
-      <g transform="translate(116, 0)">
-        <rect x="0" y="0" width="112" height="28" rx="14" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.18)" stroke-width="1" />
-        <text x="56" y="18" text-anchor="middle" class="code-mono" font-size="10" font-weight="700" fill="#E0218A" letter-spacing="0.05em">
-          LINKEDIN &#8599;
+      <!-- Badge 2: Academic Pedigree -->
+      <g transform="translate(232, 0)">
+        <rect x="0" y="0" width="190" height="34" rx="17"
+              fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.9" />
+        <circle cx="16" cy="17" r="3.5" fill="#E0218A" />
+        <text x="28" y="21.5" class="code-mono" font-size="9" font-weight="700" fill="#2D2D2D" letter-spacing="0.04em">
+          PICT ENTC · CGPA 8.6
         </text>
       </g>
 
-      <!-- Projects Button -->
-      <g transform="translate(240, 0)">
-        <rect x="0" y="0" width="112" height="28" rx="14" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.18)" stroke-width="1" />
-        <text x="56" y="18" text-anchor="middle" class="code-mono" font-size="10" font-weight="700" fill="#E0218A" letter-spacing="0.05em">
-          PROJECTS &#8595;
+      <!-- Badge 3: Flagship Win -->
+      <g transform="translate(434, 0)">
+        <rect x="0" y="0" width="195" height="34" rx="17"
+              fill="#FFD1DC" stroke="#E0218A" stroke-width="0.9" />
+        <text x="16" y="21.5" class="code-mono" font-size="9" font-weight="800" fill="#C71585" letter-spacing="0.04em">
+          ★ TECHFIESTA &apos;26 WINNER
         </text>
       </g>
 
-      <!-- Hackathons Plaque Button -->
-      <g transform="translate(364, 0)">
-        <rect x="0" y="0" width="128" height="28" rx="14" fill="url(#hero_barbieGrad)" />
-        <text x="64" y="18" text-anchor="middle" class="code-mono" font-size="9.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.06em">
-          ★ AWARDS 2026
+      <!-- Badge 4: Government Grant -->
+      <g transform="translate(641, 0)">
+        <rect x="0" y="0" width="205" height="34" rx="17"
+              fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.9" />
+        <text x="16" y="21.5" class="code-mono" font-size="9" font-weight="700" fill="#2D2D2D" letter-spacing="0.04em">
+          ★ ₹15L GRANT · AGRI HACK
         </text>
       </g>
     </g>
 
-    <!-- Bottom Telemetry Specs Strip -->
-    <g transform="translate(46, 292)">
-      <!-- Separator line -->
-      <line x1="0" y1="-14" x2="848" y2="-14" stroke="rgba(17, 17, 22, 0.08)" stroke-width="1" />
-
-      <text x="0" y="0" class="code-mono" font-size="9.5" fill="#7A7A8E" letter-spacing="0.06em">
-        STATUS: <tspan fill="#00E676" font-weight="700">● LIVE</tspan>
+    <!-- Bottom Specs Strip -->
+    <g transform="translate(48, 320)">
+      <line x1="0" y1="0" x2="844" y2="0" stroke="rgba(17, 17, 22, 0.08)" stroke-width="1" />
+      <text x="0" y="24" class="code-mono" font-size="9" fill="#6B7280" letter-spacing="0.1em">
+        EST. 2025 // 14 PUBLIC REPOSITORIES // 117+ CONTRIBUTIONS // AUTONOMOUS WORKFLOWS
       </text>
-
-      <text x="140" y="0" class="code-mono" font-size="9.5" fill="#7A7A8E" letter-spacing="0.06em">
-        REPOSITORIES: <tspan fill="#FF2D87" font-weight="700">14 SHIPPED</tspan>
-      </text>
-
-      <text x="340" y="0" class="code-mono" font-size="9.5" fill="#7A7A8E" letter-spacing="0.06em">
-        CORE STACK: <tspan fill="#111116" font-weight="700">PYTHON · TYPESCRIPT · JAVASCRIPT</tspan>
-      </text>
-
-      <text x="848" y="0" text-anchor="end" class="code-mono" font-size="9.5" font-weight="700" fill="#E0218A" letter-spacing="0.1em">
-        HAUTE COUTURE ENGINEERING
+      <text x="844" y="24" text-anchor="end" class="code-mono" font-size="9" font-weight="700" fill="#E0218A" letter-spacing="0.12em">
+        HAUTE COUTURE SYSTEMS SPECIFICATION
       </text>
     </g>
 
     <!-- Restrained Luxury Glint Sparkles -->
     
-    <g class="glint-anim" style="transform-origin: 860px 110px;">
+    <g class="glint-anim" style="transform-origin: 840px 105px;">
       <path d="
-        M 860 103
-        Q 863.08 106.92 867 110
-        Q 863.08 113.08 860 117
-        Q 856.92 113.08 853 110
-        Q 856.92 106.92 860 103
+        M 840 98
+        Q 843.08 101.92 847 105
+        Q 843.08 108.08 840 112
+        Q 836.92 108.08 833 105
+        Q 836.92 101.92 840 98
         Z"
         fill="#FF2D87"
-        opacity="0.85"
+        opacity="0.88"
       />
-      <circle cx="860" cy="110" r="1.9600000000000002" fill="#FFFFFF" />
+      <circle cx="840" cy="105" r="1.9599999999999997" fill="#FFFFFF" />
     </g>
   
     
-    <g class="glint-anim" style="transform-origin: 750px 180px;">
+    <g class="glint-anim" style="transform-origin: 325px 95px;">
       <path d="
-        M 750 174.5
-        Q 752.42 177.58 755.5 180
-        Q 752.42 182.42 750 185.5
-        Q 747.58 182.42 744.5 180
-        Q 747.58 177.58 750 174.5
+        M 325 89.5
+        Q 327.42 92.58 330.5 95
+        Q 327.42 97.42 325 100.5
+        Q 322.58 97.42 319.5 95
+        Q 322.58 92.58 325 89.5
         Z"
         fill="#FF85C0"
-        opacity="0.85"
+        opacity="0.88"
       />
-      <circle cx="750" cy="180" r="1.54" fill="#FFFFFF" />
+      <circle cx="325" cy="95" r="1.54" fill="#FFFFFF" />
     </g>
   
     
-    <g class="glint-anim" style="transform-origin: 830px 240px;">
+    <g class="glint-anim" style="transform-origin: 875px 235px;">
       <path d="
-        M 830 235
-        Q 832.2 237.8 835 240
-        Q 832.2 242.2 830 245
-        Q 827.8 242.2 825 240
-        Q 827.8 237.8 830 235
-        Z"
-        fill="#CBD5E1"
-        opacity="0.85"
-      />
-      <circle cx="830" cy="240" r="1.4000000000000001" fill="#FFFFFF" />
-    </g>
-  
-    
-    <g class="glint-anim" style="transform-origin: 310px 78px;">
-      <path d="
-        M 310 73.5
-        Q 311.98 76.02 314.5 78
-        Q 311.98 79.98 310 82.5
-        Q 308.02 79.98 305.5 78
-        Q 308.02 76.02 310 73.5
+        M 875 230.5
+        Q 876.98 233.02 879.5 235
+        Q 876.98 236.98 875 239.5
+        Q 873.02 236.98 870.5 235
+        Q 873.02 233.02 875 230.5
         Z"
         fill="#FF2D87"
-        opacity="0.85"
+        opacity="0.88"
       />
-      <circle cx="310" cy="78" r="1.2600000000000002" fill="#FFFFFF" />
+      <circle cx="875" cy="235" r="1.2600000000000002" fill="#FFFFFF" />
     </g>
   
   </svg>

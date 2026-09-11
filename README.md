@@ -1,9 +1,20 @@
 <div align="center">
 
 <!-- 01. HERO SECTION // ATELIER NO. 500 -->
-<a href="https://github.com/Shambhavi500">
-  <img src="./assets/hero.svg" alt="Shambhavi Patil - Luxury Barbie-Inspired Engineering Portfolio" width="100%" />
-</a>
+<img src="./assets/hero.svg" alt="Shambhavi Patil - Luxury Barbiecore Engineering Portfolio" width="100%" />
+
+<!-- INTERACTIVE BARBIECORE ACTION BAR -->
+<p align="center">
+  <a href="#curated-atelier-architectures"><img src="https://img.shields.io/badge/%E2%9C%A8_EXPLORE_PROJECTS-E0218A?style=for-the-badge&logoColor=white" alt="Explore Top Projects" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/shambhavi-patil05/"><img src="https://img.shields.io/badge/%F0%9F%92%BC_CONNECT_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" /></a>
+  &nbsp;
+  <a href="#hackathon-honors--recognitions"><img src="https://img.shields.io/badge/%F0%9F%8F%86_HACKATHON_WINS-C71585?style=for-the-badge&logoColor=white" alt="Hackathon Honors" /></a>
+  &nbsp;
+  <a href="mailto:shambhavipatil5631@gmail.com"><img src="https://img.shields.io/badge/%F0%9F%93%AC_SEND_EMAIL-2D2D2D?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Shambhavi" /></a>
+  &nbsp;
+  <a href="https://github.com/Shambhavi500?tab=repositories"><img src="https://img.shields.io/badge/%E2%9A%A1_ALL_REPOSITORIES-FFD1DC?style=for-the-badge&labelColor=E0218A&color=FFD1DC" alt="All Repositories" /></a>
+</p>
 
 <br/>
 
@@ -13,9 +24,7 @@
 <br/>
 
 <!-- 02. THE PERSON // ENGINEERING PROFILE & FOCUS -->
-<a href="https://github.com/Shambhavi500">
-  <img src="./assets/identity.svg" alt="The Person - Shambhavi Patil Profile &amp; Focus" width="100%" />
-</a>
+<img src="./assets/identity.svg" alt="The Person - Shambhavi Patil Profile &amp; Focus" width="100%" />
 
 <br/>
 
@@ -25,9 +34,8 @@
 <br/>
 
 <!-- 03. THE WINS // HACKATHONS & ENGINEERING HONORS -->
-<a href="https://github.com/Shambhavi500">
-  <img src="./assets/achievements.svg" alt="The Wins - Hackathon Honors &amp; Recognitions" width="100%" />
-</a>
+<a id="hackathon-honors--recognitions" name="hackathon-honors--recognitions"></a>
+<img src="./assets/achievements.svg" alt="The Wins - Hackathon Honors &amp; Recognitions" width="100%" />
 
 <br/>
 
@@ -49,9 +57,50 @@
 <br/>
 
 <!-- 05. THE WORK // FEATURED PROJECTS & ARCHITECTURES -->
-<a href="https://github.com/Shambhavi500?tab=repositories">
-  <img src="./assets/projects.svg" alt="The Work - Featured Projects &amp; Architectures" width="100%" />
-</a>
+<a id="curated-atelier-architectures" name="curated-atelier-architectures"></a>
+<img src="./assets/projects.svg" alt="The Work - Featured Projects &amp; Architectures" width="100%" />
+
+<br/>
+
+<!-- INDIVIDUAL CLICKABLE 1-TO-1 PROJECT CARDS -->
+<table border="0" cellpadding="0" cellspacing="12" width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/Shambhavi500/KrishiSahAI">
+        <img src="./assets/project-01.svg" alt="KrishiSahAI - AGRITECH / AI ADVISORY" width="100%" />
+      </a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/Shambhavi500/Ovio">
+        <img src="./assets/project-02.svg" alt="Ovio - AI / MULTI-AGENT" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/Shambhavi500/Aira">
+        <img src="./assets/project-03.svg" alt="Aira - FINTECH / AUTONOMOUS OS" width="100%" />
+      </a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/Shambhavi500/AlphaTrader-RL">
+        <img src="./assets/project-04.svg" alt="AlphaTrader-RL - QUANT / REINFORCEMENT LEARNING" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/Shambhavi500/KRISHI-PRABANDH">
+        <img src="./assets/project-05.svg" alt="KRISHI-PRABANDH - GOV-TECH / AGRONOMY" width="100%" />
+      </a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/Shambhavi500/NDVI_satellite">
+        <img src="./assets/project-06.svg" alt="NDVI_satellite - EARTH OBSERVATION / GIS" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -100,9 +149,7 @@
 <br/>
 
 <!-- 08. THE BUILD LOG // ACTIVITY RUNWAY & CADENCE -->
-<a href="https://github.com/Shambhavi500">
-  <img src="./assets/runway.svg" alt="The Build Log - Activity Runway &amp; Cadence" width="100%" />
-</a>
+<img src="./assets/runway.svg" alt="The Build Log - Activity Runway &amp; Cadence" width="100%" />
 
 <br/>
 
@@ -120,8 +167,9 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Shambhavi500-E0218A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shambhavi500)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shambhavi_Patil-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shambhavi-patil05/)
-[![Email](https://img.shields.io/badge/Email-shambhavipatil5631%40gmail.com-111116?style=for-the-badge&logo=gmail&logoColor=FF2D87)](mailto:shambhavipatil5631@gmail.com)
+[![Email](https://img.shields.io/badge/Email-shambhavipatil5631%40gmail.com-2D2D2D?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shambhavipatil5631@gmail.com)
 [![Status](https://img.shields.io/badge/Status-AI%2FML_R%26D_Intern_%40Mindstrix-E0218A?style=for-the-badge)](https://github.com/Shambhavi500)
+[![Education](https://img.shields.io/badge/PICT_ENTC-CGPA_8.6-C71585?style=for-the-badge)](https://github.com/Shambhavi500)
 
 <br/><br/>
 

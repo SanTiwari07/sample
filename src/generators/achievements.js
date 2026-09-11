@@ -14,7 +14,7 @@ export function generateAchievementsSvg(data) {
           project: 'KrishiSahAI',
           metric: '600+ teams',
           badge: 'WINNER',
-          accent: theme.colors.accentHot
+          accent: theme.colors.barbiePink
         },
         {
           id: '02',
@@ -24,7 +24,7 @@ export function generateAchievementsSvg(data) {
           project: 'Krishi Prabandh',
           metric: '₹15L grant',
           badge: 'RUNNER-UP',
-          accent: theme.colors.accent
+          accent: theme.colors.retroMagenta
         },
         {
           id: '03',
@@ -34,7 +34,7 @@ export function generateAchievementsSvg(data) {
           project: 'Ovio (DaVinci)',
           metric: 'Agentic OS',
           badge: 'ARCHITECT',
-          accent: theme.colors.accentSoft
+          accent: theme.colors.barbiePink
         },
         {
           id: '04',
@@ -44,7 +44,7 @@ export function generateAchievementsSvg(data) {
           project: 'AlphaTrader-RL',
           metric: '5+ Yrs NSE Data',
           badge: 'ALGO LAB',
-          accent: theme.colors.textPrimary
+          accent: theme.colors.deepCharcoal
         }
       ];
 
@@ -58,16 +58,16 @@ export function generateAchievementsSvg(data) {
     ${getSharedDefs('ach_')}
     
     <!-- Light Studio Canvas Base -->
-    <rect width="${width}" height="${height}" rx="${theme.radius.card + 2}" fill="${theme.colors.background}" />
-    <rect width="${width}" height="${height}" rx="${theme.radius.card + 2}" fill="url(#ach_radialAura)" />
+    <rect width="${width}" height="${height}" rx="${theme.radius.card}" fill="${theme.colors.background}" />
+    <rect width="${width}" height="${height}" rx="${theme.radius.card}" fill="url(#ach_radialAura)" />
 
-    <!-- Outer Structural Frame with Soft Shadow -->
+    <!-- Outer Structural Frame with Soft Glam Shadow -->
     <rect x="16" y="16" width="${width - 32}" height="${height - 32}" rx="${theme.radius.card}"
           fill="${theme.colors.surface}" stroke="${theme.colors.border}" stroke-width="1" filter="url(#ach_cardShadow)" />
 
     <!-- Section Header Tag -->
     <g transform="translate(40, 42)">
-      <text x="0" y="0" class="code-mono" font-size="10.5" font-weight="700" fill="${theme.colors.accent}" letter-spacing="0.14em">
+      <text x="0" y="0" class="code-mono" font-size="10.5" font-weight="700" fill="${theme.colors.retroMagenta}" letter-spacing="0.14em">
         THE WINS // HACKATHONS &amp; ENGINEERING HONORS
       </text>
     </g>
@@ -87,16 +87,16 @@ export function generateAchievementsSvg(data) {
       const y = startY;
       const isWinner = idx === 0;
       const isRunnerUp = idx === 1;
-      const accentColor = isWinner ? theme.colors.accentHot : (isRunnerUp ? theme.colors.accent : theme.colors.textPrimary);
-      const badgeFill = isWinner ? theme.colors.accentHot : theme.colors.accentBlush;
-      const badgeText = isWinner ? '#FFFFFF' : theme.colors.accent;
+      const accentColor = isWinner ? theme.colors.barbiePink : (isRunnerUp ? theme.colors.retroMagenta : theme.colors.deepCharcoal);
+      const badgeFill = isWinner ? 'url(#ach_barbieGrad)' : (isRunnerUp ? theme.colors.dreamhouseBlush : theme.colors.accentBlush);
+      const badgeText = isWinner ? '#FFFFFF' : (isRunnerUp ? theme.colors.retroMagenta : theme.colors.barbiePink);
 
       return `
         <!-- Plaque Card ${ach.id || (idx + 1)} -->
         <g transform="translate(${x}, ${y})">
-          <!-- Card Base -->
-          <rect x="0" y="0" width="${cardWidth}" height="${cardHeight}" rx="${theme.radius.card}"
-                fill="${theme.colors.surface}" stroke="${isWinner ? theme.colors.accentHot : theme.colors.border}" stroke-width="${isWinner ? '1.5' : '1'}" />
+          <!-- Card Base with 20px Radius -->
+          <rect x="0" y="0" width="${cardWidth}" height="${cardHeight}" rx="20"
+                fill="${theme.colors.surface}" stroke="${isWinner ? theme.colors.barbiePink : theme.colors.border}" stroke-width="${isWinner ? '1.5' : '1'}" />
 
           <!-- Top Accent Ribbon -->
           <rect x="0" y="0" width="${cardWidth}" height="4" rx="2" fill="${isWinner ? 'url(#ach_barbieGrad)' : theme.colors.border}" />
@@ -115,7 +115,7 @@ export function generateAchievementsSvg(data) {
           <line x1="18" y1="44" x2="${cardWidth - 18}" y2="44" stroke="${theme.colors.borderSubtle}" stroke-width="0.8" />
 
           <!-- Event Name -->
-          <text x="18" y="70" class="display-title" font-size="13" font-weight="800" fill="${theme.colors.textPrimary}" letter-spacing="0.02em">
+          <text x="18" y="70" class="display-title" font-size="13" font-weight="800" fill="${theme.colors.deepCharcoal}" letter-spacing="0.02em">
             ${escapeXml(ach.event || ach.title)}
           </text>
 
@@ -136,7 +136,7 @@ export function generateAchievementsSvg(data) {
           <text x="18" y="156" class="code-mono" font-size="8.5" fill="${theme.colors.textMuted}" letter-spacing="0.06em">
             PROJECT
           </text>
-          <text x="18" y="174" class="editorial-sans" font-size="13" font-weight="700" fill="${theme.colors.textPrimary}">
+          <text x="18" y="174" class="editorial-sans" font-size="13" font-weight="700" fill="${theme.colors.deepCharcoal}">
             ${escapeXml(ach.project || ach.associatedRepo || 'KrishiSahAI')}
           </text>
 
@@ -148,7 +148,7 @@ export function generateAchievementsSvg(data) {
           <!-- Badge Pill -->
           <g transform="translate(18, 222)">
             <rect x="0" y="0" width="${cardWidth - 36}" height="26" rx="13"
-                  fill="${badgeFill}" stroke="${isWinner ? theme.colors.accentHot : theme.colors.border}" stroke-width="0.8" />
+                  fill="${badgeFill}" stroke="${isWinner ? theme.colors.barbiePink : theme.colors.border}" stroke-width="0.8" />
             <text x="${(cardWidth - 36) / 2}" y="17" text-anchor="middle"
                   class="code-mono" font-size="9" font-weight="800" fill="${badgeText}" letter-spacing="0.1em">
               [${escapeXml(ach.badge || (isWinner ? 'WINNER' : 'RECOGNIZED'))}]
@@ -159,7 +159,7 @@ export function generateAchievementsSvg(data) {
     }).join('')}
 
     <!-- Restrained Luxury Glint Sparkles -->
-    ${renderSparkle(width - 50, 40, 12, theme.colors.accentHot)}
-    ${renderSparkle(width / 2 + 30, 42, 10, theme.colors.accentSoft)}
+    ${renderSparkle(width - 50, 40, 12, theme.colors.barbiePink)}
+    ${renderSparkle(width / 2 + 30, 42, 10, theme.colors.dreamhouseBlush)}
   </svg>`;
 }
