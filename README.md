@@ -1,88 +1,75 @@
 <!--
   SHAMBHAVI PATIL — GITHUB PROFILE README
   Barbiecore Editorial · Software + AI Engineering
-  Design: Premium light palette, editorial typography, zero emojis
+  Design: Premium light palette, fashion editorial typography, zero emojis, real dynamic data
 -->
-
-<!-- ════════════════════════════════════════════════════ -->
-<!-- 01 · HERO -->
-<!-- ════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<br>
+<img src="./assets/hero.svg" alt="Shambhavi Patil — Software + AI Engineering" width="100%" />
 
-<sub><sup>SHAMBHAVI PATIL &nbsp;/&nbsp; SOFTWARE + AI</sup></sub>
+<br><br>
 
-<br>
+<a href="https://github.com/Shambhavi500">
+  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=20&duration=2800&pause=1200&color=E0218A&background=FFF9FC00&center=true&vCenter=true&width=620&lines=AI+%2F+ML+Systems;Software+Engineering;Intelligent+Systems;Computer+Vision;DSA+%26+Algorithms" alt="Dynamic Engineering Focus" />
+</a>
 
-<img src="./assets/monogram.jpg" alt="SP" width="140" />
+<br><br>
 
-<br>
-
-# Shambhavi Patil
-
-<p><strong>AI/ML &nbsp;&nbsp;·&nbsp;&nbsp; Software Engineering &nbsp;&nbsp;·&nbsp;&nbsp; Intelligent Systems</strong></p>
-
-<p><sub>Third-year ENTC student at PICT Pune building practical<br>software and AI systems with real-world applications.</sub></p>
-
-<br>
-
-<a href="https://github.com/Shambhavi500"><img src="https://img.shields.io/badge/GITHUB-262126?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-&nbsp;
-<a href="https://www.linkedin.com/in/shambhavi-patil05/"><img src="https://img.shields.io/badge/LINKEDIN-E0218A?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-&nbsp;
-<a href="mailto:shambhavipatil5631@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FF4F9A?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/Shambhavi500"><img src="https://img.shields.io/badge/GITHUB-E0218A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/shambhavi-patil05/"><img src="https://img.shields.io/badge/LINKEDIN-FF4F9A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+&nbsp;&nbsp;
+<a href="mailto:shambhavipatil5631@gmail.com"><img src="https://img.shields.io/badge/EMAIL-C71585?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 <br><br>
 
 </div>
 
----
+<img src="./assets/divider.svg" alt="Divider" width="100%" />
 
 <!-- ════════════════════════════════════════════════════ -->
-<!-- 02 · PROFILE SNAPSHOT -->
+<!-- 01 · PROFILE SNAPSHOT -->
 <!-- ════════════════════════════════════════════════════ -->
 
-<div align="center">
+## 01 / PROFILE
 
-<table>
+<table width="100%">
   <tr>
-    <td align="center" width="220">
-      <sub><b>EDUCATION</b></sub><br><br>
-      <b>PICT Pune</b><br>
-      <sub>B.Tech ENTC</sub><br>
-      <sub>2024 – 2028</sub><br>
-      <sub>CGPA &nbsp;<b>8.6 / 10</b></sub>
+    <td width="33%" valign="top" bgcolor="#FFFFFF">
+      <p align="left"><sub><font color="#E0218A"><b>01 · EDUCATION</b></font></sub></p>
+      <h3><font color="#C71585">PICT Pune</font></h3>
+      <p><b>B.Tech Electronics &amp; Telecommunication</b><br>
+      <sub>2024 – 2028</sub></p>
+      <p><b><font color="#E0218A">CGPA 8.6 / 10</font></b><br>
+      <sub>HSC: 89.83% &nbsp;·&nbsp; SSC: 96.40%</sub></p>
     </td>
-    <td align="center" width="30">&nbsp;</td>
-    <td align="center" width="220">
-      <sub><b>CURRENT</b></sub><br><br>
-      <b>Mindstrix Technologies</b><br>
-      <sub>AI/ML R&D Intern</sub><br>
-      <sub>Mar 2026 – Present</sub><br>
-      <sub>Pune, India</sub>
+    <td width="33%" valign="top" bgcolor="#FFF0F6">
+      <p align="left"><sub><font color="#E0218A"><b>02 · CURRENT ROLE</b></font></sub></p>
+      <h3><font color="#C71585">Mindstrix Technologies</font></h3>
+      <p><b>AI/ML Research &amp; Development Intern</b><br>
+      <sub>Mar 2026 – Present</sub></p>
+      <p><sub>Pune, India &nbsp;·&nbsp; Hybrid / Agile R&amp;D</sub></p>
     </td>
-    <td align="center" width="30">&nbsp;</td>
-    <td align="center" width="220">
-      <sub><b>FOCUS</b></sub><br><br>
-      <sub>AI / ML Systems</sub><br>
-      <sub>Software Engineering</sub><br>
+    <td width="33%" valign="top" bgcolor="#FFFFFF">
+      <p align="left"><sub><font color="#E0218A"><b>03 · CORE FOCUS</b></font></sub></p>
+      <h3><font color="#C71585">Applied Systems</font></h3>
+      <p><b>AI / ML Systems</b><br>
+      <b>Software Engineering</b><br>
       <sub>Computer Vision</sub><br>
-      <sub>DSA &amp; Algorithms</sub>
+      <sub>DSA &amp; Algorithms</sub></p>
     </td>
   </tr>
 </table>
 
-</div>
-
----
+<br>
+<img src="./assets/divider.svg" alt="Divider" width="100%" />
 
 <!-- ════════════════════════════════════════════════════ -->
-<!-- 03 · ABOUT -->
+<!-- 02 · ABOUT -->
 <!-- ════════════════════════════════════════════════════ -->
 
-### About
+## 02 / ABOUT
 
 Electronics and Telecommunication student at PICT Pune, actively building across software engineering, AI/ML research and data structures. My academic foundation in ENTC intersects with a deep interest in applied intelligence — I work on systems that are practical, technically grounded and oriented toward real-world impact.
 
@@ -90,185 +77,226 @@ My work spans AI-driven agriculture, quantitative reinforcement learning, multi-
 
 <br>
 
-> *I learn by building, breaking, debugging and improving real systems.*
+<table width="100%">
+  <tr>
+    <td width="6" bgcolor="#E0218A">&nbsp;</td>
+    <td bgcolor="#FFF0F6">
+      <p><b>&ldquo;I learn by building, breaking, debugging and improving real systems.&rdquo;</b></p>
+      <p><sub>SHAMBHAVI PATIL &nbsp;//&nbsp; ENGINEERING AXIOM</sub></p>
+    </td>
+  </tr>
+</table>
 
----
+<br>
+<img src="./assets/divider.svg" alt="Divider" width="100%" />
 
 <!-- ════════════════════════════════════════════════════ -->
-<!-- 04 · WHAT I BUILD -->
+<!-- 03 · WHAT I BUILD -->
 <!-- ════════════════════════════════════════════════════ -->
 
-### What I Build
+## 03 / WHAT I BUILD
 
 <table width="100%">
   <tr>
-    <td width="33%" valign="top">
-      <p><b>AI / ML</b></p>
-      <p><sub>Autonomous workflows, ML pipelines,<br>predictive systems</sub></p>
+    <td width="33%" valign="top" bgcolor="#FFFFFF">
+      <p><sub><font color="#E0218A"><b>01</b></font></sub></p>
+      <h4><font color="#C71585">AI / ML</font></h4>
+      <p>Autonomous workflows<br>ML pipelines<br>Predictive systems</p>
       <p><sub><code>Python · ML · Multi-Agent</code></sub></p>
     </td>
-    <td width="33%" valign="top">
-      <p><b>Software Systems</b></p>
-      <p><sub>Full-stack engineering, REST APIs,<br>distributed architectures</sub></p>
+    <td width="33%" valign="top" bgcolor="#FFF0F6">
+      <p><sub><font color="#E0218A"><b>02</b></font></sub></p>
+      <h4><font color="#C71585">SOFTWARE SYSTEMS</font></h4>
+      <p>Full-stack engineering<br>REST APIs<br>System architecture</p>
       <p><sub><code>Node.js · FastAPI · TypeScript</code></sub></p>
     </td>
-    <td width="33%" valign="top">
-      <p><b>Computer Vision</b></p>
-      <p><sub>OCR fraud detection, image processing,<br>spatial feature extraction</sub></p>
+    <td width="33%" valign="top" bgcolor="#FFFFFF">
+      <p><sub><font color="#E0218A"><b>03</b></font></sub></p>
+      <h4><font color="#C71585">COMPUTER VISION</font></h4>
+      <p>OCR fraud detection<br>Image processing<br>Spatial feature extraction</p>
       <p><sub><code>OpenCV · Python · Deep Learning</code></sub></p>
     </td>
   </tr>
   <tr>
-    <td width="33%" valign="top">
-      <p><b>Agritech</b></p>
-      <p><sub>Soil telemetry, crop health advisory,<br>satellite canopy diagnostics</sub></p>
+    <td width="33%" valign="top" bgcolor="#FFF0F6">
+      <p><sub><font color="#E0218A"><b>04</b></font></sub></p>
+      <h4><font color="#C71585">AGRITECH</font></h4>
+      <p>Soil telemetry<br>Crop health advisory<br>Satellite diagnostics</p>
       <p><sub><code>Python · GIS · NDVI · Sensors</code></sub></p>
     </td>
-    <td width="33%" valign="top">
-      <p><b>Quant / RL</b></p>
-      <p><sub>Custom Gymnasium environments,<br>order-book backtesting, RL policy</sub></p>
+    <td width="33%" valign="top" bgcolor="#FFFFFF">
+      <p><sub><font color="#E0218A"><b>05</b></font></sub></p>
+      <h4><font color="#C71585">QUANT / RL</font></h4>
+      <p>Gymnasium environments<br>Backtesting<br>RL policy evaluation</p>
       <p><sub><code>Python · Gymnasium · Deep RL</code></sub></p>
     </td>
-    <td width="33%" valign="top">
-      <p><b>DSA &amp; Algorithms</b></p>
-      <p><sub>Competitive problem solving,<br>algorithmic design, optimisation</sub></p>
+    <td width="33%" valign="top" bgcolor="#FFF0F6">
+      <p><sub><font color="#E0218A"><b>06</b></font></sub></p>
+      <h4><font color="#C71585">DSA &amp; ALGORITHMS</font></h4>
+      <p>Problem solving<br>Algorithmic design<br>Optimisation</p>
       <p><sub><code>C++ · Java · Python</code></sub></p>
     </td>
   </tr>
 </table>
 
----
-
-<!-- ════════════════════════════════════════════════════ -->
-<!-- 05 · SELECTED WORK -->
-<!-- ════════════════════════════════════════════════════ -->
-
-### Selected Work
-
 <br>
+<img src="./assets/divider.svg" alt="Divider" width="100%" />
 
-<!-- Featured Project -->
+<!-- ════════════════════════════════════════════════════ -->
+<!-- 04 · SELECTED WORK -->
+<!-- ════════════════════════════════════════════════════ -->
+
+## 04 / SELECTED WORK
+
+<!-- Hero Project: KrishiSahAI -->
 <table width="100%">
   <tr>
-    <td valign="top">
+    <td width="8" bgcolor="#E0218A">&nbsp;</td>
+    <td bgcolor="#FFF9FC" valign="top">
       <p>
-        <img src="https://img.shields.io/badge/01_·_FEATURED-E0218A?style=flat-square" alt="01 Featured" />
-        &nbsp;
-        <img src="https://img.shields.io/badge/1ST_PLACE_·_TECHFIESTA_2026-FF4F9A?style=flat-square" alt="1st Place" />
+        <sub><font color="#E0218A"><b>01 / FEATURED PROJECT &nbsp;·&nbsp; AI-POWERED AGRICULTURAL ADVISORY</b></font></sub>
+        &nbsp;&nbsp;
+        <a href="https://github.com/Shambhavi500/KrishiSahAI"><img src="https://img.shields.io/badge/1ST_PLACE-TECHFIESTA_2026-E0218A?style=flat-square" alt="TechFiesta Winner" /></a>
       </p>
-      <h3><a href="https://github.com/Shambhavi500/KrishiSahAI">KrishiSahAI</a></h3>
-      <p>AI-powered agriculture platform for crop recommendations, soil telemetry and rural decision support. Built to empower Indian farming ecosystems with intelligent advisory systems.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-FFF0F6?style=flat-square&labelColor=E0218A&label=Python&color=FFF0F6" alt="Python" />
-        <img src="https://img.shields.io/badge/AI%2FML-FFF0F6?style=flat-square&labelColor=E0218A&label=AI%2FML&color=FFF0F6" alt="AI/ML" />
-        <img src="https://img.shields.io/badge/Computer_Vision-FFF0F6?style=flat-square&labelColor=E0218A&label=Computer+Vision&color=FFF0F6" alt="Computer Vision" />
-        <img src="https://img.shields.io/badge/Agritech-FFF0F6?style=flat-square&labelColor=E0218A&label=Agritech&color=FFF0F6" alt="Agritech" />
-      </p>
-      <p><a href="https://github.com/Shambhavi500/KrishiSahAI"><b>View Repository →</b></a></p>
+      <h2><a href="https://github.com/Shambhavi500/KrishiSahAI"><font color="#C71585">KrishiSahAI</font></a></h2>
+      <p>AI-powered agriculture platform for crop recommendations, soil telemetry and rural decision support. Built to empower Indian farming ecosystems with intelligent advisory systems and sensor telemetry analytics.</p>
+      <table cellpadding="6" cellspacing="0" border="0">
+        <tr>
+          <td bgcolor="#FFF0F6"><sub><b>ACHIEVEMENT</b></sub></td>
+          <td bgcolor="#FFFFFF"><sub><b>1ST PLACE</b> &nbsp;·&nbsp; TechFiesta 2026 (Agriculture Domain, 600+ teams nationwide)</sub></td>
+        </tr>
+        <tr>
+          <td bgcolor="#FFF0F6"><sub><b>STACK</b></sub></td>
+          <td bgcolor="#FFFFFF"><sub><code>Python</code> &nbsp;·&nbsp; <code>AI/ML</code> &nbsp;·&nbsp; <code>Computer Vision</code> &nbsp;·&nbsp; <code>Agritech</code></sub></td>
+        </tr>
+      </table>
+      <br>
+      <p><a href="https://github.com/Shambhavi500/KrishiSahAI"><b><font color="#E0218A">VIEW REPOSITORY &nbsp;→</font></b></a></p>
     </td>
   </tr>
 </table>
 
 <br>
 
-<!-- Secondary projects 02 + 03 -->
+<!-- Project Grid -->
 <table width="100%">
   <tr>
-    <td width="50%" valign="top">
-      <p><img src="https://img.shields.io/badge/02-FF4F9A?style=flat-square" alt="02" /></p>
-      <h4><a href="https://github.com/Shambhavi500/KRISHI-PRABANDH">KRISHI-PRABANDH</a></h4>
-      <p><sub>NATIONAL RUNNER-UP · PUNE AGRI HACKATHON</sub></p>
-      <p><sub>AI-driven agricultural governance platform combining OCR fraud detection, land record digitization and satellite NDVI validation. Presented to senior government officials. <b>₹15L development grant awarded.</b></sub></p>
+    <td width="50%" valign="top" bgcolor="#FFFFFF">
       <p>
-        <img src="https://img.shields.io/badge/Python-FFF0F6?style=flat-square&labelColor=FF4F9A&label=Python&color=FFF0F6" alt="Python" />
-        <img src="https://img.shields.io/badge/OCR-FFF0F6?style=flat-square&labelColor=FF4F9A&label=OCR&color=FFF0F6" alt="OCR" />
-        <img src="https://img.shields.io/badge/GIS-FFF0F6?style=flat-square&labelColor=FF4F9A&label=GIS&color=FFF0F6" alt="GIS" />
-        <img src="https://img.shields.io/badge/NDVI-FFF0F6?style=flat-square&labelColor=FF4F9A&label=NDVI&color=FFF0F6" alt="NDVI" />
+        <sub><font color="#E0218A"><b>PROJECT 02 &nbsp;·&nbsp; AGRITECH / GOVERNANCE</b></font></sub>
+        <br>
+        <img src="https://img.shields.io/badge/NATIONAL_RUNNER--UP-FF4F9A?style=flat-square" alt="National Runner-Up" />
+        <img src="https://img.shields.io/badge/%E2%82%B915L_GRANT-C71585?style=flat-square" alt="15L Grant" />
       </p>
-      <p><sub><a href="https://github.com/Shambhavi500/KRISHI-PRABANDH">View Repository →</a></sub></p>
+      <h3><a href="https://github.com/Shambhavi500/KRISHI-PRABANDH"><font color="#C71585">KRISHI-PRABANDH</font></a></h3>
+      <p><sub><b>PUNE AGRI INTERNATIONAL HACKATHON</b></sub></p>
+      <p>AI-driven agricultural governance platform combining OCR fraud detection, land record digitization and satellite NDVI validation. Presented to senior government leadership. <b>₹15L development grant awarded.</b></p>
+      <p><sub><code>Python · OCR · GIS · NDVI</code></sub></p>
+      <p><a href="https://github.com/Shambhavi500/KRISHI-PRABANDH"><b><font color="#E0218A">View Repository →</font></b></a></p>
     </td>
-    <td width="50%" valign="top">
-      <p><img src="https://img.shields.io/badge/03-FF4F9A?style=flat-square" alt="03" /></p>
-      <h4><a href="https://github.com/Shambhavi500/AlphaTrader-RL">AlphaTrader-RL</a></h4>
-      <p><sub>QUANTITATIVE REINFORCEMENT LEARNING</sub></p>
-      <p><sub>Custom Gymnasium trading environment benchmarked on 5+ years of NSE order-book data. 50-dimensional state space with containerized execution and policy evaluation.</sub></p>
+    <td width="50%" valign="top" bgcolor="#FFF0F6">
       <p>
-        <img src="https://img.shields.io/badge/Python-FFF0F6?style=flat-square&labelColor=FF4F9A&label=Python&color=FFF0F6" alt="Python" />
-        <img src="https://img.shields.io/badge/Gymnasium-FFF0F6?style=flat-square&labelColor=FF4F9A&label=Gymnasium&color=FFF0F6" alt="Gymnasium" />
-        <img src="https://img.shields.io/badge/Deep_RL-FFF0F6?style=flat-square&labelColor=FF4F9A&label=Deep+RL&color=FFF0F6" alt="Deep RL" />
+        <sub><font color="#E0218A"><b>PROJECT 03 &nbsp;·&nbsp; QUANTITATIVE REINFORCEMENT LEARNING</b></font></sub>
       </p>
-      <p><sub><a href="https://github.com/Shambhavi500/AlphaTrader-RL">View Repository →</a></sub></p>
+      <h3><a href="https://github.com/Shambhavi500/AlphaTrader-RL"><font color="#C71585">AlphaTrader-RL</font></a></h3>
+      <p><sub><b>QUANTITATIVE REINFORCEMENT LEARNING</b></sub></p>
+      <p>Custom Gymnasium trading environment benchmarked on 5+ years of NSE order-book data. 50-dimensional state space with containerized execution and policy evaluation.</p>
+      <p><sub><code>Python · Gymnasium · Deep RL</code></sub></p>
+      <p><a href="https://github.com/Shambhavi500/AlphaTrader-RL"><b><font color="#E0218A">View Repository →</font></b></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" bgcolor="#FFF0F6">
+      <p>
+        <sub><font color="#E0218A"><b>PROJECT 04 &nbsp;·&nbsp; MULTI-AGENT SYSTEMS</b></font></sub>
+      </p>
+      <h3><a href="https://github.com/Shambhavi500/Ovio"><font color="#C71585">Ovio</font></a></h3>
+      <p><sub><b>MULTI-AGENT SYSTEMS</b></sub></p>
+      <p>AI-assisted DaVinci Resolve workflow engine orchestrating timeline operations, asset synthesis and automated editorial cuts through multi-agent coordination.</p>
+      <p><sub><code>Python · AI Agents · DaVinci API</code></sub></p>
+      <p><a href="https://github.com/Shambhavi500/Ovio"><b><font color="#E0218A">View Repository →</font></b></a></p>
+    </td>
+    <td width="50%" valign="top" bgcolor="#FFFFFF">
+      <p>
+        <sub><font color="#E0218A"><b>PROJECT 05 &nbsp;·&nbsp; FINTECH / AUTONOMOUS SYSTEMS</b></font></sub>
+      </p>
+      <h3><a href="https://github.com/Shambhavi500/Aira"><font color="#C71585">Aira</font></a></h3>
+      <p><sub><b>FINTECH / AUTONOMOUS SYSTEMS</b></sub></p>
+      <p>Autonomous revenue recovery operating system designed for deterministic financial reconciliation and intelligent workflow automation.</p>
+      <p><sub><code>TypeScript · AI · Fintech</code></sub></p>
+      <p><a href="https://github.com/Shambhavi500/Aira"><b><font color="#E0218A">View Repository →</font></b></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" bgcolor="#FFFFFF">
+      <p>
+        <sub><font color="#E0218A"><b>PROJECT 06 &nbsp;·&nbsp; EARTH OBSERVATION / GIS</b></font></sub>
+      </p>
+      <h3><a href="https://github.com/Shambhavi500/NDVI_satellite"><font color="#C71585">NDVI_satellite</font></a></h3>
+      <p><sub><b>EARTH OBSERVATION / GIS</b></sub></p>
+      <p>Vegetation index analysis using satellite spectral bands and Google Earth Engine for temporal biomass monitoring and crop health evaluation.</p>
+      <p><sub><code>JavaScript · GIS · Google Earth Engine</code></sub></p>
+      <p><a href="https://github.com/Shambhavi500/NDVI_satellite"><b><font color="#E0218A">View Repository →</font></b></a></p>
+    </td>
+    <td width="50%" valign="top" bgcolor="#FFF0F6">
+      <p><sub><font color="#8B6F7B"><b>EXPLORE CODEBASE</b></font></sub></p>
+      <h3><font color="#C71585">Additional Repositories</font></h3>
+      <p>Curated experimental repositories spanning algorithmic problem solving, hardware sensor integrations, and machine learning prototypes.</p>
+      <p><a href="https://github.com/Shambhavi500?tab=repositories"><b><font color="#E0218A">View All Repositories on GitHub &nbsp;→</font></b></a></p>
     </td>
   </tr>
 </table>
 
 <br>
-
-<!-- Project 04 -->
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <p><img src="https://img.shields.io/badge/04-C21875?style=flat-square" alt="04" /></p>
-      <h4><a href="https://github.com/Shambhavi500/Ovio">Ovio</a></h4>
-      <p><sub>MULTI-AGENT SYSTEMS</sub></p>
-      <p><sub>AI-assisted DaVinci Resolve workflow engine orchestrating timeline operations, asset synthesis and automated editorial cuts via multi-agent coordination.</sub></p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-FFF0F6?style=flat-square&labelColor=C21875&label=Python&color=FFF0F6" alt="Python" />
-        <img src="https://img.shields.io/badge/AI_Agents-FFF0F6?style=flat-square&labelColor=C21875&label=AI+Agents&color=FFF0F6" alt="AI Agents" />
-        <img src="https://img.shields.io/badge/DaVinci_API-FFF0F6?style=flat-square&labelColor=C21875&label=DaVinci+API&color=FFF0F6" alt="DaVinci API" />
-      </p>
-      <p><sub><a href="https://github.com/Shambhavi500/Ovio">View Repository →</a></sub></p>
-    </td>
-    <td width="50%"></td>
-  </tr>
-</table>
-
----
+<img src="./assets/divider.svg" alt="Divider" width="100%" />
 
 <!-- ════════════════════════════════════════════════════ -->
-<!-- 06 · RECOGNITION -->
+<!-- 05 · RECOGNITION -->
 <!-- ════════════════════════════════════════════════════ -->
 
-### Recognition
+## 05 / RECOGNITION
 
 <table width="100%">
   <tr>
-    <td width="50%" valign="top">
-      <p><sub><b>01</b></sub></p>
-      <h4>TechFiesta 2026</h4>
-      <p><img src="https://img.shields.io/badge/WINNER_·_1ST_PLACE-E0218A?style=flat-square" alt="Winner" /></p>
-      <p><sub>Agriculture Domain &nbsp;·&nbsp; 600+ teams nationwide<br>KrishiSahAI — end-to-end AI advisory and soil telemetry platform</sub></p>
+    <td width="50%" valign="top" bgcolor="#FFFFFF">
+      <h1 style="margin: 0;"><font color="#E0218A" size="7"><b>01</b></font></h1>
+      <h3><font color="#C71585">TechFiesta 2026</font></h3>
+      <p><img src="https://img.shields.io/badge/1ST_PLACE-WINNER-E0218A?style=flat-square" alt="1st Place" /></p>
+      <p><b>Agriculture Domain &nbsp;·&nbsp; 600+ teams nationwide</b></p>
+      <p><sub>Built <b>KrishiSahAI</b> — end-to-end AI advisory and soil telemetry platform evaluated across technical architecture, innovation, and practical agricultural impact.</sub></p>
     </td>
-    <td width="50%" valign="top">
-      <p><sub><b>02</b></sub></p>
-      <h4>Pune Agri International Hackathon</h4>
+    <td width="50%" valign="top" bgcolor="#FFF0F6">
+      <h1 style="margin: 0;"><font color="#E0218A" size="7"><b>02</b></font></h1>
+      <h3><font color="#C71585">Pune Agri International Hackathon</font></h3>
       <p>
         <img src="https://img.shields.io/badge/NATIONAL_RUNNER--UP-FF4F9A?style=flat-square" alt="Runner-Up" />
         &nbsp;
-        <img src="https://img.shields.io/badge/%E2%82%B915L_GRANT-C21875?style=flat-square" alt="Grant" />
+        <img src="https://img.shields.io/badge/%E2%82%B915L_GRANT-C71585?style=flat-square" alt="Grant" />
       </p>
-      <p><sub>KRISHI-PRABANDH — OCR fraud detection + satellite NDVI validation<br>Presented to senior government leadership</sub></p>
+      <p><b>National Runner-Up &nbsp;·&nbsp; ₹15L Development Grant Awarded</b></p>
+      <p><sub>Built <b>KRISHI-PRABANDH</b> — OCR fraud detection + satellite NDVI validation. Presented to senior government leadership including Maharashtra state leadership.</sub></p>
     </td>
   </tr>
 </table>
 
----
+<br>
+<img src="./assets/divider.svg" alt="Divider" width="100%" />
 
 <!-- ════════════════════════════════════════════════════ -->
-<!-- 07 · EXPERIENCE -->
+<!-- 06 · EXPERIENCE -->
 <!-- ════════════════════════════════════════════════════ -->
 
-### Experience
+## 06 / EXPERIENCE
 
 <table width="100%">
   <tr>
     <td width="4" bgcolor="#E0218A">&nbsp;</td>
     <td width="16">&nbsp;</td>
-    <td valign="top">
-      <p><img src="https://img.shields.io/badge/CURRENT-E0218A?style=flat-square" alt="Current" /></p>
-      <p><b>Mindstrix Technologies LLP</b><br>
-      <sub>AI/ML Research &amp; Development Intern &nbsp;·&nbsp; Mar 2026 – Present</sub></p>
-      <p><sub>Contributing across the SDLC on live AI/ML and software platform projects. Designing and coding modules for data processing, model training and system integration. Working in an Agile team through technical reviews and cross-functional product development.</sub></p>
+    <td valign="top" bgcolor="#FFFFFF">
+      <p><img src="https://img.shields.io/badge/CURRENT_ROLE-E0218A?style=flat-square" alt="Current" /></p>
+      <h3><font color="#C71585">Mindstrix Technologies LLP</font></h3>
+      <p><b>AI/ML Research &amp; Development Intern &nbsp;·&nbsp; Mar 2026 – Present &nbsp;·&nbsp; Pune, India</b></p>
+      <p>Contributing across the SDLC on live AI/ML and software platform projects. Designing and coding modules for data processing, model training and system integration. Working in an Agile team through technical reviews and cross-functional product development.</p>
     </td>
   </tr>
 </table>
@@ -279,150 +307,179 @@ My work spans AI-driven agriculture, quantitative reinforcement learning, multi-
   <tr>
     <td width="4" bgcolor="#FFD6E7">&nbsp;</td>
     <td width="16">&nbsp;</td>
-    <td valign="top">
-      <p><img src="https://img.shields.io/badge/EDUCATION-FF4F9A?style=flat-square" alt="Education" /></p>
-      <p><b>Pune Institute of Computer Technology (PICT)</b><br>
-      <sub>B.Tech Electronics &amp; Telecommunication &nbsp;·&nbsp; 2024 – 2028</sub></p>
-      <p><sub>CGPA: <b>8.6 / 10</b> &nbsp;·&nbsp; HSC: 89.83% &nbsp;·&nbsp; SSC: 96.40%<br>Signal processing · Communication systems · Embedded hardware · Algorithmic computation</sub></p>
+    <td valign="top" bgcolor="#FFF0F6">
+      <p><img src="https://img.shields.io/badge/ACADEMIC_PEDIGREE-FF4F9A?style=flat-square" alt="Education" /></p>
+      <h3><font color="#C71585">Pune Institute of Computer Technology (PICT)</font></h3>
+      <p><b>B.Tech Electronics &amp; Telecommunication &nbsp;·&nbsp; 2024 – 2028</b></p>
+      <p><b>CGPA: 8.6 / 10</b> &nbsp;·&nbsp; HSC: 89.83% &nbsp;·&nbsp; SSC: 96.40%</p>
+      <p><sub>Coursework: Signal Processing · Communication Systems · Embedded Hardware · Computer Architecture · Data Structures &amp; Algorithms</sub></p>
     </td>
   </tr>
 </table>
 
----
-
-<!-- ════════════════════════════════════════════════════ -->
-<!-- 08 · STACK -->
-<!-- ════════════════════════════════════════════════════ -->
-
-### Stack
-
 <br>
-
-<sub><b>LANGUAGES</b></sub>
-
-<p>
-  <img src="https://img.shields.io/badge/C%2B%2B-FFF0F6?style=flat-square&labelColor=E0218A&label=C%2B%2B&color=FFF0F6" alt="C++" />
-  <img src="https://img.shields.io/badge/Python-FFF0F6?style=flat-square&labelColor=E0218A&label=Python&color=FFF0F6" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-FFF0F6?style=flat-square&labelColor=E0218A&label=Java&color=FFF0F6" alt="Java" />
-  <img src="https://img.shields.io/badge/JavaScript-FFF0F6?style=flat-square&labelColor=E0218A&label=JavaScript&color=FFF0F6" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-FFF0F6?style=flat-square&labelColor=E0218A&label=TypeScript&color=FFF0F6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/C-FFF0F6?style=flat-square&labelColor=E0218A&label=C&color=FFF0F6" alt="C" />
-</p>
-
-<sub><b>AI / INTELLIGENCE</b></sub>
-
-<p>
-  <img src="https://img.shields.io/badge/Machine_Learning-FFF0F6?style=flat-square&labelColor=FF4F9A&label=Machine+Learning&color=FFF0F6" alt="Machine Learning" />
-  <img src="https://img.shields.io/badge/Computer_Vision-FFF0F6?style=flat-square&labelColor=FF4F9A&label=Computer+Vision&color=FFF0F6" alt="Computer Vision" />
-  <img src="https://img.shields.io/badge/Reinforcement_Learning-FFF0F6?style=flat-square&labelColor=FF4F9A&label=Reinforcement+Learning&color=FFF0F6" alt="Reinforcement Learning" />
-  <img src="https://img.shields.io/badge/Multi--Agent_Systems-FFF0F6?style=flat-square&labelColor=FF4F9A&label=Multi-Agent+Systems&color=FFF0F6" alt="Multi-Agent Systems" />
-</p>
-
-<sub><b>ENGINEERING</b></sub>
-
-<p>
-  <img src="https://img.shields.io/badge/Git-FFF0F6?style=flat-square&labelColor=C21875&label=Git&color=FFF0F6" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-FFF0F6?style=flat-square&labelColor=C21875&label=GitHub&color=FFF0F6" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Docker-FFF0F6?style=flat-square&labelColor=C21875&label=Docker&color=FFF0F6" alt="Docker" />
-  <img src="https://img.shields.io/badge/FastAPI-FFF0F6?style=flat-square&labelColor=C21875&label=FastAPI&color=FFF0F6" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Android-FFF0F6?style=flat-square&labelColor=C21875&label=Android&color=FFF0F6" alt="Android" />
-  <img src="https://img.shields.io/badge/Embedded_C-FFF0F6?style=flat-square&labelColor=C21875&label=Embedded+C&color=FFF0F6" alt="Embedded C" />
-</p>
-
----
+<img src="./assets/divider.svg" alt="Divider" width="100%" />
 
 <!-- ════════════════════════════════════════════════════ -->
-<!-- 09 · GITHUB ACTIVITY -->
+<!-- 07 · TECH STACK -->
 <!-- ════════════════════════════════════════════════════ -->
 
-### GitHub Activity
+## 07 / TECH STACK
 
-<div align="center">
-
-<br>
-
-[![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Shambhavi500&bg_color=FFF9FC&color=E0218A&line=FF4F9A&point=C21875&area=true&area_color=FFD6E7&hide_border=true&custom_title=Contribution+Activity)](https://github.com/Shambhavi500)
-
-<br>
-
-<table>
+<table width="100%">
   <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=Shambhavi500&show_icons=true&bg_color=FFF9FC&title_color=E0218A&text_color=3A2630&icon_color=FF4F9A&border_color=FFD6E7&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+    <td width="33%" valign="top" bgcolor="#FFFFFF">
+      <p><sub><font color="#E0218A"><b>LANGUAGES</b></font></sub></p>
+      <p>
+        <img src="https://img.shields.io/badge/C%2B%2B-FFF0F6?style=flat-square&labelColor=E0218A&label=C%2B%2B&color=FFF0F6" alt="C++" />
+        <img src="https://img.shields.io/badge/Python-FFF0F6?style=flat-square&labelColor=E0218A&label=Python&color=FFF0F6" alt="Python" />
+        <img src="https://img.shields.io/badge/Java-FFF0F6?style=flat-square&labelColor=E0218A&label=Java&color=FFF0F6" alt="Java" />
+        <img src="https://img.shields.io/badge/JavaScript-FFF0F6?style=flat-square&labelColor=E0218A&label=JavaScript&color=FFF0F6" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/TypeScript-FFF0F6?style=flat-square&labelColor=E0218A&label=TypeScript&color=FFF0F6" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/C-FFF0F6?style=flat-square&labelColor=E0218A&label=C&color=FFF0F6" alt="C" />
+      </p>
     </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shambhavi500&layout=compact&bg_color=FFF9FC&title_color=E0218A&text_color=3A2630&border_color=FFD6E7&hide_border=false" alt="Top Languages" />
+    <td width="33%" valign="top" bgcolor="#FFF0F6">
+      <p><sub><font color="#E0218A"><b>AI / INTELLIGENCE</b></font></sub></p>
+      <p>
+        <img src="https://img.shields.io/badge/Machine_Learning-FFF0F6?style=flat-square&labelColor=FF4F9A&label=Machine+Learning&color=FFF0F6" alt="Machine Learning" />
+        <img src="https://img.shields.io/badge/Computer_Vision-FFF0F6?style=flat-square&labelColor=FF4F9A&label=Computer+Vision&color=FFF0F6" alt="Computer Vision" />
+        <img src="https://img.shields.io/badge/Reinforcement_Learning-FFF0F6?style=flat-square&labelColor=FF4F9A&label=Reinforcement+Learning&color=FFF0F6" alt="Reinforcement Learning" />
+        <img src="https://img.shields.io/badge/Multi--Agent_Systems-FFF0F6?style=flat-square&labelColor=FF4F9A&label=Multi-Agent+Systems&color=FFF0F6" alt="Multi-Agent Systems" />
+      </p>
+    </td>
+    <td width="33%" valign="top" bgcolor="#FFFFFF">
+      <p><sub><font color="#E0218A"><b>ENGINEERING</b></font></sub></p>
+      <p>
+        <img src="https://img.shields.io/badge/Git-FFF0F6?style=flat-square&labelColor=C71585&label=Git&color=FFF0F6" alt="Git" />
+        <img src="https://img.shields.io/badge/GitHub-FFF0F6?style=flat-square&labelColor=C71585&label=GitHub&color=FFF0F6" alt="GitHub" />
+        <img src="https://img.shields.io/badge/Docker-FFF0F6?style=flat-square&labelColor=C71585&label=Docker&color=FFF0F6" alt="Docker" />
+        <img src="https://img.shields.io/badge/FastAPI-FFF0F6?style=flat-square&labelColor=C71585&label=FastAPI&color=FFF0F6" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/Android-FFF0F6?style=flat-square&labelColor=C71585&label=Android&color=FFF0F6" alt="Android" />
+        <img src="https://img.shields.io/badge/Embedded_C-FFF0F6?style=flat-square&labelColor=C71585&label=Embedded+C&color=FFF0F6" alt="Embedded C" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br>
+<img src="./assets/divider.svg" alt="Divider" width="100%" />
+
+<!-- ════════════════════════════════════════════════════ -->
+<!-- 08 · GITHUB ACTIVITY -->
+<!-- ════════════════════════════════════════════════════ -->
+
+## 08 / GITHUB ACTIVITY
+
+<div align="center">
+
+<br>
+
+<a href="https://github.com/Shambhavi500">
+  <img src="https://ghchart.rshah.org/E0218A/Shambhavi500" alt="Shambhavi500 Contribution Graph" width="100%" />
+</a>
+
+<br><br>
+
+<a href="https://github.com/Shambhavi500">
+  <img src="https://streak-stats.demolab.com?user=Shambhavi500&background=FFF9FC&border=FFD6E7&stroke=FF4F9A&ring=E0218A&fire=E0218A&currStreakNum=3A2630&sideNums=3A2630&currStreakLabel=C71585&sideLabels=8B6F7B&dates=8B6F7B" alt="GitHub Streak Stats" />
+</a>
+
+<br><br>
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center" valign="middle" bgcolor="#FFF9FC">
+      <a href="https://github.com/Shambhavi500">
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Shambhavi500&show_icons=true&bg_color=FFF9FC&title_color=E0218A&text_color=3A2630&icon_color=FF4F9A&border_color=FFD6E7&hide_border=false" alt="Shambhavi500 GitHub Stats" />
+      </a>
+    </td>
+    <td width="50%" align="center" valign="middle" bgcolor="#FFF9FC">
+      <a href="https://github.com/Shambhavi500">
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Shambhavi500&layout=compact&bg_color=FFF9FC&title_color=E0218A&text_color=3A2630&border_color=FFD6E7&hide_border=false" alt="Top Languages" />
+      </a>
     </td>
   </tr>
 </table>
 
 <br>
 
-</div>
-
----
-
-<!-- ════════════════════════════════════════════════════ -->
-<!-- 10 · CURRENTLY BUILDING -->
-<!-- ════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-<br>
-
-<sub><b>CURRENTLY BUILDING</b></sub>
-
-<br><br>
-
-<sub>AI/ML systems &nbsp;&nbsp;·&nbsp;&nbsp; Autonomous workflows &nbsp;&nbsp;·&nbsp;&nbsp; Data structures &amp; algorithms &nbsp;&nbsp;·&nbsp;&nbsp; Production-oriented software</sub>
+<a href="https://github.com/Shambhavi500">
+  <img src="https://komarev.com/ghpvc/?username=Shambhavi500&color=E0218A&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+</a>
 
 <br><br>
 
 </div>
 
----
+<img src="./assets/divider.svg" alt="Divider" width="100%" />
 
 <!-- ════════════════════════════════════════════════════ -->
-<!-- 11 · ENGINEERING STATEMENT -->
+<!-- 09 · CURRENTLY BUILDING -->
 <!-- ════════════════════════════════════════════════════ -->
+
+## 09 / CURRENTLY BUILDING
+
+<table width="100%">
+  <tr>
+    <td bgcolor="#FFF0F6" align="center">
+      <p><sub><font color="#E0218A"><b>ACTIVE EXPLORATION &amp; WORKFLOWS</b></font></sub></p>
+      <p><b>AI / ML Systems &nbsp;&nbsp;·&nbsp;&nbsp; Autonomous Workflows &nbsp;&nbsp;·&nbsp;&nbsp; Data Structures &amp; Algorithms &nbsp;&nbsp;·&nbsp;&nbsp; Production-Oriented Software</b></p>
+    </td>
+  </tr>
+</table>
+
+<br>
+<img src="./assets/divider.svg" alt="Divider" width="100%" />
+
+<!-- ════════════════════════════════════════════════════ -->
+<!-- 10 · STATEMENT -->
+<!-- ════════════════════════════════════════════════════ -->
+
+## 10 / STATEMENT
+
+<table width="100%">
+  <tr>
+    <td width="8" bgcolor="#E0218A">&nbsp;</td>
+    <td bgcolor="#FFFFFF">
+      <h2><font color="#3A2630">Building practical systems, one experiment at a time.</font></h2>
+      <p><sub>SHAMBHAVI PATIL &nbsp;//&nbsp; ATELIER 500</sub></p>
+    </td>
+  </tr>
+</table>
+
+<br>
+<img src="./assets/divider.svg" alt="Divider" width="100%" />
+
+<!-- ════════════════════════════════════════════════════ -->
+<!-- 11 · CONNECT & FOOTER -->
+<!-- ════════════════════════════════════════════════════ -->
+
+## 11 / CONNECT
 
 <div align="center">
 
-<br>
-
-### *Building practical systems, one experiment at a time.*
-
-<br>
-
-</div>
-
----
-
-<!-- ════════════════════════════════════════════════════ -->
-<!-- 12 · CONNECT -->
-<!-- ════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-<br>
-
-<sub>LET'S CONNECT</sub>
-
-<br>
-
-<sub>Interested in AI/ML, software systems or building something meaningful?</sub>
+<table width="100%">
+  <tr>
+    <td bgcolor="#FFF9FC" align="center">
+      <br>
+      <sub><font color="#E0218A"><b>LET'S CONNECT</b></font></sub>
+      <h3><font color="#3A2630">Interested in AI/ML, software systems or building something meaningful?</font></h3>
+      <p>
+        <a href="https://www.linkedin.com/in/shambhavi-patil05/"><img src="https://img.shields.io/badge/LINKEDIN-E0218A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+        &nbsp;&nbsp;
+        <a href="https://github.com/Shambhavi500"><img src="https://img.shields.io/badge/GITHUB-FF4F9A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+        &nbsp;&nbsp;
+        <a href="mailto:shambhavipatil5631@gmail.com"><img src="https://img.shields.io/badge/EMAIL-C71585?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+      </p>
+      <br>
+    </td>
+  </tr>
+</table>
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/shambhavi-patil05/"><img src="https://img.shields.io/badge/LinkedIn-E0218A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-&nbsp;&nbsp;
-<a href="https://github.com/Shambhavi500"><img src="https://img.shields.io/badge/GitHub-262126?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-&nbsp;&nbsp;
-<a href="mailto:shambhavipatil5631@gmail.com"><img src="https://img.shields.io/badge/Email-FF4F9A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-
-<br><br>
-
-<sub><code>SHAMBHAVI PATIL / 500</code></sub>
+<img src="./assets/footer.svg" alt="Footer Monogram" width="100%" />
 
 <br>
 
