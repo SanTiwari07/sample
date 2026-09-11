@@ -26,10 +26,10 @@ export default function AboutSection() {
     <section id="about" className="section-spacing">
       <div className="container">
         <SectionHeader
-          eyebrow="THE PERSON // ENGINEERING PROFILE &amp; FOCUS"
-          title="Architecting Impact Through"
-          highlightWord="Code &amp; Silicon"
-          subtitle="Third-year ENTC undergraduate at PICT Pune bridging electronics, scalable software, and applied machine learning."
+          eyebrow="ABOUT ME"
+          title="Engineering Practical Solutions for"
+          highlightWord="Real-World Impact"
+          subtitle="Third-year ENTC undergraduate at PICT Pune with a focus on Software Development, AI/ML, and Data Structures & Algorithms."
         />
 
         <div
@@ -68,8 +68,8 @@ export default function AboutSection() {
               }}
             >
               <DecorativeSparkle size={10} color="var(--primary-hot-pink)" />
-              <span className="mono-label" style={{ fontSize: '10px', color: 'var(--deep-pink)' }}>
-                VERIFIED IDENTITY // ATELIER 500
+              <span className="mono-label" style={{ fontSize: '10px', color: 'var(--deep-pink)', letterSpacing: '0.08em' }}>
+                SHAMBHAVI PATIL · PICT PUNE
               </span>
             </div>
 

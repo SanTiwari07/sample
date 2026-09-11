@@ -207,93 +207,49 @@
       "isPinned": true
     },
     {
-      "name": "Ovio",
-      "fullName": "Shambhavi500/Ovio",
-      "url": "https://github.com/Shambhavi500/Ovio",
-      "description": "Ovio - AI-powered DaVinci Resolve video editing assistant and multi-agent workflow engine",
-      "highlight": "Cinema-grade AI DaVinci Resolve editing assistant & multi-agent workflow engine.",
-      "language": "Python",
+      "name": "KRISHI-PRABANDH",
+      "fullName": "Shambhavi500/KRISHI-PRABANDH",
+      "url": "https://github.com/Shambhavi500/KRISHI-PRABANDH",
+      "description": "AI governance layer with OCR fraud detection & satellite NDVI spectral validation.",
+      "highlight": "AI governance layer with OCR fraud detection & satellite NDVI spectral validation.",
+      "language": "Multi-stack",
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-09-09T19:10:46Z",
-      "createdAt": "2026-09-09T17:59:16Z",
-      "sizeKb": 7562,
-      "category": "AI / MULTI-AGENT",
-      "tag": "AUTONOMOUS WORKFLOW",
-      "isAwardWinning": false,
+      "updatedAt": "2026-05-10T07:24:37Z",
+      "createdAt": "2026-05-10T07:24:37Z",
+      "sizeKb": 796,
+      "category": "GOV-TECH / AGRONOMY",
+      "tag": "NATIONAL RUNNER-UP · ₹15L GRANT",
+      "isAwardWinning": true,
       "readmeAnalysis": {
         "hasReadme": true,
-        "length": 17668,
-        "lines": 345,
+        "length": 3789,
+        "lines": 113,
         "sections": [
-          "Architecture / System",
+          "Features",
+          "Tech Stack",
           "Getting Started / Install",
           "API / Endpoints"
-        ],
-        "hasVisuals": true,
-        "hasCodeBlocks": true,
-        "hasDemoLink": false,
-        "score": 38,
-        "badge": "COMPREHENSIVE"
-      },
-      "scoreData": {
-        "totalScore": 90,
-        "isFeaturedEligible": true,
-        "breakdown": {
-          "readmeScore": 38,
-          "descScore": 15,
-          "sizeScore": 12,
-          "recencyScore": 10,
-          "socialScore": 0,
-          "achievementScore": 15
-        }
-      },
-      "id": "02",
-      "isPinned": true
-    },
-    {
-      "name": "Aira",
-      "fullName": "Shambhavi500/Aira",
-      "url": "https://github.com/Shambhavi500/Aira",
-      "description": "AIRA - Autonomous Revenue Recovery Operating System for the Indian Fintech Ecosystem",
-      "highlight": "Autonomous Revenue Recovery Operating System for Indian fintech ecosystem & payment pipelines.",
-      "language": "TypeScript",
-      "stars": 0,
-      "forks": 0,
-      "updatedAt": "2026-09-05T18:11:29Z",
-      "createdAt": "2026-09-05T14:08:19Z",
-      "sizeKb": 1603,
-      "category": "FINTECH / AUTONOMOUS OS",
-      "tag": "SYSTEM ARCHITECTURE",
-      "isAwardWinning": false,
-      "readmeAnalysis": {
-        "hasReadme": true,
-        "length": 11998,
-        "lines": 153,
-        "sections": [
-          "Overview / About",
-          "Architecture / System",
-          "Getting Started / Install"
         ],
         "hasVisuals": false,
         "hasCodeBlocks": true,
         "hasDemoLink": false,
-        "score": 29,
+        "score": 26,
         "badge": "DETAILED"
       },
       "scoreData": {
-        "totalScore": 81,
+        "totalScore": 59,
         "isFeaturedEligible": true,
         "breakdown": {
-          "readmeScore": 29,
-          "descScore": 15,
-          "sizeScore": 12,
-          "recencyScore": 10,
+          "readmeScore": 26,
+          "descScore": 0,
+          "sizeScore": 4,
+          "recencyScore": 4,
           "socialScore": 0,
-          "achievementScore": 15
+          "achievementScore": 25
         }
       },
-      "id": "03",
+      "id": "02",
       "isPinned": true
     },
     {
@@ -337,50 +293,94 @@
           "achievementScore": 20
         }
       },
+      "id": "03",
+      "isPinned": true
+    },
+    {
+      "name": "Ovio",
+      "fullName": "Shambhavi500/Ovio",
+      "url": "https://github.com/Shambhavi500/Ovio",
+      "description": "Ovio - AI-powered DaVinci Resolve video editing assistant and multi-agent workflow engine",
+      "highlight": "Cinema-grade AI DaVinci Resolve editing assistant & multi-agent workflow engine.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-09-09T19:10:46Z",
+      "createdAt": "2026-09-09T17:59:16Z",
+      "sizeKb": 7562,
+      "category": "AI / MULTI-AGENT",
+      "tag": "AUTONOMOUS WORKFLOW",
+      "isAwardWinning": false,
+      "readmeAnalysis": {
+        "hasReadme": true,
+        "length": 17668,
+        "lines": 345,
+        "sections": [
+          "Architecture / System",
+          "Getting Started / Install",
+          "API / Endpoints"
+        ],
+        "hasVisuals": true,
+        "hasCodeBlocks": true,
+        "hasDemoLink": false,
+        "score": 38,
+        "badge": "COMPREHENSIVE"
+      },
+      "scoreData": {
+        "totalScore": 90,
+        "isFeaturedEligible": true,
+        "breakdown": {
+          "readmeScore": 38,
+          "descScore": 15,
+          "sizeScore": 12,
+          "recencyScore": 10,
+          "socialScore": 0,
+          "achievementScore": 15
+        }
+      },
       "id": "04",
       "isPinned": true
     },
     {
-      "name": "KRISHI-PRABANDH",
-      "fullName": "Shambhavi500/KRISHI-PRABANDH",
-      "url": "https://github.com/Shambhavi500/KRISHI-PRABANDH",
-      "description": "AI governance layer with OCR fraud detection & satellite NDVI spectral validation.",
-      "highlight": "AI governance layer with OCR fraud detection & satellite NDVI spectral validation.",
-      "language": "Multi-stack",
+      "name": "Aira",
+      "fullName": "Shambhavi500/Aira",
+      "url": "https://github.com/Shambhavi500/Aira",
+      "description": "AIRA - Autonomous Revenue Recovery Operating System for the Indian Fintech Ecosystem",
+      "highlight": "Autonomous Revenue Recovery Operating System for Indian fintech ecosystem & payment pipelines.",
+      "language": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "updatedAt": "2026-05-10T07:24:37Z",
-      "createdAt": "2026-05-10T07:24:37Z",
-      "sizeKb": 796,
-      "category": "GOV-TECH / AGRONOMY",
-      "tag": "NATIONAL RUNNER-UP · ₹15L GRANT",
-      "isAwardWinning": true,
+      "updatedAt": "2026-09-05T18:11:29Z",
+      "createdAt": "2026-09-05T14:08:19Z",
+      "sizeKb": 1603,
+      "category": "FINTECH / AUTONOMOUS OS",
+      "tag": "SYSTEM ARCHITECTURE",
+      "isAwardWinning": false,
       "readmeAnalysis": {
         "hasReadme": true,
-        "length": 3789,
-        "lines": 113,
+        "length": 11998,
+        "lines": 153,
         "sections": [
-          "Features",
-          "Tech Stack",
-          "Getting Started / Install",
-          "API / Endpoints"
+          "Overview / About",
+          "Architecture / System",
+          "Getting Started / Install"
         ],
         "hasVisuals": false,
         "hasCodeBlocks": true,
         "hasDemoLink": false,
-        "score": 26,
+        "score": 29,
         "badge": "DETAILED"
       },
       "scoreData": {
-        "totalScore": 59,
+        "totalScore": 81,
         "isFeaturedEligible": true,
         "breakdown": {
-          "readmeScore": 26,
-          "descScore": 0,
-          "sizeScore": 4,
-          "recencyScore": 4,
+          "readmeScore": 29,
+          "descScore": 15,
+          "sizeScore": 12,
+          "recencyScore": 10,
           "socialScore": 0,
-          "achievementScore": 25
+          "achievementScore": 15
         }
       },
       "id": "05",

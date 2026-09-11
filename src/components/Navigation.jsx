@@ -4,10 +4,11 @@ import { SOCIAL_LINKS } from '../data/socialLinks';
 
 const NAV_ITEMS = [
   { label: 'ABOUT', href: '#about', id: 'about' },
-  { label: 'WINS', href: '#wins', id: 'wins' },
-  { label: 'PROJECTS', href: '#projects', id: 'projects' },
+  { label: 'SELECTED WORK', href: '#projects', id: 'projects' },
+  { label: 'ACHIEVEMENTS', href: '#achievements', id: 'achievements' },
+  { label: 'EXPERIENCE', href: '#experience', id: 'experience' },
+  { label: 'TECH STACK', href: '#skills', id: 'skills' },
   { label: 'REPOSITORIES', href: '#repositories', id: 'repositories' },
-  { label: 'SKILLS', href: '#skills', id: 'skills' },
   { label: 'CONTACT', href: '#contact', id: 'contact' }
 ];
 
@@ -116,9 +117,9 @@ export default function Navigation() {
                 gap: '6px'
               }}
             >
-              <span>ATELIER NO. 500</span>
+              <span>SHAMBHAVI PATIL</span>
               <span style={{ color: 'var(--primary-hot-pink)' }}>//</span>
-              <span className="editorial-accent" style={{ fontWeight: 700 }}>Shambhavi</span>
+              <span style={{ color: 'var(--deep-pink)', fontSize: '11px' }}>PICT ENTC</span>
             </div>
             <div
               style={{
@@ -128,7 +129,7 @@ export default function Navigation() {
                 fontFamily: 'var(--font-mono)'
               }}
             >
-              AI/ML &amp; SYSTEMS LAB
+              SOFTWARE &amp; AI/ML
             </div>
           </div>
         </a>

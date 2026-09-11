@@ -17,10 +17,10 @@ export default function SkillsSection() {
     <section id="skills" className="section-spacing">
       <div className="container">
         <SectionHeader
-          eyebrow="THE LAB // TECHNICAL WARDROBE &amp; STACK"
-          title="Engineered With Rigor Across"
-          highlightWord="Code, AI &amp; Hardware"
-          subtitle="Grounded competencies verified through completed architectures, competitive hackathons, and telecommunication systems."
+          eyebrow="TECH STACK &amp; SKILLS"
+          title="Technical Stack &amp;"
+          highlightWord="Engineering Fundamentals"
+          subtitle="Core languages, AI/ML tools, and frameworks applied across software systems, mobile apps, and hackathon projects."
         />
 
         <div

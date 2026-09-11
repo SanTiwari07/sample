@@ -36,10 +36,10 @@ export default function RepositoriesSection() {
     <section id="repositories" className="section-spacing">
       <div className="container">
         <SectionHeader
-          eyebrow="THE REPOSITORY EDIT // SHAMBHAVI'S CODE"
-          title="Direct Source Code &amp;"
+          eyebrow="PUBLIC REPOSITORIES"
+          title="Source Code &amp;"
           highlightWord="GitHub Repositories"
-          subtitle="Real-time synchronized catalog of active repositories, open-source packages, and systems experiments."
+          subtitle="Dynamic catalog of public repositories, open-source code, and software experiments directly from GitHub."
         />
 
         {/* Filter & Search Bar */}
@@ -132,7 +132,7 @@ export default function RepositoriesSection() {
         {loading ? (
           <div style={{ textAlign: 'center', padding: '60px 0', color: 'var(--text-secondary)' }}>
             <Sparkles className="sparkle-anim" size={28} style={{ color: 'var(--primary-hot-pink)', marginBottom: '12px' }} />
-            <div className="mono-label">SYNCHRONIZING GITHUB TELEMETRY...</div>
+            <div className="mono-label">LOADING REPOSITORIES FROM GITHUB...</div>
           </div>
         ) : filteredRepos.length > 0 ? (
           <div

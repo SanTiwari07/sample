@@ -2,15 +2,13 @@ import React from 'react';
 import {
   Sparkles,
   Linkedin,
-  Trophy,
   Mail,
   Github,
-  ArrowRight,
   Code2,
-  Cpu,
   GraduationCap,
   MapPin,
-  ExternalLink
+  Trophy,
+  ArrowRight
 } from 'lucide-react';
 import { PROFILE } from '../data/profile';
 import { SOCIAL_LINKS } from '../data/socialLinks';
@@ -23,21 +21,21 @@ export default function Hero() {
       id="hero"
       style={{
         position: 'relative',
-        paddingTop: '130px',
-        paddingBottom: '80px',
+        paddingTop: '120px',
+        paddingBottom: '60px',
         overflow: 'hidden'
       }}
     >
-      {/* Background Ambient Aura */}
+      {/* Background Soft Pink Ambient Aura */}
       <div
         style={{
           position: 'absolute',
           top: '20px',
-          right: '5%',
-          width: '450px',
-          height: '450px',
+          right: '8%',
+          width: '420px',
+          height: '420px',
           borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(255, 105, 180, 0.22) 0%, rgba(224, 33, 138, 0.08) 50%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(255, 105, 180, 0.18) 0%, rgba(224, 33, 138, 0.05) 50%, transparent 70%)',
           filter: 'blur(50px)',
           pointerEvents: 'none',
           zIndex: 0
@@ -46,12 +44,12 @@ export default function Hero() {
       <div
         style={{
           position: 'absolute',
-          bottom: '10px',
-          left: '5%',
-          width: '380px',
-          height: '380px',
+          bottom: '20px',
+          left: '6%',
+          width: '360px',
+          height: '360px',
           borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(217, 167, 255, 0.25) 0%, rgba(255, 194, 221, 0.12) 60%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(217, 167, 255, 0.2) 0%, rgba(255, 194, 221, 0.1) 60%, transparent 70%)',
           filter: 'blur(60px)',
           pointerEvents: 'none',
           zIndex: 0
@@ -62,24 +60,24 @@ export default function Hero() {
         <div
           className="glass-panel"
           style={{
-            padding: 'clamp(32px, 5vw, 64px) clamp(24px, 5vw, 56px)',
+            padding: 'clamp(32px, 5vw, 56px) clamp(24px, 5vw, 48px)',
             borderRadius: 'var(--radius-card)',
-            background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.96) 0%, rgba(255, 245, 250, 0.92) 100%)',
-            border: '1px solid rgba(224, 33, 138, 0.3)',
-            boxShadow: '0 20px 50px rgba(224, 33, 138, 0.12)',
+            background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 245, 250, 0.94) 100%)',
+            border: '1px solid rgba(224, 33, 138, 0.25)',
+            boxShadow: '0 20px 48px rgba(224, 33, 138, 0.08)',
             position: 'relative',
             overflow: 'hidden'
           }}
         >
-          {/* Decorative Corner Accents */}
+          {/* Subtle Top Status Badge */}
           <div
             style={{
               position: 'absolute',
-              top: '16px',
+              top: '18px',
               right: '20px',
               display: 'flex',
               alignItems: 'center',
-              gap: '12px'
+              gap: '8px'
             }}
           >
             <span
@@ -93,9 +91,8 @@ export default function Hero() {
                 border: '1px solid rgba(224, 33, 138, 0.2)'
               }}
             >
-              SYS.STATUS: ONLINE // VERIFIED
+              PICT PUNE · ENTC &apos;28
             </span>
-            <DecorativeSparkle size={18} color="var(--primary-hot-pink)" />
           </div>
 
           {/* Eyebrow */}
@@ -104,11 +101,11 @@ export default function Hero() {
               display: 'inline-flex',
               alignItems: 'center',
               gap: '8px',
-              background: 'linear-gradient(90deg, #FFEBF3, #FFF0F6)',
+              background: '#FFEBF3',
               border: '1px solid rgba(224, 33, 138, 0.25)',
-              padding: '6px 16px',
+              padding: '6px 14px',
               borderRadius: 'var(--radius-pill)',
-              marginBottom: '24px'
+              marginBottom: '20px'
             }}
           >
             <DecorativeSparkle size={12} color="var(--primary-hot-pink)" />
@@ -118,21 +115,21 @@ export default function Hero() {
                 color: 'var(--deep-pink)',
                 fontWeight: 700,
                 fontSize: '11px',
-                letterSpacing: '0.12em'
+                letterSpacing: '0.1em'
               }}
             >
-              {PROFILE.eyebrow}
+              ENGINEERING PORTFOLIO
             </span>
           </div>
 
           {/* Main Heading */}
           <h1
             style={{
-              fontSize: 'clamp(38px, 6.5vw, 68px)',
+              fontSize: 'clamp(36px, 6vw, 64px)',
               fontWeight: 800,
-              lineHeight: 1.1,
-              letterSpacing: '-0.03em',
-              marginBottom: '16px',
+              lineHeight: 1.15,
+              letterSpacing: '-0.025em',
+              marginBottom: '14px',
               color: 'var(--text-main)'
             }}
           >
@@ -144,86 +141,86 @@ export default function Hero() {
                 display: 'inline-block'
               }}
             >
-              Shambhavi.
+              Shambhavi Patil.
               <span
                 style={{
                   position: 'absolute',
                   bottom: '4px',
                   left: 0,
                   right: 0,
-                  height: '4px',
+                  height: '3px',
                   background: 'linear-gradient(90deg, var(--primary-hot-pink), var(--barbie-pink), transparent)',
                   borderRadius: '2px',
-                  opacity: 0.6
+                  opacity: 0.7
                 }}
               />
             </span>
           </h1>
 
-          {/* Supporting Headline */}
+          {/* Supporting Discipline Subtitle */}
           <div
-            className="mono-label"
             style={{
-              fontSize: 'clamp(12px, 1.8vw, 15px)',
+              fontSize: 'clamp(14px, 2vw, 17px)',
               fontWeight: 700,
-              letterSpacing: '0.08em',
               color: 'var(--deep-pink)',
-              marginBottom: '16px',
+              fontFamily: 'var(--font-mono)',
+              letterSpacing: '0.04em',
+              marginBottom: '14px',
               display: 'flex',
               alignItems: 'center',
               flexWrap: 'wrap',
               gap: '8px'
             }}
           >
+            <span>Software Development</span>
+            <span style={{ color: 'var(--soft-pink)' }}>·</span>
             <span>AI/ML</span>
-            <span style={{ color: 'var(--soft-pink)' }}>•</span>
-            <span>SOFTWARE DEVELOPMENT</span>
-            <span style={{ color: 'var(--soft-pink)' }}>•</span>
-            <span>DATA STRUCTURES &amp; ALGORITHMS</span>
+            <span style={{ color: 'var(--soft-pink)' }}>·</span>
+            <span>Data Structures &amp; Algorithms</span>
           </div>
 
-          {/* Description */}
+          {/* Mission Tagline */}
           <p
             style={{
-              fontSize: 'clamp(17px, 2.2vw, 21px)',
+              fontSize: 'clamp(16px, 2vw, 19px)',
               color: 'var(--text-secondary)',
-              maxWidth: '720px',
-              marginBottom: '28px',
+              maxWidth: '680px',
+              marginBottom: '26px',
               fontWeight: 500,
-              lineHeight: 1.5
+              lineHeight: 1.55
             }}
           >
-            {PROFILE.heroDescription}
+            Third-year Electronics &amp; Telecommunication student at PICT, Pune. Building practical solutions that use technology to solve real-world problems.
           </p>
 
-          {/* Subtle Metadata Chips */}
+          {/* Academic & Hackathon Highlights */}
           <div
             style={{
               display: 'flex',
               flexWrap: 'wrap',
               gap: '10px',
-              marginBottom: '36px'
+              marginBottom: '32px'
             }}
           >
             <div className="barbie-badge">
               <GraduationCap size={13} strokeWidth={2.2} />
-              <span>PICT • ENTC (CGPA 8.6)</span>
+              <span>PICT Pune (CGPA 8.6)</span>
             </div>
             <div className="barbie-badge">
-              <Code2 size={13} strokeWidth={2.2} />
-              <span>SOFTWARE + AI/ML</span>
+              <Trophy size={13} strokeWidth={2.2} style={{ color: 'var(--primary-hot-pink)' }} />
+              <span>TechFiesta &apos;26 Winner</span>
+            </div>
+            <div className="barbie-badge">
+              <Trophy size={13} strokeWidth={2.2} style={{ color: 'var(--primary-hot-pink)' }} />
+              <span>Pune Agri Hackathon (₹15L Grant)</span>
             </div>
             <div className="barbie-badge">
               <MapPin size={13} strokeWidth={2.2} />
-              <span>PUNE, INDIA</span>
-            </div>
-            <div className="barbie-badge" style={{ background: '#FFF0F8', borderColor: 'var(--barbie-pink)' }}>
-              <Trophy size={13} strokeWidth={2.2} style={{ color: 'var(--primary-hot-pink)' }} />
-              <span>TECHFIESTA CHAMPION &bull; ₹15L GRANT</span>
+              <span>Pune, India</span>
             </div>
           </div>
 
-          {/* Real Interactive Action Buttons */}
+          {/* Clean Action Buttons */}
           <div
             style={{
               display: 'flex',
@@ -237,7 +234,7 @@ export default function Hero() {
               variant="primary"
               icon={Sparkles}
             >
-              EXPLORE PROJECTS
+              SELECTED WORK
             </ActionButton>
 
             <ActionButton
@@ -245,15 +242,15 @@ export default function Hero() {
               variant="secondary"
               icon={Linkedin}
             >
-              CONNECT LINKEDIN
+              LINKEDIN
             </ActionButton>
 
             <ActionButton
-              href="#wins"
+              href={SOCIAL_LINKS.github.url}
               variant="secondary"
-              icon={Trophy}
+              icon={Github}
             >
-              HACKATHON WINS
+              GITHUB
             </ActionButton>
 
             <ActionButton
@@ -261,15 +258,7 @@ export default function Hero() {
               variant="secondary"
               icon={Mail}
             >
-              SEND EMAIL
-            </ActionButton>
-
-            <ActionButton
-              href={SOCIAL_LINKS.repositories.url}
-              variant="outline"
-              icon={Github}
-            >
-              ALL REPOSITORIES
+              EMAIL
             </ActionButton>
           </div>
         </div>

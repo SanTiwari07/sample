@@ -5,13 +5,14 @@ import AchievementCard from './AchievementCard';
 
 export default function AchievementsSection() {
   return (
-    <section id="wins" className="section-spacing">
+    <section id="achievements" className="section-spacing" style={{ position: 'relative' }}>
+      <span id="wins" style={{ position: 'absolute', top: '-100px', visibility: 'hidden' }} aria-hidden="true" />
       <div className="container">
         <SectionHeader
-          eyebrow="THE WINS // ACCREDITED ACHIEVEMENTS"
-          title="National Hackathon Honors &amp;"
-          highlightWord="Government Accreditations"
-          subtitle="Proven track record in high-stakes competitive hackathons, transforming problem statements into deployed prototypes under strict deadlines."
+          eyebrow="ACHIEVEMENTS &amp; HONORS"
+          title="Hackathon Victories &amp;"
+          highlightWord="National Grants"
+          subtitle="Proven track record in competitive hackathons, transforming ideas from problem statements into working prototypes under strict deadlines."
         />
 
         <div

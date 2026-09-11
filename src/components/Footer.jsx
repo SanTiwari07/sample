@@ -150,7 +150,7 @@ export default function Footer() {
                 fontFamily: 'var(--font-editorial)'
               }}
             >
-              Curated with intention &amp; precision in the Atelier No. 500.
+              Curated with intention &amp; precision by Shambhavi Patil.
             </p>
           </div>
 

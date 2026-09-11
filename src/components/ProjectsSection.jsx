@@ -8,10 +8,10 @@ export default function ProjectsSection() {
     <section id="projects" className="section-spacing">
       <div className="container">
         <SectionHeader
-          eyebrow="CURATED ATELIER ARCHITECTURES // FLAGSHIP WORK"
-          title="Engineered For Real-World"
-          highlightWord="Sovereignty &amp; Scale"
-          subtitle="Autonomous pipelines, reinforcement learning models, and mission-critical agricultural and fintech platforms engineered from first principles."
+          eyebrow="SELECTED WORK"
+          title="Engineered Solutions &amp;"
+          highlightWord="Real-World Impact"
+          subtitle="Practical software systems, AI/ML models, and agricultural platforms built with clean architecture and empirical testing."
         />
 
         <div

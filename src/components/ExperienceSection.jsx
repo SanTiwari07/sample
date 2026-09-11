@@ -8,10 +8,10 @@ export default function ExperienceSection() {
     <section id="experience" className="section-spacing">
       <div className="container">
         <SectionHeader
-          eyebrow="PROFESSIONAL EDIT // INDUSTRY &amp; ACADEMICS"
-          title="Industry Appointments &amp;"
+          eyebrow="EXPERIENCE &amp; EDUCATION"
+          title="Industry Experience &amp;"
           highlightWord="Academic Pedigree"
-          subtitle="Applied R&amp;D engineering experience combined with top-tier technical education at PICT Pune."
+          subtitle="Applied R&amp;D engineering experience combined with rigorous technical education at PICT Pune."
         />
 
         <div
@@ -26,7 +26,7 @@ export default function ExperienceSection() {
             role="AI/ML Research &amp; Development Intern"
             institution="Mindstrix Technologies LLP"
             period="Mar 2026 – Ongoing"
-            badge="ACTIVE APPOINTMENT"
+            badge="CURRENT INTERNSHIP"
             location="Remote / Hybrid"
             highlights={[
               'Contribute to application software development across the SDLC on live AI/ML and software platform projects under mentor guidance.',

@@ -25,10 +25,10 @@ export default function StatsSection() {
     <section id="telemetry" className="section-spacing">
       <div className="container">
         <SectionHeader
-          eyebrow="SYSTEM TELEMETRY // VERIFIED METRICS"
-          title="Verified Technical Data &amp;"
-          highlightWord="Engineering Output"
-          subtitle="Real-world metrics and quantitative benchmarks derived from live GitHub telemetry and academic records."
+          eyebrow="AT A GLANCE"
+          title="Academic &amp;"
+          highlightWord="Engineering Highlights"
+          subtitle="Real-world metrics and benchmarks derived from live GitHub data and academic milestones."
         />
 
         <div

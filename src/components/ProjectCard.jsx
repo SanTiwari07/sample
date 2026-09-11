@@ -1,9 +1,14 @@
 import React from 'react';
-import { Github, ExternalLink, Sparkles, Trophy, ArrowUpRight, Code2 } from 'lucide-react';
+import { Github, Trophy, ArrowUpRight, Code2 } from 'lucide-react';
 import DecorativeSparkle from './DecorativeSparkle';
 
 export default function ProjectCard({ project }) {
-  const isAwardWinning = project.badge?.includes('WINNER') || project.badge?.includes('1ST PLACE') || project.badge?.includes('RUNNER-UP');
+  const isAwardWinning =
+    project.badge?.includes('WINNER') ||
+    project.badge?.includes('1st Place') ||
+    project.badge?.includes('1ST PLACE') ||
+    project.badge?.includes('Runner-Up') ||
+    project.badge?.includes('RUNNER-UP');
 
   return (
     <div
@@ -17,12 +22,12 @@ export default function ProjectCard({ project }) {
         flexDirection: 'column',
         justifyContent: 'space-between',
         position: 'relative',
-        transition: 'all 0.25s cubic-bezier(0.16, 1, 0.3, 1)',
+        transition: 'transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease',
         height: '100%'
       }}
       onMouseEnter={(e) => {
-        e.currentTarget.style.transform = 'translateY(-4px)';
-        e.currentTarget.style.boxShadow = '0 16px 36px rgba(224, 33, 138, 0.16)';
+        e.currentTarget.style.transform = 'translateY(-3px)';
+        e.currentTarget.style.boxShadow = '0 12px 28px rgba(224, 33, 138, 0.12)';
         e.currentTarget.style.borderColor = 'var(--primary-hot-pink)';
       }}
       onMouseLeave={(e) => {
@@ -49,7 +54,7 @@ export default function ProjectCard({ project }) {
               fontSize: '10.5px',
               color: 'var(--deep-pink)',
               fontWeight: 700,
-              letterSpacing: '0.08em',
+              letterSpacing: '0.06em',
               background: 'rgba(224, 33, 138, 0.08)',
               padding: '3px 8px',
               borderRadius: '4px'
@@ -64,12 +69,12 @@ export default function ProjectCard({ project }) {
                 display: 'inline-flex',
                 alignItems: 'center',
                 gap: '5px',
-                fontSize: '10px',
-                fontWeight: 800,
+                fontSize: '10.5px',
+                fontWeight: 700,
                 fontFamily: 'var(--font-mono)',
                 padding: '3px 10px',
                 borderRadius: 'var(--radius-pill)',
-                background: isAwardWinning ? 'linear-gradient(135deg, #FFFBEB, #FEF3C7)' : '#FFEBF3',
+                background: isAwardWinning ? '#FFFBEB' : '#FFEBF3',
                 color: isAwardWinning ? '#B45309' : 'var(--primary-hot-pink)',
                 border: `1px solid ${isAwardWinning ? 'rgba(245, 158, 11, 0.35)' : 'rgba(224, 33, 138, 0.25)'}`
               }}
@@ -83,16 +88,26 @@ export default function ProjectCard({ project }) {
         {/* Project Title */}
         <h3
           style={{
-            fontSize: '22px',
+            fontSize: '21px',
             fontWeight: 800,
             color: 'var(--text-main)',
-            marginBottom: '10px',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '8px'
+            marginBottom: '10px'
           }}
         >
-          <span>{project.name}</span>
+          <a
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              textDecoration: 'none',
+              color: 'inherit',
+              transition: 'color 0.15s ease'
+            }}
+            onMouseEnter={(e) => { e.currentTarget.style.color = 'var(--primary-hot-pink)'; }}
+            onMouseLeave={(e) => { e.currentTarget.style.color = 'inherit'; }}
+          >
+            {project.name}
+          </a>
         </h3>
 
         {/* Description */}
@@ -107,38 +122,16 @@ export default function ProjectCard({ project }) {
           {project.description}
         </p>
 
-        {/* Achievement / Highlight Callout */}
-        {project.achievement && (
-          <div
-            style={{
-              padding: '8px 12px',
-              borderRadius: '8px',
-              background: 'rgba(224, 33, 138, 0.05)',
-              borderLeft: '3px solid var(--primary-hot-pink)',
-              marginBottom: '18px',
-              fontSize: '12px',
-              fontWeight: 600,
-              color: 'var(--deep-pink)',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '6px'
-            }}
-          >
-            <Sparkles size={13} style={{ color: 'var(--primary-hot-pink)', flexShrink: 0 }} />
-            <span>{project.achievement}</span>
-          </div>
-        )}
-
-        {/* Tech Stack Pills */}
+        {/* Tech Stack Tags */}
         <div
           style={{
             display: 'flex',
             flexWrap: 'wrap',
             gap: '6px',
-            marginBottom: '22px'
+            marginBottom: '20px'
           }}
         >
-          {project.technologies.map((tech) => (
+          {(project.technologies || []).map((tech) => (
             <span
               key={tech}
               style={{
@@ -158,10 +151,10 @@ export default function ProjectCard({ project }) {
         </div>
       </div>
 
-      {/* Footer Controls */}
+      {/* Footer Controls: Language & Real Repo Action */}
       <div
         style={{
-          borderTop: '1px solid rgba(224, 33, 138, 0.14)',
+          borderTop: '1px solid rgba(224, 33, 138, 0.12)',
           paddingTop: '14px',
           display: 'flex',
           alignItems: 'center',
@@ -171,23 +164,15 @@ export default function ProjectCard({ project }) {
         <span
           className="mono-label"
           style={{
-            fontSize: '10px',
+            fontSize: '11px',
             color: 'var(--text-secondary)',
             display: 'flex',
             alignItems: 'center',
             gap: '6px'
           }}
         >
-          <span
-            style={{
-              width: '7px',
-              height: '7px',
-              borderRadius: '50%',
-              backgroundColor: '#10B981',
-              display: 'inline-block'
-            }}
-          />
-          {project.status || 'ACTIVE'}
+          <Code2 size={13} style={{ color: 'var(--primary-hot-pink)' }} />
+          <span>{project.language || 'Code'}</span>
         </span>
 
         <a
@@ -207,20 +192,20 @@ export default function ProjectCard({ project }) {
             fontFamily: 'var(--font-mono)',
             textDecoration: 'none',
             letterSpacing: '0.04em',
-            boxShadow: '0 2px 8px rgba(224, 33, 138, 0.25)',
+            boxShadow: '0 2px 8px rgba(224, 33, 138, 0.2)',
             transition: 'transform 0.15s ease, box-shadow 0.15s ease'
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = 'translateY(-1px)';
-            e.currentTarget.style.boxShadow = '0 4px 14px rgba(224, 33, 138, 0.4)';
+            e.currentTarget.style.boxShadow = '0 4px 14px rgba(224, 33, 138, 0.35)';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = 'translateY(0)';
-            e.currentTarget.style.boxShadow = '0 2px 8px rgba(224, 33, 138, 0.25)';
+            e.currentTarget.style.boxShadow = '0 2px 8px rgba(224, 33, 138, 0.2)';
           }}
         >
           <Github size={13} />
-          <span>VIEW GITHUB</span>
+          <span>Repository</span>
           <ArrowUpRight size={12} />
         </a>
       </div>

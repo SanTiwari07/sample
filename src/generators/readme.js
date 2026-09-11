@@ -1,183 +1,148 @@
-import { escapeXml } from './theme.js';
+// Markdown-First GitHub Profile README Generator for Shambhavi Patil (@Shambhavi500)
+// Emits clean, accessible, semantic Markdown and lightweight HTML tables.
+// Strictly eliminates giant static SVG posters for text content.
+
+import { SHOWCASE_PROJECTS } from '../data/projects.js';
 
 export function generateReadme(data) {
   const username = data.username || 'Shambhavi500';
   const name = data.name || 'Shambhavi Patil';
   const email = data.email || 'shambhavipatil5631@gmail.com';
   const linkedinUrl = data.linkedinUrl || 'https://www.linkedin.com/in/shambhavi-patil05/';
-  const projects = data.projects || [];
-  const topProjects = projects.slice(0, 6);
+  const portfolioUrl = `https://github.com/${username}`;
 
-  // Generate dynamic markdown table rows from ranked showcase projects
-  const projectRows = projects.map(p => {
-    const badgeText = p.tag ? ` \`${p.tag}\`` : '';
-    const cleanDesc = (p.highlight || p.description || '').replace(/\|/g, '\\|');
-    return `| **[${p.name}](https://github.com/${username}/${p.name})** | \`${p.category}\` | **${p.language}** | ${cleanDesc}${badgeText} |`;
-  }).join('\n');
+  // Use curated SHOWCASE_PROJECTS as source of truth
+  const selectedProjects = SHOWCASE_PROJECTS;
 
-  // Build 2-column table of individual clickable project cards
-  let projectCardsGrid = '<table border="0" cellpadding="0" cellspacing="12" width="100%">\n';
-  for (let i = 0; i < topProjects.length; i += 2) {
-    const p1 = topProjects[i];
-    const p2 = topProjects[i + 1];
-    const id1 = p1.id || String(i + 1).padStart(2, '0');
-    
-    projectCardsGrid += '  <tr>\n';
-    projectCardsGrid += `    <td width="50%" align="center" valign="top">\n`;
-    projectCardsGrid += `      <a href="https://github.com/${username}/${p1.name}">\n`;
-    projectCardsGrid += `        <img src="./assets/project-${id1}.svg" alt="${p1.name} - ${escapeXml(p1.category)}" width="100%" />\n`;
-    projectCardsGrid += `      </a>\n`;
-    projectCardsGrid += `    </td>\n`;
+  // Build clean 2-column HTML table for projects (lightweight and native to GitHub)
+  let projectTableRows = '';
+  for (let i = 0; i < selectedProjects.length; i += 2) {
+    const p1 = selectedProjects[i];
+    const p2 = selectedProjects[i + 1];
 
-    if (p2) {
-      const id2 = p2.id || String(i + 2).padStart(2, '0');
-      projectCardsGrid += `    <td width="50%" align="center" valign="top">\n`;
-      projectCardsGrid += `      <a href="https://github.com/${username}/${p2.name}">\n`;
-      projectCardsGrid += `        <img src="./assets/project-${id2}.svg" alt="${p2.name} - ${escapeXml(p2.category)}" width="100%" />\n`;
-      projectCardsGrid += `      </a>\n`;
-      projectCardsGrid += `    </td>\n`;
-    } else {
-      projectCardsGrid += `    <td width="50%"></td>\n`;
-    }
-    projectCardsGrid += '  </tr>\n';
+    const renderCell = (p) => {
+      if (!p) return '<td width="50%"></td>';
+      const techTags = (p.technologies || [p.language || 'Code'])
+        .slice(0, 4)
+        .map(t => `\`${t}\``)
+        .join(' · ');
+      const badgeHtml = p.badge
+        ? `<p><strong>${p.badge}</strong></p>`
+        : '';
+
+      return `<td width="50%" valign="top">
+      <h3><a href="${p.url}">${p.name}</a></h3>
+      ${badgeHtml}
+      <p>${p.description}</p>
+      <p>${techTags}</p>
+      <p><a href="${p.url}"><strong>View repository ↗</strong></a></p>
+    </td>`;
+    };
+
+    projectTableRows += `  <tr>\n    ${renderCell(p1)}\n    ${renderCell(p2)}\n  </tr>\n`;
   }
-  projectCardsGrid += '</table>';
 
   return `<div align="center">
 
-<!-- 01. HERO SECTION // ATELIER NO. 500 -->
-<img src="./assets/hero.svg" alt="${name} - Luxury Barbiecore Engineering Portfolio" width="100%" />
+<!-- DECORATIVE BRANDING BANNER -->
+<img src="./assets/hero.svg" alt="${name} - Engineering Portfolio Banner" width="100%" />
 
-<!-- INTERACTIVE BARBIECORE ACTION BAR -->
+# Hi, I'm ${name} 👋
+### Third-year Electronics & Telecommunication Engineering student at PICT, Pune
+**Software Development · AI/ML · Data Structures & Algorithms**  
+*Building practical systems with real-world impact.*
+
 <p align="center">
-  <a href="#curated-atelier-architectures"><img src="https://img.shields.io/badge/%E2%9C%A8_EXPLORE_PROJECTS-E0218A?style=for-the-badge&logoColor=white" alt="Explore Top Projects" /></a>
+  <a href="${portfolioUrl}"><img src="https://img.shields.io/badge/%F0%9F%8C%90_PORTFOLIO-E0218A?style=for-the-badge&logoColor=white" alt="Portfolio" /></a>
   &nbsp;
-  <a href="${linkedinUrl}"><img src="https://img.shields.io/badge/%F0%9F%92%BC_CONNECT_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" /></a>
+  <a href="${linkedinUrl}"><img src="https://img.shields.io/badge/%F0%9F%92%BC_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   &nbsp;
-  <a href="#hackathon-honors--recognitions"><img src="https://img.shields.io/badge/%F0%9F%8F%86_HACKATHON_WINS-C71585?style=for-the-badge&logoColor=white" alt="Hackathon Honors" /></a>
+  <a href="https://github.com/${username}"><img src="https://img.shields.io/badge/%E2%9A%A1_GITHUB-24292e?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   &nbsp;
-  <a href="mailto:${email}"><img src="https://img.shields.io/badge/%F0%9F%93%AC_SEND_EMAIL-2D2D2D?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Shambhavi" /></a>
-  &nbsp;
-  <a href="https://github.com/${username}?tab=repositories"><img src="https://img.shields.io/badge/%E2%9A%A1_ALL_REPOSITORIES-FFD1DC?style=for-the-badge&labelColor=E0218A&color=FFD1DC" alt="All Repositories" /></a>
+  <a href="mailto:${email}"><img src="https://img.shields.io/badge/%F0%9F%93%AC_EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-<br/>
-
-<!-- FLOWING PINK CURVE DIVIDER -->
-<img src="./assets/divider.svg" alt="Divider" width="100%" />
-
-<br/>
-
-<!-- 02. THE PERSON // ENGINEERING PROFILE & FOCUS -->
-<img src="./assets/identity.svg" alt="The Person - Shambhavi Patil Profile &amp; Focus" width="100%" />
-
-<br/>
-
-<!-- FLOWING PINK CURVE DIVIDER -->
-<img src="./assets/divider.svg" alt="Divider" width="100%" />
-
-<br/>
-
-<!-- 03. THE WINS // HACKATHONS & ENGINEERING HONORS -->
-<a id="hackathon-honors--recognitions" name="hackathon-honors--recognitions"></a>
-<img src="./assets/achievements.svg" alt="The Wins - Hackathon Honors &amp; Recognitions" width="100%" />
-
-<br/>
-
-<!-- FLOWING PINK CURVE DIVIDER -->
-<img src="./assets/divider.svg" alt="Divider" width="100%" />
-
-<br/>
-
-<!-- 04. PROFESSIONAL EDIT // INDUSTRY APPOINTMENT & ACADEMICS -->
-<a href="${linkedinUrl}">
-  <img src="./assets/experience.svg" alt="Professional Edit - Mindstrix Technologies LLP AI/ML Intern &amp; PICT ENTC" width="100%" />
-</a>
-
-<br/>
-
-<!-- FLOWING PINK CURVE DIVIDER -->
-<img src="./assets/divider.svg" alt="Divider" width="100%" />
-
-<br/>
-
-<!-- 05. THE WORK // FEATURED PROJECTS & ARCHITECTURES -->
-<a id="curated-atelier-architectures" name="curated-atelier-architectures"></a>
-<img src="./assets/projects.svg" alt="The Work - Featured Projects &amp; Architectures" width="100%" />
-
-<br/>
-
-<!-- INDIVIDUAL CLICKABLE 1-TO-1 PROJECT CARDS -->
-${projectCardsGrid}
-
 </div>
 
-### ✦ Curated Atelier Architectures
+---
 
-| Project | Domain / Category | Primary Architecture | Description & Recognition |
-| :--- | :--- | :--- | :--- |
-${projectRows}
+## 🌸 About Me
 
-<div align="center">
+I’m a third-year Electronics and Telecommunication Engineering student at PICT, Pune, with a strong interest in Software Development, AI/ML, and Data Structures & Algorithms. Although my academic background is in ENTC, I’ve been actively exploring the software and AI space through projects, hackathons, research, and hands-on learning.
 
-<br/>
+I enjoy building practical solutions that use technology to solve real-world problems. My work has included AI-driven agricultural systems, computer vision, mobile applications, and cybersecurity-focused projects. I’ve worked with technologies such as C++, Python, Java, JavaScript, Git/GitHub, Android, and machine learning tools, while continuously improving my problem-solving and DSA skills.
 
-<!-- FLOWING PINK CURVE DIVIDER -->
-<img src="./assets/divider.svg" alt="Divider" width="100%" />
+Hackathons have been an important part of my learning journey. I was part of the winning team at TechFiesta 2026 in the Agriculture domain and also secured Runner-Up at the Pune Agri International Hackathon, where our AI-powered agricultural governance solution was presented to senior government officials.
 
-<br/>
+I believe the best way to learn engineering is by building, experimenting, debugging, and improving real systems rather than only studying theory. Currently, I’m focused on strengthening my software, AI/ML and DSA fundamentals, gaining industry experience through internships, and building technically strong projects that have real-world impact. In the long term, I want to build a strong career in technology and continue growing as an engineer.
 
-<!-- 06. THE TELEMETRY // SYSTEM METRICS & TECH DISTRIBUTION -->
-<a href="https://github.com/${username}?tab=repositories">
-  <img src="./assets/dashboard.svg" alt="The Telemetry - System Metrics &amp; Stack Distribution" width="100%" />
-</a>
+---
 
-<br/>
+## 💡 What I Build
 
-<!-- FLOWING PINK CURVE DIVIDER -->
-<img src="./assets/divider.svg" alt="Divider" width="100%" />
+| Focus Area | Core Technologies & Scope |
+| :--- | :--- |
+| 🤖 **AI / ML** | Autonomous agents, predictive pipelines, deep neural networks |
+| 💻 **Software Systems** | Full-stack application engineering, distributed architectures, REST & GraphQL APIs |
+| 👁️ **Computer Vision** | OCR fraud detection, image processing, spatial feature extraction |
+| 🌾 **Agritech** | Soil telemetry, crop health advisory, satellite canopy diagnostics |
+| 📈 **Quant / Reinforcement Learning** | Custom Gymnasium environments, order-book backtesting, algorithmic policy |
+| 🛡️ **Cybersecurity** | Secure authentication flows, data privacy, vulnerability auditing |
 
-<br/>
+---
 
-<!-- 07. THE LAB // AI/ML & ENGINEERING STACK -->
-<a href="https://github.com/${username}?tab=repositories">
-  <img src="./assets/tech-wardrobe.svg" alt="The Lab - AI/ML &amp; Engineering Stack" width="100%" />
-</a>
+## 🚀 Selected Work
 
-<br/>
+<table width="100%">
+${projectTableRows}</table>
 
-<!-- FLOWING PINK CURVE DIVIDER -->
-<img src="./assets/divider.svg" alt="Divider" width="100%" />
+---
 
-<br/>
+## 🏆 Achievements
 
-<!-- 08. THE BUILD LOG // ACTIVITY RUNWAY & CADENCE -->
-<img src="./assets/runway.svg" alt="The Build Log - Activity Runway &amp; Cadence" width="100%" />
+- **TechFiesta 2026** — **WINNER (1st Place)** | *Agriculture Domain*
+  - Outperformed 600+ participating teams nationwide with **KrishiSahAI**, an end-to-end AI advisory and soil telemetry platform.
+- **Pune Agri International Hackathon** — **RUNNER-UP**
+  - Built **KRISHI-PRABANDH**, an AI-driven agricultural governance solution combining OCR fraud detection and satellite NDVI analysis.
+  - Presented directly to senior government leadership; awarded **₹15L development grant**.
 
-<br/>
+---
 
-<!-- FLOWING PINK CURVE DIVIDER -->
-<img src="./assets/divider.svg" alt="Divider" width="100%" />
+## 💼 Current Experience
 
-<br/>
+- **AI/ML Research & Development Intern** — **Mindstrix Technologies LLP** *(Mar 2026 – Ongoing)*
+  - Contributing to application software development across the SDLC on live AI/ML and software platform projects under mentor guidance.
+  - Designing and coding program modules for data processing, model training, and system integration; preparing test data and executing test cases.
+  - Collaborating in an Agile team environment through technical reviews, brainstorming sessions, and cross-functional product development.
+- **B.Tech in Electronics & Telecommunication** — **Pune Institute of Computer Technology (PICT)** *(2024 – 2028)*
+  - CGPA: **8.6 / 10** | Higher Secondary Certificate (HSC): 89.83% | Secondary School Certificate (SSC): 96.40%
+  - Specialization in signal processing, communication systems, embedded hardware, and algorithmic computation.
 
-<!-- 09. THE CLOSING // HAUTE COUTURE SIGNATURE -->
-<a href="mailto:${email}">
-  <img src="./assets/footer.svg" alt="The Closing - Shambhavi Patil Portfolio" width="100%" />
-</a>
+---
 
-<br/><br/>
+## 🛠️ Tech Stack
 
-[![GitHub](https://img.shields.io/badge/GitHub-Shambhavi500-E0218A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/${username})
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shambhavi_Patil-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](${linkedinUrl})
-[![Email](https://img.shields.io/badge/Email-shambhavipatil5631%40gmail.com-2D2D2D?style=for-the-badge&logo=gmail&logoColor=white)](mailto:${email})
-[![Status](https://img.shields.io/badge/Status-AI%2FML_R%26D_Intern_%40Mindstrix-E0218A?style=for-the-badge)](https://github.com/${username})
-[![Education](https://img.shields.io/badge/PICT_ENTC-CGPA_8.6-C71585?style=for-the-badge)](https://github.com/${username})
+- **Languages:** \`C++\` · \`Python\` · \`Java\` · \`JavaScript\` · \`C\` · \`HTML/CSS\`
+- **AI / ML & Vision:** \`Machine Learning\` · \`Computer Vision (OCR)\` · \`Reinforcement Learning\` · \`Multi-Agent Systems\`
+- **Mobile & Embedded:** \`Android Development\` · \`Embedded C\` · \`Arduino\` · \`Sensors Interfacing\`
+- **Tools & Foundations:** \`Data Structures & Algorithms (DSA)\` · \`Git\` · \`GitHub\` · \`Docker\` · \`FastAPI\` · \`SDLC & Agile\`
 
-<br/><br/>
+*(No fake percentages, no progress bars).*
 
-<sub>Curated with intention &amp; precision in the <b>Atelier No. 500</b>. Where Autonomous Intelligence Meets Haute Couture Engineering.</sub>
+---
 
-</div>
+## 📊 GitHub Highlights
+
+- **Profile:** [@${username}](https://github.com/${username})
+- **Repositories:** [Browse All Repositories ↗](https://github.com/${username}?tab=repositories)
+
+---
+
+## 📬 Contact & Connect
+
+- **LinkedIn:** [shambhavi-patil05](${linkedinUrl})
+- **GitHub:** [@${username}](https://github.com/${username})
+- **Email:** [${email}](mailto:${email})
+- **Portfolio:** [Shambhavi Patil Portfolio](${portfolioUrl})
 `;
 }
