@@ -1,0 +1,95 @@
+// Curated Showcase Projects for Shambhavi Patil
+// Sourced directly from verified repository data and achievements
+
+export const SHOWCASE_PROJECTS = [
+  {
+    id: '01',
+    name: 'KrishiSahAI',
+    fullName: 'Shambhavi500/KrishiSahAI',
+    url: 'https://github.com/Shambhavi500/KrishiSahAI',
+    category: 'AGRITECH / AI ADVISORY',
+    badge: "1ST PLACE · TECHFIESTA '26",
+    badgeType: 'winner',
+    language: 'Python',
+    description: 'Flagship AI agriculture platform for crop recommendations, soil telemetry & rural decision support, bringing state-of-the-art AI to Indian farming ecosystems.',
+    technologies: ['Python', 'AI/ML', 'Computer Vision', 'Soil Telemetry', 'IoT Sensors'],
+    achievement: 'Winner at TechFiesta 2026 out of 600+ teams nationwide',
+    status: 'Flagship Production',
+    featured: true
+  },
+  {
+    id: '02',
+    name: 'Ovio',
+    fullName: 'Shambhavi500/Ovio',
+    url: 'https://github.com/Shambhavi500/Ovio',
+    category: 'AI / MULTI-AGENT',
+    badge: 'AUTONOMOUS WORKFLOW',
+    badgeType: 'highlight',
+    language: 'Python',
+    description: 'Cinema-grade AI DaVinci Resolve editing assistant & multi-agent workflow engine orchestrating timeline operations, asset synthesis, and automated editorial cuts.',
+    technologies: ['Python', 'DaVinci Resolve API', 'Multi-Agent Systems', 'Async IO', 'Automation'],
+    achievement: 'Multi-Agent Autonomous Pipeline',
+    status: 'Active Lab R&D',
+    featured: true
+  },
+  {
+    id: '03',
+    name: 'Aira',
+    fullName: 'Shambhavi500/Aira',
+    url: 'https://github.com/Shambhavi500/Aira',
+    category: 'FINTECH / AUTONOMOUS OS',
+    badge: 'SYSTEM ARCHITECTURE',
+    badgeType: 'highlight',
+    language: 'TypeScript',
+    description: 'Autonomous Revenue Recovery Operating System for the Indian fintech ecosystem & real-time payment reconciliation pipelines.',
+    technologies: ['TypeScript', 'Node.js', 'Fintech APIs', 'Event-Driven Arch', 'Distributed Systems'],
+    achievement: 'Core System Architecture',
+    status: 'Core Systems',
+    featured: true
+  },
+  {
+    id: '04',
+    name: 'AlphaTrader-RL',
+    fullName: 'Shambhavi500/AlphaTrader-RL',
+    url: 'https://github.com/Shambhavi500/AlphaTrader-RL',
+    category: 'QUANT / REINFORCEMENT LEARNING',
+    badge: 'FLAGSHIP RL RESEARCH',
+    badgeType: 'research',
+    language: 'Python',
+    description: 'Custom Gymnasium RL trading environment benchmarked on 5+ years of National Stock Exchange (NSE) order-book data with a 50-dimensional state space and Docker containerization.',
+    technologies: ['Python', 'Gymnasium', 'Deep Reinforcement Learning', 'NSE Telemetry', 'Docker'],
+    achievement: 'Flagship Quantitative Research',
+    status: 'Research Benchmark',
+    featured: true
+  },
+  {
+    id: '05',
+    name: 'KRISHI-PRABANDH',
+    fullName: 'Shambhavi500/KRISHI-PRABANDH',
+    url: 'https://github.com/Shambhavi500/KRISHI-PRABANDH',
+    category: 'GOV-TECH / AGRONOMY',
+    badge: 'NATIONAL RUNNER-UP · ₹15L GRANT',
+    badgeType: 'winner',
+    language: 'Multi-stack',
+    description: 'Enterprise AI governance platform integrating OCR fraud detection, land record digitization, and satellite NDVI spectral validation for state agricultural subsidy disbursement.',
+    technologies: ['Python', 'OCR / Vision', 'Satellite GIS', 'NDVI Analysis', 'FastAPI'],
+    achievement: 'Presented to Senior Government Leadership; ₹15L Development Grant',
+    status: 'Gov-Tech Prototype',
+    featured: true
+  },
+  {
+    id: '06',
+    name: 'NDVI_satellite',
+    fullName: 'Shambhavi500/NDVI_satellite',
+    url: 'https://github.com/Shambhavi500/NDVI_satellite',
+    category: 'EARTH OBSERVATION / GIS',
+    badge: 'SPECTRAL REMOTE SENSING',
+    badgeType: 'highlight',
+    language: 'JavaScript',
+    description: 'Vegetation index computation and canopy health analysis using satellite spectral bands, remote sensing imagery, and Google Earth Engine APIs.',
+    technologies: ['JavaScript', 'Google Earth Engine', 'Remote Sensing', 'GIS', 'Spectral Bands'],
+    achievement: 'Canopy Telemetry & Remote Sensing',
+    status: 'Active Pipeline',
+    featured: true
+  }
+];
