@@ -77,6 +77,10 @@ AI/ML · Computer Vision · DSA & Algorithms
 
 </table>
 
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=8&color=FFF0F6" width="94%">
+
 </div>
 
 <br>
@@ -170,6 +174,10 @@ and continuously making the system better.
 
 </table>
 
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=8&color=FFD6E7" width="94%">
+
 </div>
 
 <br>
@@ -185,43 +193,43 @@ and continuously making the system better.
 
 <br>
 
-<table width="94%" cellpadding="14" cellspacing="12">
+<table width="94%" cellpadding="10" cellspacing="0">
 
 <tr>
+<td width="50%" align="center"><img src="https://img.shields.io/badge/WINNER-E0218A?style=for-the-badge"></td>
+<td width="50%" align="center"><img src="https://img.shields.io/badge/RUNNER--UP-C71585?style=for-the-badge"></td>
+</tr>
 
-<td width="50%" align="center">
+<tr>
+<td align="center"><b>TECHFIESTA 2026</b> · Agriculture Domain</td>
+<td align="center"><b>PUNE AGRI INTERNATIONAL HACKATHON</b></td>
+</tr>
 
-<img src="https://img.shields.io/badge/WINNER-E0218A?style=for-the-badge">
-<br>
-<b>TECHFIESTA 2026</b> · Agriculture Domain
-<br>
-<font color="#E0218A"><b>600+ teams nationwide</b></font>
-<br>
-Built <b>KrishiSahAI</b>
-<br>
-AI-powered agricultural advisory platform
+<tr>
+<td align="center"><font color="#E0218A"><b>600+ teams nationwide</b></font></td>
+<td align="center"><font color="#E0218A"><b>₹15L Development Grant</b></font></td>
+</tr>
 
-</td>
+<tr>
+<td align="center">Built <b>KrishiSahAI</b></td>
+<td align="center">Built <b>KRISHI-PRABANDH</b></td>
+</tr>
 
-<td width="50%" align="center">
+<tr>
+<td align="center">AI-powered agricultural advisory platform</td>
+<td align="center">AI governance using OCR and satellite NDVI validation</td>
+</tr>
 
-<img src="https://img.shields.io/badge/RUNNER--UP-C71585?style=for-the-badge">
-<br>
-<b>PUNE AGRI INTERNATIONAL HACKATHON</b>
-<br>
-<font color="#E0218A"><b>₹15L Development Grant</b></font>
-<br>
-Built <b>KRISHI-PRABANDH</b>
-<br>
-AI governance using OCR and satellite NDVI validation
-<br>
-Presented to senior government officials
-
-</td>
-
+<tr>
+<td align="center">&nbsp;</td>
+<td align="center">Presented to senior government officials</td>
 </tr>
 
 </table>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=8&color=FFF0F6" width="94%">
 
 </div>
 
@@ -275,6 +283,10 @@ Crop recommendations · Soil telemetry · Rural decision support
 </tr>
 
 </table>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=8&color=FFB6D9" width="94%">
 
 </div>
 
@@ -435,6 +447,10 @@ Experiments across software engineering, AI/ML, algorithms and systems.
 
 </table>
 
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=8&color=FFD6E7" width="94%">
+
 </div>
 
 <br>
@@ -474,6 +490,10 @@ Working across AI/ML and software development, with exposure to data processing,
 
 </table>
 
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=8&color=FFF0F6" width="94%">
+
 </div>
 
 <br>
@@ -496,36 +516,51 @@ Working across AI/ML and software development, with exposure to data processing,
 <td width="33%" align="center">
 
 <img src="https://img.shields.io/badge/LANGUAGES-E0218A?style=for-the-badge">
+<br><br>
+<img src="https://img.shields.io/badge/C%2B%2B-E0218A?style=flat-square&logo=c%2B%2B&logoColor=white">
+<img src="https://img.shields.io/badge/Python-FF4F9A?style=flat-square&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Java-C71585?style=flat-square&logo=openjdk&logoColor=white">
 <br>
-C++ · Python · Java
-<br>
-JavaScript · TypeScript · C
+<img src="https://img.shields.io/badge/JavaScript-E0218A?style=flat-square&logo=javascript&logoColor=white">
+<img src="https://img.shields.io/badge/TypeScript-FF4F9A?style=flat-square&logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/C-C71585?style=flat-square&logo=c&logoColor=white">
 
 </td>
 
 <td width="33%" align="center">
 
 <img src="https://img.shields.io/badge/AI_%2F_ML-FF4F9A?style=for-the-badge">
+<br><br>
+<img src="https://img.shields.io/badge/Machine_Learning-E0218A?style=flat-square">
+<img src="https://img.shields.io/badge/Computer_Vision-FF4F9A?style=flat-square">
 <br>
-Machine Learning · Computer Vision
-<br>
-Reinforcement Learning · Multi-Agent Systems
+<img src="https://img.shields.io/badge/Reinforcement_Learning-C71585?style=flat-square">
+<img src="https://img.shields.io/badge/Multi--Agent_Systems-E0218A?style=flat-square">
 
 </td>
 
 <td width="33%" align="center">
 
 <img src="https://img.shields.io/badge/ENGINEERING-C71585?style=for-the-badge">
+<br><br>
+<img src="https://img.shields.io/badge/Git-E0218A?style=flat-square&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-FF4F9A?style=flat-square&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-C71585?style=flat-square&logo=docker&logoColor=white">
 <br>
-Git · GitHub · Docker
-<br>
-Android · REST APIs · GIS · System Development
+<img src="https://img.shields.io/badge/Android-E0218A?style=flat-square&logo=android&logoColor=white">
+<img src="https://img.shields.io/badge/REST_APIs-FF4F9A?style=flat-square">
+<img src="https://img.shields.io/badge/GIS-C71585?style=flat-square">
+<img src="https://img.shields.io/badge/System_Development-E0218A?style=flat-square">
 
 </td>
 
 </tr>
 
 </table>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=8&color=FFD6E7" width="94%">
 
 </div>
 
@@ -641,6 +676,10 @@ technically strong projects with real-world impact.
 </tr>
 
 </table>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=8&color=FFF0F6" width="94%">
 
 </div>
 
