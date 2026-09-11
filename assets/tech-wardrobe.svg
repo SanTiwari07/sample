@@ -157,8 +157,28 @@
         </g>
 
         
-        <!-- Pill Python -->
+        <!-- Pill C -->
         <g transform="translate(14, 86)">
+          <rect x="0" y="0" width="172" height="26" rx="13"
+                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+          <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
+          <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
+            C
+          </text>
+        </g>
+      
+        <!-- Pill C++ -->
+        <g transform="translate(14, 120)">
+          <rect x="0" y="0" width="172" height="26" rx="13"
+                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+          <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
+          <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
+            C++
+          </text>
+        </g>
+      
+        <!-- Pill Python -->
+        <g transform="translate(14, 154)">
           <rect x="0" y="0" width="172" height="26" rx="13"
                 fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
@@ -167,18 +187,8 @@
           </text>
         </g>
       
-        <!-- Pill TypeScript -->
-        <g transform="translate(14, 120)">
-          <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
-          <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
-          <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
-            TypeScript
-          </text>
-        </g>
-      
         <!-- Pill JavaScript -->
-        <g transform="translate(14, 154)">
+        <g transform="translate(14, 188)">
           <rect x="0" y="0" width="172" height="26" rx="13"
                 fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
@@ -187,29 +197,19 @@
           </text>
         </g>
       
-        <!-- Pill C / C++ -->
-        <g transform="translate(14, 188)">
-          <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
-          <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
-          <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
-            C / C++
-          </text>
-        </g>
-      
-        <!-- Pill Java -->
+        <!-- Pill HTML -->
         <g transform="translate(14, 222)">
           <rect x="0" y="0" width="172" height="26" rx="13"
                 fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
-            Java
+            HTML
           </text>
         </g>
       
       </g>
     
-      <!-- Column 2: 02 / AI & INTELLIGENCE -->
+      <!-- Column 2: 02 / AI &amp; INTELLIGENCE -->
       <g transform="translate(258, 82)">
         <rect x="0" y="0" width="200" height="280" rx="20"
               fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
@@ -280,7 +280,7 @@
       
       </g>
     
-      <!-- Column 3: 03 / EMBEDDED & HARDWARE -->
+      <!-- Column 3: 03 / EMBEDDED &amp; HARDWARE -->
       <g transform="translate(474, 82)">
         <rect x="0" y="0" width="200" height="280" rx="20"
               fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
@@ -299,7 +299,7 @@
         </g>
 
         
-        <!-- Pill Arduino & Embedded C -->
+        <!-- Pill Arduino &amp; Embedded C -->
         <g transform="translate(14, 86)">
           <rect x="0" y="0" width="172" height="26" rx="13"
                 fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
@@ -309,7 +309,7 @@
           </text>
         </g>
       
-        <!-- Pill Sensors & Interfacing -->
+        <!-- Pill Sensors &amp; Interfacing -->
         <g transform="translate(14, 120)">
           <rect x="0" y="0" width="172" height="26" rx="13"
                 fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
@@ -329,7 +329,7 @@
           </text>
         </g>
       
-        <!-- Pill Proteus & Tinkercad -->
+        <!-- Pill Proteus &amp; Tinkercad -->
         <g transform="translate(14, 188)">
           <rect x="0" y="0" width="172" height="26" rx="13"
                 fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
@@ -351,7 +351,7 @@
       
       </g>
     
-      <!-- Column 4: 04 / DEV TOOLS & SDLC -->
+      <!-- Column 4: 04 / DEV TOOLS &amp; SDLC -->
       <g transform="translate(690, 82)">
         <rect x="0" y="0" width="200" height="280" rx="20"
               fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
@@ -380,7 +380,7 @@
           </text>
         </g>
       
-        <!-- Pill Git & GitHub Pipelines -->
+        <!-- Pill Git &amp; GitHub Pipelines -->
         <g transform="translate(14, 120)">
           <rect x="0" y="0" width="172" height="26" rx="13"
                 fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
@@ -390,7 +390,7 @@
           </text>
         </g>
       
-        <!-- Pill SDLC & Agile Workflows -->
+        <!-- Pill SDLC &amp; Agile Workflows -->
         <g transform="translate(14, 154)">
           <rect x="0" y="0" width="172" height="26" rx="13"
                 fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
@@ -400,7 +400,7 @@
           </text>
         </g>
       
-        <!-- Pill API Design & Integration -->
+        <!-- Pill API Design &amp; Integration -->
         <g transform="translate(14, 188)">
           <rect x="0" y="0" width="172" height="26" rx="13"
                 fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
@@ -427,16 +427,16 @@
     
     <g class="glint-anim" style="transform-origin: 904px 42px;">
       <path d="
-        M 904 36.5
-        Q 906.42 39.58 909.5 42
-        Q 906.42 44.42 904 47.5
-        Q 901.58 44.42 898.5 42
-        Q 901.58 39.58 904 36.5
+        M 904 37
+        Q 906.2 39.8 909 42
+        Q 906.2 44.2 904 47
+        Q 901.8 44.2 899 42
+        Q 901.8 39.8 904 37
         Z"
         fill="#E0218A"
         opacity="0.88"
       />
-      <circle cx="904" cy="42" r="1.54" fill="#FFFFFF" />
+      <circle cx="904" cy="42" r="1.4000000000000001" fill="#FFFFFF" />
     </g>
   
     
@@ -451,7 +451,7 @@
         fill="#FFD1DC"
         opacity="0.88"
       />
-      <circle cx="470" cy="44" r="1.4" fill="#FFFFFF" />
+      <circle cx="470" cy="44" r="1.4000000000000001" fill="#FFFFFF" />
     </g>
   
   </svg>

@@ -220,7 +220,7 @@
 
           <!-- Event Name -->
           <text x="18" y="70" class="display-title" font-size="13" font-weight="800" fill="#2D2D2D" letter-spacing="0.02em">
-            PUNE AGRI INTL HACKATHON
+            PUNE AGRI HACKATHON
           </text>
 
           <!-- Place / Ranking -->
@@ -402,7 +402,7 @@
         fill="#E0218A"
         opacity="0.88"
       />
-      <circle cx="890" cy="40" r="1.68" fill="#FFFFFF" />
+      <circle cx="890" cy="40" r="1.6800000000000002" fill="#FFFFFF" />
     </g>
   
     
@@ -417,7 +417,7 @@
         fill="#FFD1DC"
         opacity="0.88"
       />
-      <circle cx="500" cy="42" r="1.4" fill="#FFFFFF" />
+      <circle cx="500" cy="42" r="1.4000000000000001" fill="#FFFFFF" />
     </g>
   
   </svg>

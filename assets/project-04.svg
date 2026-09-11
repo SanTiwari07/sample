@@ -146,10 +146,10 @@
     <!-- Project Description -->
     <g transform="translate(24, 98)">
       <text x="0" y="0" class="editorial-sans" font-size="12" fill="#2D2D2D">
-        Gymnasium RL trading environment on 5+ yrs
+        Gymnasium RL trading environment on 5+ yrs NSE
       </text>
       <text x="0" y="20" class="editorial-sans" font-size="12" fill="#2D2D2D">
-        NSE data with 50-dim observation space and...
+        data with 50-dim observation space and Docker.
       </text>
     </g>
 
@@ -163,10 +163,10 @@
       </text>
 
       <!-- Dynamic Badge Pill -->
-      <rect x="80" y="-14" width="150" height="22" rx="11"
+      <rect x="80" y="-14" width="144" height="22" rx="11"
             fill="#FFD1DC"
             stroke="#E0218A" stroke-width="0.8" />
-      <text x="155" y="0.5" text-anchor="middle"
+      <text x="152" y="0.5" text-anchor="middle"
             class="code-mono" font-size="8" font-weight="700" fill="#C71585" letter-spacing="0.04em">
         FLAGSHIP RL RESEARCH
       </text>

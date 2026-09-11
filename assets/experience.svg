@@ -280,7 +280,7 @@
         fill="#FFD1DC"
         opacity="0.88"
       />
-      <circle cx="470" cy="44" r="1.4" fill="#FFFFFF" />
+      <circle cx="470" cy="44" r="1.4000000000000001" fill="#FFFFFF" />
     </g>
   
   </svg>

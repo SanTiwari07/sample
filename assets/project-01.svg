@@ -149,7 +149,7 @@
         Flagship AI agriculture platform for crop
       </text>
       <text x="0" y="20" class="editorial-sans" font-size="12" fill="#2D2D2D">
-        recommendations, soil telemetry &amp; rural decision...
+        recommendations, soil telemetry &amp; rural...
       </text>
     </g>
 
@@ -163,10 +163,10 @@
       </text>
 
       <!-- Dynamic Badge Pill -->
-      <rect x="80" y="-14" width="182" height="22" rx="11"
+      <rect x="80" y="-14" width="181.20000000000002" height="22" rx="11"
             fill="#FFD1DC"
             stroke="#E0218A" stroke-width="0.8" />
-      <text x="171" y="0.5" text-anchor="middle"
+      <text x="170.60000000000002" y="0.5" text-anchor="middle"
             class="code-mono" font-size="8" font-weight="700" fill="#C71585" letter-spacing="0.04em">
         1ST PLACE · TECHFIESTA &apos;26
       </text>

@@ -146,10 +146,10 @@
     <!-- Project Description -->
     <g transform="translate(24, 98)">
       <text x="0" y="0" class="editorial-sans" font-size="12" fill="#2D2D2D">
-        Cinema-grade AI DaVinci Resolve editing assistant
+        Cinema-grade AI DaVinci Resolve editing
       </text>
       <text x="0" y="20" class="editorial-sans" font-size="12" fill="#2D2D2D">
-        &amp; multi-agent workflow engine.
+        assistant &amp; multi-agent workflow engine.
       </text>
     </g>
 
@@ -163,10 +163,10 @@
       </text>
 
       <!-- Dynamic Badge Pill -->
-      <rect x="80" y="-14" width="145" height="22" rx="11"
+      <rect x="80" y="-14" width="137.8" height="22" rx="11"
             fill="#F8FAFC"
             stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
-      <text x="152.5" y="0.5" text-anchor="middle"
+      <text x="148.9" y="0.5" text-anchor="middle"
             class="code-mono" font-size="8" font-weight="700" fill="#6B7280" letter-spacing="0.04em">
         AUTONOMOUS WORKFLOW
       </text>
