@@ -8,10 +8,11 @@ import {
   Github,
   Linkedin,
   Mail,
-  Code,
-  Terminal,
-  Cpu,
-  Brain
+  Code2,
+  Brain,
+  Globe,
+  TrendingUp,
+  ArrowUpRight
 } from 'lucide-react';
 import { PROFILE } from '../data/profile';
 import { SOCIAL_LINKS } from '../data/socialLinks';
@@ -25,7 +26,7 @@ export default function AboutSection() {
     <section id="about" className="section-spacing">
       <div className="container">
         <SectionHeader
-          eyebrow="PROFILE // PEDIGREE &amp; ENGINEERING VISION"
+          eyebrow="THE PERSON // ENGINEERING PROFILE &amp; FOCUS"
           title="Architecting Impact Through"
           highlightWord="Code &amp; Silicon"
           subtitle="Third-year ENTC undergraduate at PICT Pune bridging electronics, scalable software, and applied machine learning."
@@ -36,7 +37,8 @@ export default function AboutSection() {
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
             gap: '32px',
-            alignItems: 'start'
+            alignItems: 'start',
+            marginBottom: '40px'
           }}
           className="about-grid-layout"
         >
@@ -154,6 +156,29 @@ export default function AboutSection() {
             >
               {PROFILE.education.institution}
             </p>
+
+            {/* Verification Pill */}
+            <div
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '6px 14px',
+                borderRadius: 'var(--radius-pill)',
+                background: '#FFFFFF',
+                border: '1px solid var(--border-pink)',
+                marginBottom: '20px',
+                boxShadow: 'var(--shadow-subtle)'
+              }}
+            >
+              <span style={{ width: '7px', height: '7px', borderRadius: '50%', background: '#00E676' }} />
+              <span
+                className="mono-label"
+                style={{ fontSize: '11px', color: 'var(--text-main)', fontWeight: 700 }}
+              >
+                VERIFIED BUILDER · CGPA {PROFILE.education.cgpa}
+              </span>
+            </div>
 
             {/* Core Pill */}
             <div
@@ -353,16 +378,43 @@ export default function AboutSection() {
 
           {/* RIGHT: About Content & Verified Narrative */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+            {/* Statement Header */}
+            <div style={{ marginBottom: '4px' }}>
+              <div
+                style={{
+                  fontSize: '20px',
+                  fontWeight: 800,
+                  color: 'var(--text-main)',
+                  letterSpacing: '-0.01em',
+                  marginBottom: '4px'
+                }}
+              >
+                ARCHITECTING IMPACT THROUGH CODE &amp; SILICON
+              </div>
+              <div
+                style={{
+                  fontSize: '11px',
+                  fontFamily: 'var(--font-mono)',
+                  color: 'var(--primary-hot-pink)',
+                  fontWeight: 700,
+                  letterSpacing: '0.08em'
+                }}
+              >
+                // PUNE INSTITUTE OF COMPUTER TECHNOLOGY (PICT) · B.TECH ENTC
+              </div>
+            </div>
+
             {/* Narrative Card 1: Academic & Focus */}
             <div
               className="glass-panel"
               style={{
-                padding: '28px',
+                padding: '24px',
                 borderRadius: 'var(--radius-card)',
-                borderLeft: '4px solid var(--primary-hot-pink)'
+                borderLeft: '4px solid var(--primary-hot-pink)',
+                background: '#FFFFFF'
               }}
             >
-              <p style={{ fontSize: '15px', color: 'var(--text-main)', lineHeight: 1.75 }}>
+              <p style={{ fontSize: '14.5px', color: 'var(--text-main)', lineHeight: 1.75 }}>
                 I’m a third-year Electronics and Telecommunication Engineering student at{' '}
                 <strong style={{ color: 'var(--deep-pink)' }}>PICT, Pune</strong>, with a strong interest in{' '}
                 <span className="barbie-highlight">Software Development</span>,{' '}
@@ -379,12 +431,13 @@ export default function AboutSection() {
             <div
               className="glass-panel"
               style={{
-                padding: '28px',
+                padding: '24px',
                 borderRadius: 'var(--radius-card)',
-                borderLeft: '4px solid var(--barbie-pink)'
+                borderLeft: '4px solid var(--barbie-pink)',
+                background: '#FFFFFF'
               }}
             >
-              <p style={{ fontSize: '15px', color: 'var(--text-main)', lineHeight: 1.75 }}>
+              <p style={{ fontSize: '14.5px', color: 'var(--text-main)', lineHeight: 1.75 }}>
                 I enjoy building practical solutions that use technology to solve{' '}
                 <span className="barbie-highlight">real-world problems</span>. My work has included AI-driven agricultural
                 systems, <span className="barbie-highlight">Computer Vision</span>, mobile applications, and{' '}
@@ -403,12 +456,13 @@ export default function AboutSection() {
             <div
               className="glass-panel"
               style={{
-                padding: '28px',
+                padding: '24px',
                 borderRadius: 'var(--radius-card)',
-                borderLeft: '4px solid var(--primary-hot-pink)'
+                borderLeft: '4px solid var(--primary-hot-pink)',
+                background: '#FFFFFF'
               }}
             >
-              <p style={{ fontSize: '15px', color: 'var(--text-main)', lineHeight: 1.75 }}>
+              <p style={{ fontSize: '14.5px', color: 'var(--text-main)', lineHeight: 1.75 }}>
                 <span className="barbie-highlight">Hackathons</span> have been an important part of my learning journey.
                 I was part of the winning team at <strong style={{ color: 'var(--deep-pink)' }}>TechFiesta 2026</strong> in
                 the Agriculture domain and also secured <strong style={{ color: 'var(--deep-pink)' }}>Runner-Up</strong> at
@@ -423,18 +477,152 @@ export default function AboutSection() {
             <div
               className="glass-panel"
               style={{
-                padding: '28px',
+                padding: '24px',
                 borderRadius: 'var(--radius-card)',
-                borderLeft: '4px solid var(--deep-pink)'
+                borderLeft: '4px solid var(--deep-pink)',
+                background: '#FFFFFF'
               }}
             >
-              <p style={{ fontSize: '15px', color: 'var(--text-main)', lineHeight: 1.75 }}>
+              <p style={{ fontSize: '14.5px', color: 'var(--text-main)', lineHeight: 1.75 }}>
                 I believe the best way to learn engineering is by building, experimenting, debugging, and improving real
                 systems rather than only studying theory. Currently, I’m focused on strengthening my software, AI/ML and DSA
                 fundamentals, gaining industry experience through internships, and building technically strong projects that
                 have <span className="barbie-highlight">real-world impact</span>. In the long term, I want to build a strong
                 career in technology and continue growing as an engineer.
               </p>
+            </div>
+
+            {/* 3 Strategic Pillars Row matching the Identity Card */}
+            <div
+              style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+                gap: '16px',
+                marginTop: '10px'
+              }}
+            >
+              {/* Pillar 1 */}
+              <a
+                href="https://github.com/Shambhavi500/Ovio"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  background: '#FFFFFF',
+                  border: '1px solid var(--border-pink)',
+                  borderRadius: '14px',
+                  padding: '16px',
+                  textDecoration: 'none',
+                  transition: 'all 0.18s ease',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  boxShadow: 'var(--shadow-subtle)'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = 'var(--primary-hot-pink)';
+                  e.currentTarget.style.transform = 'translateY(-2px)';
+                  e.currentTarget.style.boxShadow = '0 6px 18px rgba(224, 33, 138, 0.12)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = 'var(--border-pink)';
+                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.boxShadow = 'var(--shadow-subtle)';
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+                  <span className="mono-label" style={{ fontSize: '10px', color: 'var(--primary-hot-pink)', fontWeight: 700 }}>
+                    01 / AGENTIC AI
+                  </span>
+                  <Brain size={14} style={{ color: 'var(--primary-hot-pink)' }} />
+                </div>
+                <div style={{ fontSize: '13.5px', fontWeight: 800, color: 'var(--text-main)', marginBottom: '4px' }}>
+                  Autonomous Systems
+                </div>
+                <div style={{ fontSize: '11.5px', color: 'var(--text-secondary)', lineHeight: 1.4 }}>
+                  Multi-agent workflows &amp; intelligent automation (Ovio)
+                </div>
+              </a>
+
+              {/* Pillar 2 */}
+              <a
+                href="https://github.com/Shambhavi500/KrishiSahAI"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  background: '#FFFFFF',
+                  border: '1px solid var(--border-pink)',
+                  borderRadius: '14px',
+                  padding: '16px',
+                  textDecoration: 'none',
+                  transition: 'all 0.18s ease',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  boxShadow: 'var(--shadow-subtle)'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = 'var(--primary-hot-pink)';
+                  e.currentTarget.style.transform = 'translateY(-2px)';
+                  e.currentTarget.style.boxShadow = '0 6px 18px rgba(224, 33, 138, 0.12)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = 'var(--border-pink)';
+                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.boxShadow = 'var(--shadow-subtle)';
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+                  <span className="mono-label" style={{ fontSize: '10px', color: 'var(--primary-hot-pink)', fontWeight: 700 }}>
+                    02 / EARTH &amp; AGRI
+                  </span>
+                  <Globe size={14} style={{ color: 'var(--primary-hot-pink)' }} />
+                </div>
+                <div style={{ fontSize: '13.5px', fontWeight: 800, color: 'var(--text-main)', marginBottom: '4px' }}>
+                  Precision AgriTech
+                </div>
+                <div style={{ fontSize: '11.5px', color: 'var(--text-secondary)', lineHeight: 1.4 }}>
+                  Satellite spectral analysis &amp; AI advisory (KrishiSahAI)
+                </div>
+              </a>
+
+              {/* Pillar 3 */}
+              <a
+                href="https://github.com/Shambhavi500/Aira"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  background: '#FFFFFF',
+                  border: '1px solid var(--border-pink)',
+                  borderRadius: '14px',
+                  padding: '16px',
+                  textDecoration: 'none',
+                  transition: 'all 0.18s ease',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  boxShadow: 'var(--shadow-subtle)'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = 'var(--primary-hot-pink)';
+                  e.currentTarget.style.transform = 'translateY(-2px)';
+                  e.currentTarget.style.boxShadow = '0 6px 18px rgba(224, 33, 138, 0.12)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = 'var(--border-pink)';
+                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.boxShadow = 'var(--shadow-subtle)';
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+                  <span className="mono-label" style={{ fontSize: '10px', color: 'var(--primary-hot-pink)', fontWeight: 700 }}>
+                    03 / QUANT &amp; FINTECH
+                  </span>
+                  <TrendingUp size={14} style={{ color: 'var(--primary-hot-pink)' }} />
+                </div>
+                <div style={{ fontSize: '13.5px', fontWeight: 800, color: 'var(--text-main)', marginBottom: '4px' }}>
+                  Autonomous FinTech
+                </div>
+                <div style={{ fontSize: '11.5px', color: 'var(--text-secondary)', lineHeight: 1.4 }}>
+                  Reinforcement learning &amp; revenue recovery OS (AIRA)
+                </div>
+              </a>
             </div>
           </div>
         </div>
