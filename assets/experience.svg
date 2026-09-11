@@ -51,10 +51,17 @@
         <stop offset="100%" stop-color="#C71585" />
       </linearGradient>
 
+      <!-- Dreamhouse Canvas Pink Gradient (Eliminates White Element) -->
+      <linearGradient id="exp_canvasPinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FFF0F6" />
+        <stop offset="50%" stop-color="#FFE4F0" />
+        <stop offset="100%" stop-color="#FFD6EA" />
+      </linearGradient>
+
       <!-- Dreamhouse Blush Satin Gradient -->
       <linearGradient id="exp_blushGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" />
-        <stop offset="60%" stop-color="#FFF0F5" />
+        <stop offset="0%" stop-color="#FFF5FA" />
+        <stop offset="50%" stop-color="#FFEBF3" />
         <stop offset="100%" stop-color="#FFD1DC" />
       </linearGradient>
 
@@ -66,16 +73,16 @@
 
       <!-- Card Glass Backdrop Gradient -->
       <linearGradient id="exp_cardGlass" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.98" />
-        <stop offset="100%" stop-color="#FFF8FA" stop-opacity="0.95" />
+        <stop offset="0%" stop-color="#FFF8FA" stop-opacity="0.98" />
+        <stop offset="100%" stop-color="#FFE8F2" stop-opacity="0.96" />
       </linearGradient>
 
       <!-- Delicate Pink Hairline Gradient -->
       <linearGradient id="exp_borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.40" />
-        <stop offset="45%" stop-color="#FFD1DC" stop-opacity="0.25" />
-        <stop offset="75%" stop-color="#00B4D8" stop-opacity="0.20" />
-        <stop offset="100%" stop-color="#C71585" stop-opacity="0.35" />
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.55" />
+        <stop offset="45%" stop-color="#FFD1DC" stop-opacity="0.40" />
+        <stop offset="75%" stop-color="#00B4D8" stop-opacity="0.30" />
+        <stop offset="100%" stop-color="#C71585" stop-opacity="0.50" />
       </linearGradient>
 
       <!-- Winner Gold Accent Gradient -->
@@ -87,10 +94,10 @@
 
       <!-- Soft Ambient Radial Aura -->
       <radialGradient id="exp_radialAura" cx="85%" cy="15%" r="75%">
-        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.12" />
-        <stop offset="35%" stop-color="#FFD1DC" stop-opacity="0.08" />
-        <stop offset="70%" stop-color="#00B4D8" stop-opacity="0.03" />
-        <stop offset="100%" stop-color="#FAFAFC" stop-opacity="0" />
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.18" />
+        <stop offset="35%" stop-color="#FFD1DC" stop-opacity="0.12" />
+        <stop offset="70%" stop-color="#00B4D8" stop-opacity="0.04" />
+        <stop offset="100%" stop-color="#FFF0F6" stop-opacity="0" />
       </radialGradient>
 
       <!-- Glam Drop Shadow Filter -->
@@ -107,12 +114,12 @@
   
     
     <!-- Light Studio Canvas Base -->
-    <rect width="940" height="320" rx="24" fill="#FAFAFC" />
+    <rect width="940" height="320" rx="24" fill="#FFF0F6" />
     <rect width="940" height="320" rx="24" fill="url(#exp_radialAura)" />
 
     <!-- Outer Frame with Soft Glam Shadow -->
     <rect x="16" y="16" width="908" height="288" rx="24"
-          fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="1" filter="url(#exp_cardShadow)" />
+          fill="#FFF7FB" stroke="rgba(224, 33, 138, 0.35)" stroke-width="1" filter="url(#exp_cardShadow)" />
 
     <!-- Section Header Line -->
     <g transform="translate(42, 42)">
@@ -134,16 +141,16 @@
     </g>
 
     <!-- Header Divider Line -->
-    <line x1="42" y1="68" x2="898" y2="68" stroke="rgba(17, 17, 22, 0.08)" stroke-width="1" />
+    <line x1="42" y1="68" x2="898" y2="68" stroke="rgba(224, 33, 138, 0.16)" stroke-width="1" />
 
     <!-- Card 1: Internship (Mindstrix Technologies LLP) -->
     <g transform="translate(42, 82)">
-      <rect x="0" y="0" width="460" height="212" rx="20" fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.9" />
+      <rect x="0" y="0" width="460" height="212" rx="20" fill="#FFF7FB" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.9" />
       <rect x="0" y="0" width="460" height="3.5" rx="1.75" fill="url(#exp_barbieGrad)" />
 
       <!-- Edition Tag -->
       <g transform="translate(16, 22)">
-        <rect x="0" y="0" width="168" height="20" rx="10" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.8" />
+        <rect x="0" y="0" width="168" height="20" rx="10" fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.8" />
         <circle cx="10" cy="10" r="3" fill="#00E676">
           <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
         </circle>
@@ -185,7 +192,7 @@
 
       <!-- Verified Metric Footer -->
       <g transform="translate(16, 186)">
-        <rect x="0" y="-12" width="200" height="22" rx="11" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+        <rect x="0" y="-12" width="200" height="22" rx="11" fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
         <circle cx="12" cy="-1" r="3" fill="#E0218A" />
         <text x="22" y="2.5" class="code-mono" font-size="8.5" font-weight="700" fill="#2D2D2D">
           SDLC · ML MODEL PIPELINES
@@ -198,12 +205,12 @@
 
     <!-- Card 2: Academic Pedigree (PICT) -->
     <g transform="translate(522, 82)">
-      <rect x="0" y="0" width="376" height="212" rx="20" fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.9" />
+      <rect x="0" y="0" width="376" height="212" rx="20" fill="#FFF7FB" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.9" />
       <rect x="0" y="0" width="376" height="3.5" rx="1.75" fill="url(#exp_barbieGrad)" />
 
       <!-- Edition Tag -->
       <g transform="translate(16, 22)">
-        <rect x="0" y="0" width="168" height="20" rx="10" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.8" />
+        <rect x="0" y="0" width="168" height="20" rx="10" fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.8" />
         <circle cx="10" cy="10" r="3" fill="#E0218A" />
         <text x="20" y="13.5" class="code-mono" font-size="8.5" font-weight="700" fill="#C71585" letter-spacing="0.1em">
           ACADEMIC FOUNDATION
@@ -225,7 +232,7 @@
 
       <!-- Academic Standing & Extracurriculars -->
       <g transform="translate(16, 126)">
-        <rect x="0" y="-8" width="140" height="24" rx="12" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.8" />
+        <rect x="0" y="-8" width="140" height="24" rx="12" fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.8" />
         <text x="70" y="8" text-anchor="middle" class="code-mono" font-size="10" font-weight="800" fill="#E0218A">
           CGPA: 8.6 / 10.0
         </text>
@@ -241,7 +248,7 @@
 
       <!-- Verified Metric Footer -->
       <g transform="translate(16, 186)">
-        <rect x="0" y="-12" width="160" height="22" rx="11" fill="#F8FAFC" stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
+        <rect x="0" y="-12" width="160" height="22" rx="11" fill="#F8FAFC" stroke="rgba(224, 33, 138, 0.16)" stroke-width="0.8" />
         <circle cx="12" cy="-1" r="3" fill="#E0218A" />
         <text x="22" y="2.5" class="code-mono" font-size="8.5" font-weight="700" fill="#2D2D2D">
           CLASS OF 2028 · ENTC

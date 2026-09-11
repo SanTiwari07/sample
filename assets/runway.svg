@@ -51,10 +51,17 @@
         <stop offset="100%" stop-color="#C71585" />
       </linearGradient>
 
+      <!-- Dreamhouse Canvas Pink Gradient (Eliminates White Element) -->
+      <linearGradient id="run_canvasPinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FFF0F6" />
+        <stop offset="50%" stop-color="#FFE4F0" />
+        <stop offset="100%" stop-color="#FFD6EA" />
+      </linearGradient>
+
       <!-- Dreamhouse Blush Satin Gradient -->
       <linearGradient id="run_blushGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" />
-        <stop offset="60%" stop-color="#FFF0F5" />
+        <stop offset="0%" stop-color="#FFF5FA" />
+        <stop offset="50%" stop-color="#FFEBF3" />
         <stop offset="100%" stop-color="#FFD1DC" />
       </linearGradient>
 
@@ -66,16 +73,16 @@
 
       <!-- Card Glass Backdrop Gradient -->
       <linearGradient id="run_cardGlass" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.98" />
-        <stop offset="100%" stop-color="#FFF8FA" stop-opacity="0.95" />
+        <stop offset="0%" stop-color="#FFF8FA" stop-opacity="0.98" />
+        <stop offset="100%" stop-color="#FFE8F2" stop-opacity="0.96" />
       </linearGradient>
 
       <!-- Delicate Pink Hairline Gradient -->
       <linearGradient id="run_borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.40" />
-        <stop offset="45%" stop-color="#FFD1DC" stop-opacity="0.25" />
-        <stop offset="75%" stop-color="#00B4D8" stop-opacity="0.20" />
-        <stop offset="100%" stop-color="#C71585" stop-opacity="0.35" />
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.55" />
+        <stop offset="45%" stop-color="#FFD1DC" stop-opacity="0.40" />
+        <stop offset="75%" stop-color="#00B4D8" stop-opacity="0.30" />
+        <stop offset="100%" stop-color="#C71585" stop-opacity="0.50" />
       </linearGradient>
 
       <!-- Winner Gold Accent Gradient -->
@@ -87,10 +94,10 @@
 
       <!-- Soft Ambient Radial Aura -->
       <radialGradient id="run_radialAura" cx="85%" cy="15%" r="75%">
-        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.12" />
-        <stop offset="35%" stop-color="#FFD1DC" stop-opacity="0.08" />
-        <stop offset="70%" stop-color="#00B4D8" stop-opacity="0.03" />
-        <stop offset="100%" stop-color="#FAFAFC" stop-opacity="0" />
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.18" />
+        <stop offset="35%" stop-color="#FFD1DC" stop-opacity="0.12" />
+        <stop offset="70%" stop-color="#00B4D8" stop-opacity="0.04" />
+        <stop offset="100%" stop-color="#FFF0F6" stop-opacity="0" />
       </radialGradient>
 
       <!-- Glam Drop Shadow Filter -->
@@ -107,12 +114,12 @@
   
     
     <!-- Light Studio Canvas Base -->
-    <rect width="940" height="260" rx="24" fill="#FAFAFC" />
+    <rect width="940" height="260" rx="24" fill="#FFF0F6" />
     <rect width="940" height="260" rx="24" fill="url(#run_radialAura)" />
 
     <!-- Outer Structural Frame with Soft Glam Shadow -->
     <rect x="16" y="16" width="908" height="228" rx="24"
-          fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="1" filter="url(#run_cardShadow)" />
+          fill="#FFF7FB" stroke="rgba(224, 33, 138, 0.35)" stroke-width="1" filter="url(#run_cardShadow)" />
 
     <!-- Section Header Tag -->
     <g transform="translate(42, 42)">
@@ -274,7 +281,7 @@
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
       
         <rect x="112.4" y="95.3" width="12.5" height="10.5" rx="3"
-              fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.6" />
+              fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.6" />
       
         <rect x="112.4" y="108.6" width="12.5" height="10.5" rx="3"
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
@@ -433,7 +440,7 @@
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
       
         <rect x="225.1" y="148.5" width="12.5" height="10.5" rx="3"
-              fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.6" />
+              fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.6" />
       
         <rect x="225.1" y="161.8" width="12.5" height="10.5" rx="3"
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
@@ -472,13 +479,13 @@
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
       
         <rect x="257.3" y="135.2" width="12.5" height="10.5" rx="3"
-              fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.6" />
+              fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.6" />
       
         <rect x="257.3" y="148.5" width="12.5" height="10.5" rx="3"
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
       
         <rect x="257.3" y="161.8" width="12.5" height="10.5" rx="3"
-              fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.6" />
+              fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.6" />
       
         <rect x="273.4" y="82.0" width="12.5" height="10.5" rx="3"
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
@@ -622,7 +629,7 @@
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
       
         <rect x="370.0" y="148.5" width="12.5" height="10.5" rx="3"
-              fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.6" />
+              fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.6" />
       
         <rect x="370.0" y="161.8" width="12.5" height="10.5" rx="3"
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
@@ -736,7 +743,7 @@
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
       
         <rect x="466.6" y="95.3" width="12.5" height="10.5" rx="3"
-              fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.6" />
+              fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.6" />
       
         <rect x="466.6" y="108.6" width="12.5" height="10.5" rx="3"
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
@@ -784,7 +791,7 @@
               fill="#C71585" stroke="#E0218A" stroke-width="0.6" />
       
         <rect x="498.8" y="121.9" width="12.5" height="10.5" rx="3"
-              fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.6" />
+              fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.6" />
       
         <rect x="498.8" y="135.2" width="12.5" height="10.5" rx="3"
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
@@ -955,7 +962,7 @@
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
       
         <rect x="627.6" y="135.2" width="12.5" height="10.5" rx="3"
-              fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.6" />
+              fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.6" />
       
         <rect x="627.6" y="148.5" width="12.5" height="10.5" rx="3"
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
@@ -1057,7 +1064,7 @@
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
       
         <rect x="708.1" y="121.9" width="12.5" height="10.5" rx="3"
-              fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.6" />
+              fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.6" />
       
         <rect x="708.1" y="135.2" width="12.5" height="10.5" rx="3"
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
@@ -1105,7 +1112,7 @@
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
       
         <rect x="740.3" y="148.5" width="12.5" height="10.5" rx="3"
-              fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.6" />
+              fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.6" />
       
         <rect x="740.3" y="161.8" width="12.5" height="10.5" rx="3"
               fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
@@ -1290,7 +1297,7 @@
           LESS
         </text>
         <rect x="36" y="1" width="10" height="10" rx="2" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="0.6" />
-        <rect x="52" y="1" width="10" height="10" rx="2" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.6" />
+        <rect x="52" y="1" width="10" height="10" rx="2" fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.6" />
         <rect x="68" y="1" width="10" height="10" rx="2" fill="#F472B6" />
         <rect x="84" y="1" width="10" height="10" rx="2" fill="#C71585" />
         <rect x="100" y="1" width="10" height="10" rx="2" fill="#E0218A" stroke="#FFFFFF" stroke-width="0.5" />

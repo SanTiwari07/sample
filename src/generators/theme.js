@@ -15,19 +15,19 @@ export const theme = {
     accent: '#E0218A',             // Signature Barbie Pink
     accentHot: '#FF2D87',          // Electric Hot Pink
     accentSoft: '#FF85C0',         // Soft Rose
-    accentBlush: '#FFF5F8',        // Delicate blush surface
-    background: '#FAFAFC',         // Crisp studio background
-    surface: '#FFFFFF',            // Pure white card surface
-    surfaceCard: '#FFFFFF',
+    accentBlush: '#FFEBF3',        // Delicate rich blush surface
+    background: '#FFF0F6',         // Dreamhouse Blush Studio base (rich pink, eliminates white element)
+    surface: '#FFF7FB',            // Soft rose satin card surface
+    surfaceCard: '#FFF5FA',
     surfaceDark: '#0D0B14',        // Deep Obsidian
     surfaceDarkGlass: '#130F1E',    // Dark glass tile surface
-    surfaceLightGlass: 'rgba(255, 255, 255, 0.85)',
-    surfaceCardGlass: 'rgba(255, 255, 255, 0.96)',
-    surfaceSoft: '#FDF7FA',
-    border: 'rgba(224, 33, 138, 0.22)',      // Subtle pink hairline border
-    borderSubtle: 'rgba(17, 17, 22, 0.08)',  // Subtle slate hairline
-    borderChrome: 'rgba(203, 213, 225, 0.7)',
-    borderPink: 'rgba(224, 33, 138, 0.32)',
+    surfaceLightGlass: 'rgba(255, 240, 246, 0.92)',
+    surfaceCardGlass: 'rgba(255, 235, 244, 0.96)',
+    surfaceSoft: '#FFE8F2',
+    border: 'rgba(224, 33, 138, 0.35)',      // Luminous pink border
+    borderSubtle: 'rgba(224, 33, 138, 0.16)', // Subtle rose hairline
+    borderChrome: 'rgba(224, 33, 138, 0.30)',
+    borderPink: 'rgba(224, 33, 138, 0.45)',
     textPrimary: '#111116',        // Dark headings
     textSecondary: '#2D2D2D',      // Deep charcoal for high-contrast body
     textMuted: '#6B7280',          // Muted slate
@@ -113,10 +113,17 @@ export function getSharedDefs(idPrefix = '') {
         <stop offset="100%" stop-color="#C71585" />
       </linearGradient>
 
+      <!-- Dreamhouse Canvas Pink Gradient (Eliminates White Element) -->
+      <linearGradient id="${idPrefix}canvasPinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FFF0F6" />
+        <stop offset="50%" stop-color="#FFE4F0" />
+        <stop offset="100%" stop-color="#FFD6EA" />
+      </linearGradient>
+
       <!-- Dreamhouse Blush Satin Gradient -->
       <linearGradient id="${idPrefix}blushGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" />
-        <stop offset="60%" stop-color="#FFF0F5" />
+        <stop offset="0%" stop-color="#FFF5FA" />
+        <stop offset="50%" stop-color="#FFEBF3" />
         <stop offset="100%" stop-color="#FFD1DC" />
       </linearGradient>
 
@@ -128,16 +135,16 @@ export function getSharedDefs(idPrefix = '') {
 
       <!-- Card Glass Backdrop Gradient -->
       <linearGradient id="${idPrefix}cardGlass" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.98" />
-        <stop offset="100%" stop-color="#FFF8FA" stop-opacity="0.95" />
+        <stop offset="0%" stop-color="#FFF8FA" stop-opacity="0.98" />
+        <stop offset="100%" stop-color="#FFE8F2" stop-opacity="0.96" />
       </linearGradient>
 
       <!-- Delicate Pink Hairline Gradient -->
       <linearGradient id="${idPrefix}borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.40" />
-        <stop offset="45%" stop-color="#FFD1DC" stop-opacity="0.25" />
-        <stop offset="75%" stop-color="#00B4D8" stop-opacity="0.20" />
-        <stop offset="100%" stop-color="#C71585" stop-opacity="0.35" />
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.55" />
+        <stop offset="45%" stop-color="#FFD1DC" stop-opacity="0.40" />
+        <stop offset="75%" stop-color="#00B4D8" stop-opacity="0.30" />
+        <stop offset="100%" stop-color="#C71585" stop-opacity="0.50" />
       </linearGradient>
 
       <!-- Winner Gold Accent Gradient -->
@@ -149,10 +156,10 @@ export function getSharedDefs(idPrefix = '') {
 
       <!-- Soft Ambient Radial Aura -->
       <radialGradient id="${idPrefix}radialAura" cx="85%" cy="15%" r="75%">
-        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.12" />
-        <stop offset="35%" stop-color="#FFD1DC" stop-opacity="0.08" />
-        <stop offset="70%" stop-color="#00B4D8" stop-opacity="0.03" />
-        <stop offset="100%" stop-color="#FAFAFC" stop-opacity="0" />
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.18" />
+        <stop offset="35%" stop-color="#FFD1DC" stop-opacity="0.12" />
+        <stop offset="70%" stop-color="#00B4D8" stop-opacity="0.04" />
+        <stop offset="100%" stop-color="#FFF0F6" stop-opacity="0" />
       </radialGradient>
 
       <!-- Glam Drop Shadow Filter -->

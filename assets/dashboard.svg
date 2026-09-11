@@ -51,10 +51,17 @@
         <stop offset="100%" stop-color="#C71585" />
       </linearGradient>
 
+      <!-- Dreamhouse Canvas Pink Gradient (Eliminates White Element) -->
+      <linearGradient id="dash_canvasPinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FFF0F6" />
+        <stop offset="50%" stop-color="#FFE4F0" />
+        <stop offset="100%" stop-color="#FFD6EA" />
+      </linearGradient>
+
       <!-- Dreamhouse Blush Satin Gradient -->
       <linearGradient id="dash_blushGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" />
-        <stop offset="60%" stop-color="#FFF0F5" />
+        <stop offset="0%" stop-color="#FFF5FA" />
+        <stop offset="50%" stop-color="#FFEBF3" />
         <stop offset="100%" stop-color="#FFD1DC" />
       </linearGradient>
 
@@ -66,16 +73,16 @@
 
       <!-- Card Glass Backdrop Gradient -->
       <linearGradient id="dash_cardGlass" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.98" />
-        <stop offset="100%" stop-color="#FFF8FA" stop-opacity="0.95" />
+        <stop offset="0%" stop-color="#FFF8FA" stop-opacity="0.98" />
+        <stop offset="100%" stop-color="#FFE8F2" stop-opacity="0.96" />
       </linearGradient>
 
       <!-- Delicate Pink Hairline Gradient -->
       <linearGradient id="dash_borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.40" />
-        <stop offset="45%" stop-color="#FFD1DC" stop-opacity="0.25" />
-        <stop offset="75%" stop-color="#00B4D8" stop-opacity="0.20" />
-        <stop offset="100%" stop-color="#C71585" stop-opacity="0.35" />
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.55" />
+        <stop offset="45%" stop-color="#FFD1DC" stop-opacity="0.40" />
+        <stop offset="75%" stop-color="#00B4D8" stop-opacity="0.30" />
+        <stop offset="100%" stop-color="#C71585" stop-opacity="0.50" />
       </linearGradient>
 
       <!-- Winner Gold Accent Gradient -->
@@ -87,10 +94,10 @@
 
       <!-- Soft Ambient Radial Aura -->
       <radialGradient id="dash_radialAura" cx="85%" cy="15%" r="75%">
-        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.12" />
-        <stop offset="35%" stop-color="#FFD1DC" stop-opacity="0.08" />
-        <stop offset="70%" stop-color="#00B4D8" stop-opacity="0.03" />
-        <stop offset="100%" stop-color="#FAFAFC" stop-opacity="0" />
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.18" />
+        <stop offset="35%" stop-color="#FFD1DC" stop-opacity="0.12" />
+        <stop offset="70%" stop-color="#00B4D8" stop-opacity="0.04" />
+        <stop offset="100%" stop-color="#FFF0F6" stop-opacity="0" />
       </radialGradient>
 
       <!-- Glam Drop Shadow Filter -->
@@ -107,12 +114,12 @@
   
     
     <!-- Light Studio Canvas Base -->
-    <rect width="940" height="310" rx="24" fill="#FAFAFC" />
+    <rect width="940" height="310" rx="24" fill="#FFF0F6" />
     <rect width="940" height="310" rx="24" fill="url(#dash_radialAura)" />
 
     <!-- Outer Structural Frame with Soft Glam Shadow -->
     <rect x="16" y="16" width="908" height="278" rx="24"
-          fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="1" filter="url(#dash_cardShadow)" />
+          fill="#FFF7FB" stroke="rgba(224, 33, 138, 0.35)" stroke-width="1" filter="url(#dash_cardShadow)" />
 
     <!-- Header Section -->
     <g transform="translate(42, 42)">
@@ -128,13 +135,13 @@
     </g>
 
     <!-- Header Divider Line -->
-    <line x1="42" y1="54" x2="898" y2="54" stroke="rgba(17, 17, 22, 0.08)" stroke-width="1" />
+    <line x1="42" y1="54" x2="898" y2="54" stroke="rgba(224, 33, 138, 0.16)" stroke-width="1" />
 
     <!-- Top 4 Metric Tiles Grid -->
     <g transform="translate(42, 74)">
       <!-- Tile 1: Public Repos -->
       <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="200" height="92" rx="16" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+        <rect x="0" y="0" width="200" height="92" rx="16" fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
         <text x="14" y="22" class="code-mono" font-size="8.5" font-weight="700" fill="#C71585" letter-spacing="0.1em">
           01 // REPOSITORIES
         </text>
@@ -148,7 +155,7 @@
 
       <!-- Tile 2: Total Stargazers -->
       <g transform="translate(220, 0)">
-        <rect x="0" y="0" width="200" height="92" rx="16" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+        <rect x="0" y="0" width="200" height="92" rx="16" fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
         <text x="14" y="22" class="code-mono" font-size="8.5" font-weight="700" fill="#C71585" letter-spacing="0.1em">
           02 // STARGAZERS
         </text>
@@ -162,7 +169,7 @@
 
       <!-- Tile 3: Total Forks -->
       <g transform="translate(440, 0)">
-        <rect x="0" y="0" width="200" height="92" rx="16" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+        <rect x="0" y="0" width="200" height="92" rx="16" fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
         <text x="14" y="22" class="code-mono" font-size="8.5" font-weight="700" fill="#C71585" letter-spacing="0.1em">
           03 // FORKS &amp; LABS
         </text>
@@ -176,7 +183,7 @@
 
       <!-- Tile 4: Network -->
       <g transform="translate(660, 0)">
-        <rect x="0" y="0" width="196" height="92" rx="16" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+        <rect x="0" y="0" width="196" height="92" rx="16" fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
         <text x="14" y="22" class="code-mono" font-size="8.5" font-weight="700" fill="#C71585" letter-spacing="0.1em">
           04 // NETWORK
         </text>
@@ -191,7 +198,7 @@
 
     <!-- Lower Panel: Dynamic Language Spectrum Progress Bar & Legend -->
     <g transform="translate(42, 186)">
-      <rect x="0" y="0" width="856" height="94" rx="16" fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+      <rect x="0" y="0" width="856" height="94" rx="16" fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
       
       <!-- Panel Title -->
       <text x="18" y="24" class="code-mono" font-size="9" font-weight="700" fill="#C71585" letter-spacing="0.12em">

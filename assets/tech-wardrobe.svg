@@ -51,10 +51,17 @@
         <stop offset="100%" stop-color="#C71585" />
       </linearGradient>
 
+      <!-- Dreamhouse Canvas Pink Gradient (Eliminates White Element) -->
+      <linearGradient id="ward_canvasPinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FFF0F6" />
+        <stop offset="50%" stop-color="#FFE4F0" />
+        <stop offset="100%" stop-color="#FFD6EA" />
+      </linearGradient>
+
       <!-- Dreamhouse Blush Satin Gradient -->
       <linearGradient id="ward_blushGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" />
-        <stop offset="60%" stop-color="#FFF0F5" />
+        <stop offset="0%" stop-color="#FFF5FA" />
+        <stop offset="50%" stop-color="#FFEBF3" />
         <stop offset="100%" stop-color="#FFD1DC" />
       </linearGradient>
 
@@ -66,16 +73,16 @@
 
       <!-- Card Glass Backdrop Gradient -->
       <linearGradient id="ward_cardGlass" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.98" />
-        <stop offset="100%" stop-color="#FFF8FA" stop-opacity="0.95" />
+        <stop offset="0%" stop-color="#FFF8FA" stop-opacity="0.98" />
+        <stop offset="100%" stop-color="#FFE8F2" stop-opacity="0.96" />
       </linearGradient>
 
       <!-- Delicate Pink Hairline Gradient -->
       <linearGradient id="ward_borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.40" />
-        <stop offset="45%" stop-color="#FFD1DC" stop-opacity="0.25" />
-        <stop offset="75%" stop-color="#00B4D8" stop-opacity="0.20" />
-        <stop offset="100%" stop-color="#C71585" stop-opacity="0.35" />
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.55" />
+        <stop offset="45%" stop-color="#FFD1DC" stop-opacity="0.40" />
+        <stop offset="75%" stop-color="#00B4D8" stop-opacity="0.30" />
+        <stop offset="100%" stop-color="#C71585" stop-opacity="0.50" />
       </linearGradient>
 
       <!-- Winner Gold Accent Gradient -->
@@ -87,10 +94,10 @@
 
       <!-- Soft Ambient Radial Aura -->
       <radialGradient id="ward_radialAura" cx="85%" cy="15%" r="75%">
-        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.12" />
-        <stop offset="35%" stop-color="#FFD1DC" stop-opacity="0.08" />
-        <stop offset="70%" stop-color="#00B4D8" stop-opacity="0.03" />
-        <stop offset="100%" stop-color="#FAFAFC" stop-opacity="0" />
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.18" />
+        <stop offset="35%" stop-color="#FFD1DC" stop-opacity="0.12" />
+        <stop offset="70%" stop-color="#00B4D8" stop-opacity="0.04" />
+        <stop offset="100%" stop-color="#FFF0F6" stop-opacity="0" />
       </radialGradient>
 
       <!-- Glam Drop Shadow Filter -->
@@ -107,12 +114,12 @@
   
     
     <!-- Light Studio Canvas Base -->
-    <rect width="940" height="400" rx="24" fill="#FAFAFC" />
+    <rect width="940" height="400" rx="24" fill="#FFF0F6" />
     <rect width="940" height="400" rx="24" fill="url(#ward_radialAura)" />
 
     <!-- Outer Structural Frame with Soft Glam Shadow -->
     <rect x="16" y="16" width="908" height="368" rx="24"
-          fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="1" filter="url(#ward_cardShadow)" />
+          fill="#FFF7FB" stroke="rgba(224, 33, 138, 0.35)" stroke-width="1" filter="url(#ward_cardShadow)" />
 
     <!-- Editorial Header Line -->
     <g transform="translate(42, 44)">
@@ -134,14 +141,14 @@
     </g>
 
     <!-- Header Divider Line -->
-    <line x1="42" y1="68" x2="898" y2="68" stroke="rgba(17, 17, 22, 0.08)" stroke-width="1" />
+    <line x1="42" y1="68" x2="898" y2="68" stroke="rgba(224, 33, 138, 0.16)" stroke-width="1" />
 
     <!-- 4 Wardrobe Columns -->
     
       <!-- Column 1: 01 / CORE LANGUAGES -->
       <g transform="translate(42, 82)">
         <rect x="0" y="0" width="200" height="280" rx="20"
-              fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+              fill="#FFF7FB" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
 
         <!-- Column Top Trim -->
         <rect x="0" y="0" width="200" height="3.5" rx="1.75" fill="url(#ward_barbieGrad)" />
@@ -153,14 +160,14 @@
           <text x="0" y="16" class="editorial-sans" font-size="11" font-weight="600" fill="#2D2D2D">
             Verified &amp; Production
           </text>
-          <line x1="0" y1="28" x2="172" y2="28" stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
+          <line x1="0" y1="28" x2="172" y2="28" stroke="rgba(224, 33, 138, 0.16)" stroke-width="0.8" />
         </g>
 
         
         <!-- Pill C -->
         <g transform="translate(14, 86)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             C
@@ -170,7 +177,7 @@
         <!-- Pill C++ -->
         <g transform="translate(14, 120)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             C++
@@ -180,7 +187,7 @@
         <!-- Pill Python -->
         <g transform="translate(14, 154)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             Python
@@ -190,7 +197,7 @@
         <!-- Pill JavaScript -->
         <g transform="translate(14, 188)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             JavaScript
@@ -200,7 +207,7 @@
         <!-- Pill HTML -->
         <g transform="translate(14, 222)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             HTML
@@ -212,7 +219,7 @@
       <!-- Column 2: 02 / AI &amp; INTELLIGENCE -->
       <g transform="translate(258, 82)">
         <rect x="0" y="0" width="200" height="280" rx="20"
-              fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+              fill="#FFF7FB" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
 
         <!-- Column Top Trim -->
         <rect x="0" y="0" width="200" height="3.5" rx="1.75" fill="url(#ward_barbieGrad)" />
@@ -224,14 +231,14 @@
           <text x="0" y="16" class="editorial-sans" font-size="11" font-weight="600" fill="#2D2D2D">
             Autonomous Workflows &amp; ML
           </text>
-          <line x1="0" y1="28" x2="172" y2="28" stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
+          <line x1="0" y1="28" x2="172" y2="28" stroke="rgba(224, 33, 138, 0.16)" stroke-width="0.8" />
         </g>
 
         
         <!-- Pill Reinforcement Learning -->
         <g transform="translate(14, 86)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             Reinforcement Learning
@@ -241,7 +248,7 @@
         <!-- Pill Machine Learning Models -->
         <g transform="translate(14, 120)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             Machine Learning Models
@@ -251,7 +258,7 @@
         <!-- Pill Multi-Agent Workflows -->
         <g transform="translate(14, 154)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             Multi-Agent Workflows
@@ -261,7 +268,7 @@
         <!-- Pill Spectral Remote Sensing -->
         <g transform="translate(14, 188)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             Spectral Remote Sensing
@@ -271,7 +278,7 @@
         <!-- Pill Gymnasium Simulation -->
         <g transform="translate(14, 222)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             Gymnasium Simulation
@@ -283,7 +290,7 @@
       <!-- Column 3: 03 / EMBEDDED &amp; HARDWARE -->
       <g transform="translate(474, 82)">
         <rect x="0" y="0" width="200" height="280" rx="20"
-              fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+              fill="#FFF7FB" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
 
         <!-- Column Top Trim -->
         <rect x="0" y="0" width="200" height="3.5" rx="1.75" fill="url(#ward_barbieGrad)" />
@@ -295,14 +302,14 @@
           <text x="0" y="16" class="editorial-sans" font-size="11" font-weight="600" fill="#2D2D2D">
             PICT ENTC Foundation
           </text>
-          <line x1="0" y1="28" x2="172" y2="28" stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
+          <line x1="0" y1="28" x2="172" y2="28" stroke="rgba(224, 33, 138, 0.16)" stroke-width="0.8" />
         </g>
 
         
         <!-- Pill Arduino &amp; Embedded C -->
         <g transform="translate(14, 86)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             Arduino &amp; Embedded C
@@ -312,7 +319,7 @@
         <!-- Pill Sensors &amp; Interfacing -->
         <g transform="translate(14, 120)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             Sensors &amp; Interfacing
@@ -322,7 +329,7 @@
         <!-- Pill Circuit Design -->
         <g transform="translate(14, 154)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             Circuit Design
@@ -332,7 +339,7 @@
         <!-- Pill Proteus &amp; Tinkercad -->
         <g transform="translate(14, 188)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             Proteus &amp; Tinkercad
@@ -342,7 +349,7 @@
         <!-- Pill Hardware-Software I/O -->
         <g transform="translate(14, 222)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             Hardware-Software I/O
@@ -354,7 +361,7 @@
       <!-- Column 4: 04 / DEV TOOLS &amp; SDLC -->
       <g transform="translate(690, 82)">
         <rect x="0" y="0" width="200" height="280" rx="20"
-              fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+              fill="#FFF7FB" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
 
         <!-- Column Top Trim -->
         <rect x="0" y="0" width="200" height="3.5" rx="1.75" fill="url(#ward_barbieGrad)" />
@@ -366,14 +373,14 @@
           <text x="0" y="16" class="editorial-sans" font-size="11" font-weight="600" fill="#2D2D2D">
             Engineering Infrastructure
           </text>
-          <line x1="0" y1="28" x2="172" y2="28" stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
+          <line x1="0" y1="28" x2="172" y2="28" stroke="rgba(224, 33, 138, 0.16)" stroke-width="0.8" />
         </g>
 
         
         <!-- Pill Docker Containerization -->
         <g transform="translate(14, 86)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             Docker Containerization
@@ -383,7 +390,7 @@
         <!-- Pill Git &amp; GitHub Pipelines -->
         <g transform="translate(14, 120)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             Git &amp; GitHub Pipelines
@@ -393,7 +400,7 @@
         <!-- Pill SDLC &amp; Agile Workflows -->
         <g transform="translate(14, 154)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             SDLC &amp; Agile Workflows
@@ -403,7 +410,7 @@
         <!-- Pill API Design &amp; Integration -->
         <g transform="translate(14, 188)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             API Design &amp; Integration
@@ -413,7 +420,7 @@
         <!-- Pill DaVinci Resolve API -->
         <g transform="translate(14, 222)">
           <rect x="0" y="0" width="172" height="26" rx="13"
-                fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+                fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <circle cx="12" cy="13" r="2.5" fill="#E0218A" />
           <text x="22" y="16.5" class="code-mono" font-size="8.8" font-weight="700" fill="#2D2D2D">
             DaVinci Resolve API

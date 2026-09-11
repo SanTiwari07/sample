@@ -51,10 +51,17 @@
         <stop offset="100%" stop-color="#C71585" />
       </linearGradient>
 
+      <!-- Dreamhouse Canvas Pink Gradient (Eliminates White Element) -->
+      <linearGradient id="ident_canvasPinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FFF0F6" />
+        <stop offset="50%" stop-color="#FFE4F0" />
+        <stop offset="100%" stop-color="#FFD6EA" />
+      </linearGradient>
+
       <!-- Dreamhouse Blush Satin Gradient -->
       <linearGradient id="ident_blushGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" />
-        <stop offset="60%" stop-color="#FFF0F5" />
+        <stop offset="0%" stop-color="#FFF5FA" />
+        <stop offset="50%" stop-color="#FFEBF3" />
         <stop offset="100%" stop-color="#FFD1DC" />
       </linearGradient>
 
@@ -66,16 +73,16 @@
 
       <!-- Card Glass Backdrop Gradient -->
       <linearGradient id="ident_cardGlass" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.98" />
-        <stop offset="100%" stop-color="#FFF8FA" stop-opacity="0.95" />
+        <stop offset="0%" stop-color="#FFF8FA" stop-opacity="0.98" />
+        <stop offset="100%" stop-color="#FFE8F2" stop-opacity="0.96" />
       </linearGradient>
 
       <!-- Delicate Pink Hairline Gradient -->
       <linearGradient id="ident_borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.40" />
-        <stop offset="45%" stop-color="#FFD1DC" stop-opacity="0.25" />
-        <stop offset="75%" stop-color="#00B4D8" stop-opacity="0.20" />
-        <stop offset="100%" stop-color="#C71585" stop-opacity="0.35" />
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.55" />
+        <stop offset="45%" stop-color="#FFD1DC" stop-opacity="0.40" />
+        <stop offset="75%" stop-color="#00B4D8" stop-opacity="0.30" />
+        <stop offset="100%" stop-color="#C71585" stop-opacity="0.50" />
       </linearGradient>
 
       <!-- Winner Gold Accent Gradient -->
@@ -87,10 +94,10 @@
 
       <!-- Soft Ambient Radial Aura -->
       <radialGradient id="ident_radialAura" cx="85%" cy="15%" r="75%">
-        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.12" />
-        <stop offset="35%" stop-color="#FFD1DC" stop-opacity="0.08" />
-        <stop offset="70%" stop-color="#00B4D8" stop-opacity="0.03" />
-        <stop offset="100%" stop-color="#FAFAFC" stop-opacity="0" />
+        <stop offset="0%" stop-color="#E0218A" stop-opacity="0.18" />
+        <stop offset="35%" stop-color="#FFD1DC" stop-opacity="0.12" />
+        <stop offset="70%" stop-color="#00B4D8" stop-opacity="0.04" />
+        <stop offset="100%" stop-color="#FFF0F6" stop-opacity="0" />
       </radialGradient>
 
       <!-- Glam Drop Shadow Filter -->
@@ -107,11 +114,11 @@
   
     
     <!-- Light Studio Canvas Base -->
-    <rect width="940" height="310" rx="24" fill="#FAFAFC" />
+    <rect width="940" height="310" rx="24" fill="#FFF0F6" />
     
     <!-- Outer Card with Soft Glam Shadow -->
     <rect x="16" y="16" width="908" height="278" rx="24"
-          fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="1" filter="url(#ident_cardShadow)" />
+          fill="#FFF7FB" stroke="rgba(224, 33, 138, 0.35)" stroke-width="1" filter="url(#ident_cardShadow)" />
 
     <!-- Section Header Tag -->
     <g transform="translate(42, 40)">
@@ -126,24 +133,24 @@
     </g>
 
     <!-- Header Divider Line -->
-    <line x1="42" y1="52" x2="898" y2="52" stroke="rgba(17, 17, 22, 0.08)" stroke-width="1" />
+    <line x1="42" y1="52" x2="898" y2="52" stroke="rgba(224, 33, 138, 0.16)" stroke-width="1" />
 
     <!-- Left Column: Editorial Builder Card -->
     <g transform="translate(42, 68)">
       <!-- Outer Frame -->
-      <rect x="0" y="0" width="245" height="206" rx="16" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+      <rect x="0" y="0" width="245" height="206" rx="16" fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
       
       <!-- Inner White Portrait Bezel -->
-      <rect x="12" y="12" width="221" height="126" rx="12" fill="#FFFFFF" stroke="rgba(17, 17, 22, 0.08)" stroke-width="0.8" />
+      <rect x="12" y="12" width="221" height="126" rx="12" fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.16)" stroke-width="0.8" />
       
       <!-- Monogram Art with Barbie Pink Accent Circle -->
-      <circle cx="122.5" cy="62" r="34" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.32)" stroke-width="1.5" />
+      <circle cx="122.5" cy="62" r="34" fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.45)" stroke-width="1.5" />
       <text x="122.5" y="70" text-anchor="middle" class="editorial-title" font-size="22" font-weight="800" fill="#2D2D2D">
         SP
       </text>
       
       <!-- Verification Badge Pill -->
-      <rect x="36" y="108" width="173" height="20" rx="10" fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.32)" stroke-width="0.8" />
+      <rect x="36" y="108" width="173" height="20" rx="10" fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.45)" stroke-width="0.8" />
       <circle cx="48" cy="118" r="3" fill="#00E676" />
       <text x="58" y="121.5" class="code-mono" font-size="8.5" font-weight="700" fill="#2D2D2D" letter-spacing="0.06em">
         VERIFIED BUILDER · CGPA 8.6
@@ -167,7 +174,7 @@
       
       <!-- Bio Quote Card with Pink Hairline Accent -->
       <g transform="translate(0, 32)">
-        <rect x="0" y="0" width="583" height="56" rx="12" fill="#FFF5F8" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+        <rect x="0" y="0" width="583" height="56" rx="12" fill="#FFEBF3" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
         <line x1="0" y1="0" x2="0" y2="56" stroke="url(#ident_barbieGrad)" stroke-width="4" />
         <text x="16" y="24" class="editorial-sans" font-size="11.5" fill="#2D2D2D" font-style="italic">
           &quot;ENTC undergraduate | Curious about technology, systems, and their real-world impact | Learning by building projects&quot;
@@ -181,7 +188,7 @@
       <g transform="translate(0, 106)">
         <!-- Pillar 1: Autonomous AI -->
         <g transform="translate(0, 0)">
-          <rect x="0" y="0" width="186" height="92" rx="12" fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+          <rect x="0" y="0" width="186" height="92" rx="12" fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <text x="14" y="22" class="code-mono" font-size="8.5" font-weight="700" fill="#E0218A" letter-spacing="0.1em">
             01 / AGENTIC AI
           </text>
@@ -198,7 +205,7 @@
 
         <!-- Pillar 2: AgriTech -->
         <g transform="translate(198, 0)">
-          <rect x="0" y="0" width="186" height="92" rx="12" fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+          <rect x="0" y="0" width="186" height="92" rx="12" fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <text x="14" y="22" class="code-mono" font-size="8.5" font-weight="700" fill="#E0218A" letter-spacing="0.1em">
             02 / EARTH &amp; AGRI
           </text>
@@ -215,7 +222,7 @@
 
         <!-- Pillar 3: FinTech & RL -->
         <g transform="translate(396, 0)">
-          <rect x="0" y="0" width="186" height="92" rx="12" fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.22)" stroke-width="0.8" />
+          <rect x="0" y="0" width="186" height="92" rx="12" fill="#FFFFFF" stroke="rgba(224, 33, 138, 0.35)" stroke-width="0.8" />
           <text x="14" y="22" class="code-mono" font-size="8.5" font-weight="700" fill="#E0218A" letter-spacing="0.1em">
             03 / QUANT &amp; FINTECH
           </text>
